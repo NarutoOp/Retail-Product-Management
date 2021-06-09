@@ -7,6 +7,6 @@
 |Arpit Gupta (**Leader**)|Mvc|901284
 |Sarada Prasath|Authentication|
 |Ketki Padgilwar|Product Microservice|
-|Praveen J|ProceedToBuy|
+|Praveen Kumar J|ProceedToBuy|
 
 ---
