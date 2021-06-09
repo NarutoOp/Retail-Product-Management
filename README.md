@@ -7,6 +7,6 @@
 |Arpit Gupta (**Leader**)|Mvc and Auth|901284
 |Sarada Prasath|Vendor MicroService|
 |Ketki Padgilwar|Product MicroService|901340
-|Praveen Kumar J|ProceedToBuy MicroService|
+|Praveen Kumar J|ProceedToBuy MicroService|901338
 
 ---
