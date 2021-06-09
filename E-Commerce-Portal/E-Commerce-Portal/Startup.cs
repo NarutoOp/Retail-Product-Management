@@ -39,6 +39,7 @@ namespace E_Commerce_Portal
             }
 
             loggerFactory.AddLog4Net();
+
             app.UseStaticFiles();
 
             app.UseRouting();

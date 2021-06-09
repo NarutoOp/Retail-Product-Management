@@ -1,0 +1,8 @@
+2021-06-09 14:59:03,713 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-09 14:59:03,781 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-09 14:59:03,783 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-09 14:59:03,784 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-09 14:59:03,785 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+2021-06-09 14:59:03,786 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+2021-06-09 14:59:16,173 [12] INFO E_Commerce_Portal.Controllers.ECommerceController - User is logging in
+2021-06-09 14:59:21,568 [12] INFO E_Commerce_Portal.Controllers.ECommerceController - User is logging in
