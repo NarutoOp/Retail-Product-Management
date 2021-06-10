@@ -1,0 +1,32 @@
+﻿@model IEnumerable<E_Commerce_Portal.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<form method="get" asp-action="Index">
+
+    <input type="search" placeholder="Enter Product Name ..." value="@ViewData["ProductName"]" name="productName" />
+    <input type="submit" class="btn btn-primary" />
+
+</form>
+<hr />
+
+<div class="row">
+    @foreach (Product item in Model)
+    {
+    <div class="col-sm-4 my-3">
+
+        <div class="card">
+            <img class="card-img-top" src="@("~/image/"+item.Image_Name)" asp-append-version="true" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">@item.Name</h4>
+                <p class="card-text">@item.Description</p>
+                <a href="#" class="btn btn-primary">Proceed To Buy</a>
+            </div>
+        </div>
+    </div>
+    }
+</div>

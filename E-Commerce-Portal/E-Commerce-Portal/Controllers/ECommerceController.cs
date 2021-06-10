@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using E_Commerce_Portal.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -13,23 +14,40 @@ namespace E_Commerce_Portal.Controllers
         private readonly ILogger<ECommerceController> _logger;
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(ECommerceController));
 
+        static List<Product> products = new List<Product> {
+            new Product() {Id = 1, Price = 20000, Name = "Iphone", Description="Some example text.", Image_Name="1.jfif", Rating=2 },
+            new Product() {Id = 2, Price = 2000, Name = "Bracelet", Description="Some example text.", Image_Name="1.jfif", Rating=3 }
+        };
+
         public ECommerceController(ILogger<ECommerceController> logger)
         {
             _logger = logger;
+            _log4net.Info("Logger initiated");
         }
 
-        // Display Login form to user
-        public ActionResult Login()
+
+        public IActionResult Index()
         {
-            _log4net.Info("User is logging in");
-            return View();
+            return View(products);
+        }
+
+        // Search for a product
+        [HttpGet]
+        public IActionResult Index(string productName)
+        {
+            var searchProduct = products;
+            _log4net.Info("User is Searching product by Id");
+            ViewData["ProductName"] = productName;
+            if (!String.IsNullOrEmpty(productName))
+            {
+                searchProduct = products.Where(x => x.Name == productName).ToList();
+            }
+
+            return View(searchProduct);
         }
 
         // GET: ECommerceController
-        public ActionResult Index()
-        {
-            return View();
-        }
+        
 
         // GET: ECommerceController/Details/5
         public ActionResult Details(int id)

@@ -108,7 +108,6 @@ C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Co
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\obj\Debug\netcoreapp3.1\E-Commerce-Portal.dll
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\obj\Debug\netcoreapp3.1\E-Commerce-Portal.pdb
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\obj\Debug\netcoreapp3.1\E-Commerce-Portal.genruntimeconfig.cache
-C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\obj\Debug\netcoreapp3.1\Razor\Views\ECommerce\Login.cshtml.g.cs
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\bin\Debug\netcoreapp3.1\log4net.dll
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -124,3 +123,5 @@ C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Co
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\obj\Debug\netcoreapp3.1\Razor\Views\ECommerce\Index.cshtml.g.cs
+C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
