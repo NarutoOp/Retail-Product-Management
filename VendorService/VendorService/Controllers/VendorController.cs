@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,14 +12,18 @@ using VendorService.Services;
 
 namespace VendorService.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class VendorController : ControllerBase
     {
         IVendorDetail<Vendor> _vendor;
-        public VendorController(IVendorDetail<Vendor> vendor)
+        private readonly ILogger<VendorController> _logger;
+        static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(VendorController));
+        public VendorController(IVendorDetail<Vendor> vendor,ILogger<VendorController> logger)
         {
             _vendor = vendor;
+            _logger = logger;
         }
         
         // GET: api/<VendorController>
@@ -29,16 +35,17 @@ namespace VendorService.Controllers
 
         // GET api/<VendorController>/5
         [HttpGet("{id}")]
-        public IEnumerable<Vendor> Get(int id)
+        public IActionResult Get(int id)
         {
-
-            return _vendor.GetVendor(id);
+            _log4net.Info("Getting Info");
+            return Ok(_vendor.GetVendor(id));
         }
 
         // POST api/<VendorController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] VendorStock vs)
         {
+            _vendor.PostStock(vs);
         }
 
         // PUT api/<VendorController>/5

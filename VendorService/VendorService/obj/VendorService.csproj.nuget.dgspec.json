@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\RPM\\VendorService\\VendorService\\VendorService.csproj": {}
+    "E:\\MFPE\\VendorService\\VendorService\\VendorService.csproj": {}
   },
   "projects": {
-    "E:\\RPM\\VendorService\\VendorService\\VendorService.csproj": {
+    "E:\\MFPE\\VendorService\\VendorService\\VendorService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\RPM\\VendorService\\VendorService\\VendorService.csproj",
+        "projectUniqueName": "E:\\MFPE\\VendorService\\VendorService\\VendorService.csproj",
         "projectName": "VendorService",
-        "projectPath": "E:\\RPM\\VendorService\\VendorService\\VendorService.csproj",
+        "projectPath": "E:\\MFPE\\VendorService\\VendorService\\VendorService.csproj",
         "packagesPath": "C:\\Users\\SARADA PRASATH\\.nuget\\packages\\",
-        "outputPath": "E:\\RPM\\VendorService\\VendorService\\obj\\",
+        "outputPath": "E:\\MFPE\\VendorService\\VendorService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SARADA PRASATH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,6 +53,18 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.7, )"
+            },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
             }
           },
           "imports": [

@@ -9,5 +9,6 @@ namespace VendorService.Services
     public interface IVendorDetail<T>
     {
         public IEnumerable<Vendor> GetVendor(int id);
+        public void PostStock(VendorStock vs);
     }
 }
