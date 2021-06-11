@@ -125,3 +125,5 @@ C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Co
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\bin\Debug\netcoreapp3.1\log4net.config
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\obj\Debug\netcoreapp3.1\Razor\Views\ECommerce\Index.cshtml.g.cs
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\obj\Debug\netcoreapp3.1\Razor\Views\Cart\AddToCart.cshtml.g.cs
+C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Index.cshtml.g.cs

@@ -1,0 +1,56 @@
+﻿
+@model E_Commerce_Portal.ViewModel.ProductCartView
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Your Cart</h1>
+
+<p>
+    <a asp-controller="ECommerce" asp-action="Index">Add Item</a>
+</p>
+<table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Product Id
+                </th>
+                <th>
+                    Quantity
+                </th>
+                <th>
+                    Zipcode
+                </th>
+                <th>
+                    Delivery Date
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+    <tbody>
+        @foreach (Cart item in Model.Carts)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductId)
+                    @Html.DisplayFor(modelItem => item.ProductId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Zipcode)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DeliveryDate)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

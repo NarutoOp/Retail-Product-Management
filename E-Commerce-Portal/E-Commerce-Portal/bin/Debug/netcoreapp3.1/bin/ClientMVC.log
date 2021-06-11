@@ -900,3 +900,240 @@ INFO  01:04:52 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product
 INFO  01:04:52 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
 INFO  01:05:00 Logger initiated
 INFO  01:05:00 User is Searching product by Id
+INFO  02:17:21 Application started. Press Ctrl+C to shut down.
+INFO  02:17:21 Application started. Press Ctrl+C to shut down.
+INFO  02:17:21 Hosting environment: Development
+INFO  02:17:21 Hosting environment: Development
+INFO  02:17:21 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  02:17:21 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  02:17:24 Logger initiated
+INFO  02:17:24 User is Searching product by Id
+INFO  02:19:20 Application started. Press Ctrl+C to shut down.
+INFO  02:19:20 Application started. Press Ctrl+C to shut down.
+INFO  02:19:20 Hosting environment: Development
+INFO  02:19:20 Hosting environment: Development
+INFO  02:19:20 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  02:19:20 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  02:19:20 Logger initiated
+INFO  02:19:20 User is Searching product by Id
+INFO  02:20:35 Application started. Press Ctrl+C to shut down.
+INFO  02:20:35 Application started. Press Ctrl+C to shut down.
+INFO  02:20:35 Hosting environment: Development
+INFO  02:20:35 Hosting environment: Development
+INFO  02:20:35 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  02:20:35 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  02:20:35 Logger initiated
+INFO  02:20:35 User is Searching product by Id
+INFO  02:21:37 Application started. Press Ctrl+C to shut down.
+INFO  02:21:37 Application started. Press Ctrl+C to shut down.
+INFO  02:21:37 Hosting environment: Development
+INFO  02:21:37 Hosting environment: Development
+INFO  02:21:37 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  02:21:37 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  02:21:38 Logger initiated
+INFO  02:21:38 User is Searching product by Id
+INFO  03:19:27 Application started. Press Ctrl+C to shut down.
+INFO  03:19:27 Application started. Press Ctrl+C to shut down.
+INFO  03:19:27 Hosting environment: Development
+INFO  03:19:27 Hosting environment: Development
+INFO  03:19:27 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  03:19:27 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  03:19:31 Logger initiated
+INFO  03:19:31 User is Searching product by Id
+INFO  03:19:33 User is logging in
+INFO  04:07:28 Application started. Press Ctrl+C to shut down.
+INFO  04:07:28 Application started. Press Ctrl+C to shut down.
+INFO  04:07:28 Hosting environment: Development
+INFO  04:07:28 Hosting environment: Development
+INFO  04:07:28 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:07:28 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:07:31 Logger initiated
+INFO  04:07:31 User is Searching product by Id
+INFO  04:09:55 Application started. Press Ctrl+C to shut down.
+INFO  04:09:55 Application started. Press Ctrl+C to shut down.
+INFO  04:09:55 Hosting environment: Development
+INFO  04:09:55 Hosting environment: Development
+INFO  04:09:55 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:09:55 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:09:59 Logger initiated
+INFO  04:09:59 User is Searching product by Id
+INFO  04:19:16 Application started. Press Ctrl+C to shut down.
+INFO  04:19:16 Application started. Press Ctrl+C to shut down.
+INFO  04:19:16 Hosting environment: Development
+INFO  04:19:16 Hosting environment: Development
+INFO  04:19:16 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:19:16 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:19:20 Logger initiated
+INFO  04:19:20 User is Searching product by Id
+INFO  04:21:00 Application started. Press Ctrl+C to shut down.
+INFO  04:21:00 Application started. Press Ctrl+C to shut down.
+INFO  04:21:00 Hosting environment: Development
+INFO  04:21:00 Hosting environment: Development
+INFO  04:21:00 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:21:00 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:22:50 Application started. Press Ctrl+C to shut down.
+INFO  04:22:50 Application started. Press Ctrl+C to shut down.
+INFO  04:22:50 Hosting environment: Development
+INFO  04:22:50 Hosting environment: Development
+INFO  04:22:50 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:22:50 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:23:21 Logger initiated
+INFO  04:23:21 User is Searching product by Id
+ERROR 04:24:24 The view 'Index' was not found. Searched locations: /Views/Cart/Index.cshtml, /Views/Shared/Index.cshtml
+ERROR 04:24:24 The view 'Index' was not found. Searched locations: /Views/Cart/Index.cshtml, /Views/Shared/Index.cshtml
+ERROR 04:24:24 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Cart/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:24:24 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Cart/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  04:25:48 Application started. Press Ctrl+C to shut down.
+INFO  04:25:49 Application started. Press Ctrl+C to shut down.
+INFO  04:25:49 Hosting environment: Development
+INFO  04:25:49 Hosting environment: Development
+INFO  04:25:49 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:25:49 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:25:54 Logger initiated
+INFO  04:25:54 User is Searching product by Id
+INFO  05:35:02 Application started. Press Ctrl+C to shut down.
+INFO  05:35:02 Application started. Press Ctrl+C to shut down.
+INFO  05:35:02 Hosting environment: Development
+INFO  05:35:02 Hosting environment: Development
+INFO  05:35:02 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:35:02 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:35:19 Application started. Press Ctrl+C to shut down.
+INFO  05:35:19 Application started. Press Ctrl+C to shut down.
+INFO  05:35:19 Hosting environment: Development
+INFO  05:35:19 Hosting environment: Development
+INFO  05:35:19 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:35:19 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:35:23 Logger initiated
+INFO  05:35:23 User is Searching product by Id
+INFO  05:38:10 Application started. Press Ctrl+C to shut down.
+INFO  05:38:10 Application started. Press Ctrl+C to shut down.
+INFO  05:38:10 Hosting environment: Development
+INFO  05:38:10 Hosting environment: Development
+INFO  05:38:10 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:38:10 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:47:55 Application started. Press Ctrl+C to shut down.
+INFO  05:47:55 Application started. Press Ctrl+C to shut down.
+INFO  05:47:55 Hosting environment: Development
+INFO  05:47:55 Hosting environment: Development
+INFO  05:47:55 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:47:55 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:48:07 Logger initiated
+INFO  05:48:07 User is Searching product by Id
+INFO  05:50:06 Application started. Press Ctrl+C to shut down.
+INFO  05:50:06 Application started. Press Ctrl+C to shut down.
+INFO  05:50:06 Hosting environment: Development
+INFO  05:50:06 Hosting environment: Development
+INFO  05:50:06 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:50:06 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:50:06 Logger initiated
+INFO  05:50:06 User is Searching product by Id
+INFO  05:51:06 Application started. Press Ctrl+C to shut down.
+INFO  05:51:06 Application started. Press Ctrl+C to shut down.
+INFO  05:51:06 Hosting environment: Development
+INFO  05:51:06 Hosting environment: Development
+INFO  05:51:06 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:51:06 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:51:06 Logger initiated
+INFO  05:51:06 User is Searching product by Id
+INFO  05:51:09 Logger initiated
+INFO  05:51:09 User is Searching product by Id
+INFO  05:55:10 Application started. Press Ctrl+C to shut down.
+INFO  05:55:10 Application started. Press Ctrl+C to shut down.
+INFO  05:55:10 Hosting environment: Development
+INFO  05:55:10 Hosting environment: Development
+INFO  05:55:10 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:55:10 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:55:12 Logger initiated
+INFO  05:55:12 User is Searching product by Id
+INFO  05:56:31 Logger initiated
+INFO  05:56:31 User is Searching product by Id
+INFO  06:07:25 Application started. Press Ctrl+C to shut down.
+INFO  06:07:25 Application started. Press Ctrl+C to shut down.
+INFO  06:07:25 Hosting environment: Development
+INFO  06:07:25 Hosting environment: Development
+INFO  06:07:25 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  06:07:25 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  06:08:31 Application started. Press Ctrl+C to shut down.
+INFO  06:08:31 Application started. Press Ctrl+C to shut down.
+INFO  06:08:31 Hosting environment: Development
+INFO  06:08:31 Hosting environment: Development
+INFO  06:08:31 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  06:08:31 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  06:22:12 Application started. Press Ctrl+C to shut down.
+INFO  06:22:12 Application started. Press Ctrl+C to shut down.
+INFO  06:22:12 Hosting environment: Development
+INFO  06:22:12 Hosting environment: Development
+INFO  06:22:12 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  06:22:12 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  06:22:14 Logger initiated
+INFO  06:22:14 User is Searching product by Id
+INFO  06:22:30 Logger initiated
+INFO  06:22:30 User is Searching product by Id
+INFO  06:23:55 Application started. Press Ctrl+C to shut down.
+INFO  06:23:55 Application started. Press Ctrl+C to shut down.
+INFO  06:23:55 Hosting environment: Development
+INFO  06:23:55 Hosting environment: Development
+INFO  06:23:55 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  06:23:55 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  06:23:57 Logger initiated
+INFO  06:23:57 User is Searching product by Id
+INFO  06:24:32 Logger initiated
+INFO  06:24:32 User is Searching product by Id
+INFO  06:26:03 Application started. Press Ctrl+C to shut down.
+INFO  06:26:03 Application started. Press Ctrl+C to shut down.
+INFO  06:26:03 Hosting environment: Development
+INFO  06:26:03 Hosting environment: Development
+INFO  06:26:03 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  06:26:03 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  06:26:05 Logger initiated
+INFO  06:26:05 User is Searching product by Id
+INFO  06:26:18 Logger initiated
+INFO  06:26:18 User is Searching product by Id
+INFO  08:01:07 Application started. Press Ctrl+C to shut down.
+INFO  08:01:07 Application started. Press Ctrl+C to shut down.
+INFO  08:01:07 Hosting environment: Development
+INFO  08:01:07 Hosting environment: Development
+INFO  08:01:07 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  08:01:07 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  08:02:24 Logger initiated
+INFO  08:02:24 User is Searching product by Id
