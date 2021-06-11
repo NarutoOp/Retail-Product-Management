@@ -1,0 +1,27 @@
+INFO  03:44:02 Now listening on: https://localhost:5001
+INFO  03:44:02 Now listening on: https://localhost:5001
+INFO  03:44:02 Now listening on: http://localhost:5000
+INFO  03:44:02 Now listening on: http://localhost:5000
+INFO  03:44:02 Application started. Press Ctrl+C to shut down.
+INFO  03:44:02 Application started. Press Ctrl+C to shut down.
+INFO  03:44:02 Hosting environment: Development
+INFO  03:44:02 Hosting environment: Development
+INFO  03:44:02 Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
+INFO  03:44:02 Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
+INFO  03:44:55 Logger initiated
+INFO  03:44:55 Searching product by productId
+INFO  03:45:25 Logger initiated
+INFO  03:45:25 Searching product by productName
+INFO  03:45:40 Logger initiated
+INFO  03:45:40 Searching product by productName
+INFO  03:49:39 Now listening on: https://localhost:5001
+INFO  03:49:39 Now listening on: https://localhost:5001
+INFO  03:49:39 Now listening on: http://localhost:5000
+INFO  03:49:39 Now listening on: http://localhost:5000
+INFO  03:49:39 Application started. Press Ctrl+C to shut down.
+INFO  03:49:39 Application started. Press Ctrl+C to shut down.
+INFO  03:49:39 Hosting environment: Development
+INFO  03:49:39 Hosting environment: Development
+INFO  03:49:39 Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
+INFO  03:49:39 Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
+INFO  03:51:30 Logger initiated
