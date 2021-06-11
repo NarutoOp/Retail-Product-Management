@@ -1,5 +1,5 @@
 ﻿
-@model E_Commerce_Portal.ViewModel.ProductCartView
+@model IEnumerable<E_Commerce_Portal.ViewModel.ProductCartView>
 
 @{
     ViewData["Title"] = "Index";
@@ -14,43 +14,49 @@
         <thead>
             <tr>
                 <th>
-                    Product Id
+                    
+                </th>
+                <th>
+                    Product Name
                 </th>
                 <th>
                     Quantity
                 </th>
                 <th>
-                    Zipcode
+                    Delivery Date
                 </th>
                 <th>
-                    Delivery Date
+                    Price
                 </th>
                 <th></th>
             </tr>
         </thead>
     <tbody>
-        @foreach (Cart item in Model.Carts)
+        @foreach (var item in Model)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ProductId)
-                    @Html.DisplayFor(modelItem => item.ProductId)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Quantity)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Zipcode)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DeliveryDate)
-                </td>
-                <td>
-                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-                </td>
-            </tr>
+        <tr>
+            <td>
+                <img class="card-img-top" src="@("~/image/"+item.Products.Image_Name)" asp-append-version="true" alt="Card image">
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Products.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Carts.Quantity)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Carts.DeliveryDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Products.Price)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
         }
     </tbody>
 </table>

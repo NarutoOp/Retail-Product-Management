@@ -22,26 +22,36 @@ namespace E_Commerce_Portal.Controllers
         };
 
         static List<Cart> cart = new List<Cart>();
+
         // GET: CartController
+        // cart page
         public ActionResult Index()
         {
-            ProductCartView mymodel = new ProductCartView();
+            List<ProductCartView> mymodel = new List<ProductCartView>();
             List<Product> carProducts = new List<Product>();
             foreach(var item in cart)
             {
-                carProducts.Add(products.SingleOrDefault(z=>z.Id == item.ProductId));
+                mymodel.Add(
+                    new ProductCartView()
+                    {
+                    
+                        Products = products.SingleOrDefault(z => z.Id == item.ProductId),
+                        Carts = item
+                    }
+               );
             }
-            mymodel.Products = carProducts;
-            mymodel.Carts = cart;
+            
             return View(mymodel);
         }
 
+        // add cart form
         public ActionResult AddToCart(int Id)
         {
             ViewData["ProductId"] = Id;
             return View();
         }
 
+        // add cart form
         [HttpPost]
         public ActionResult AddToCart(Cart productCart)
         {
