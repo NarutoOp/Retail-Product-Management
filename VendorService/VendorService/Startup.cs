@@ -13,8 +13,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using VendorService.Data;
 using VendorService.Models;
-using VendorService.Services;
+using VendorService.Repository;
+
 
 namespace VendorService
 {
@@ -31,7 +33,7 @@ namespace VendorService
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddScoped<IVendorDetail<Vendor>,VendorDetail>();
+            services.AddScoped<IVendorDetailRepo<Vendor>,VendorDetailRepo>();
             services.AddDbContext<VendorContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:conn"]));
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(opts =>

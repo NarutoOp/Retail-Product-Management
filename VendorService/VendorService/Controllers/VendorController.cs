@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using VendorService.Models;
-using VendorService.Services;
+using VendorService.Repository;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -17,10 +17,10 @@ namespace VendorService.Controllers
     [ApiController]
     public class VendorController : ControllerBase
     {
-        IVendorDetail<Vendor> _vendor;
+        IVendorDetailRepo<Vendor> _vendor;
         private readonly ILogger<VendorController> _logger;
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(VendorController));
-        public VendorController(IVendorDetail<Vendor> vendor,ILogger<VendorController> logger)
+        public VendorController(IVendorDetailRepo<Vendor> vendor,ILogger<VendorController> logger)
         {
             _vendor = vendor;
             _logger = logger;

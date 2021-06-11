@@ -3,14 +3,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using VendorService.Data;
 using VendorService.Models;
 
-namespace VendorService.Services
-{
-    public class VendorDetail:IVendorDetail<Vendor>
+namespace VendorService.Repository { 
+    public class VendorDetailRepo:IVendorDetailRepo<Vendor>
     {
         VendorContext _context;
-        public VendorDetail(VendorContext context)
+        public VendorDetailRepo(VendorContext context)
         {
             _context = context; 
         }
