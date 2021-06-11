@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "azJ3MIxV3c/njTF2OhgC3sZx/WFoUoBgES7HXHUUuIh/+pE4KO2ZM1bytpbzJhivpGl1L2F/uB6jdXpg9FTogg==",
+  "dgSpecHash": "1HDeJsJaMJA/Zjjhf5JeB1as/iBxqmzRMH1h4Me2u3Nnui5HaCFdGwv/GY7p/NL5i6tiB4PFFVBQN5QcLbFYAA==",
   "success": true,
-  "projectFilePath": "E:\\MFPE\\VendorService\\VendorService\\VendorService.csproj",
+  "projectFilePath": "E:\\Module\\Retail-Product-Management\\VendorService\\VendorService\\VendorService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SARADA PRASATH\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\SARADA PRASATH\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
+    "C:\\Users\\SARADA PRASATH\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.5\\microsoft.aspnetcore.authentication.jwtbearer.3.1.5.nupkg.sha512",
     "C:\\Users\\SARADA PRASATH\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\SARADA PRASATH\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\SARADA PRASATH\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",

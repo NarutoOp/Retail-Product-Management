@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MFPE\\VendorService\\VendorService\\VendorService.csproj": {}
+    "E:\\Module\\Retail-Product-Management\\VendorService\\VendorService\\VendorService.csproj": {}
   },
   "projects": {
-    "E:\\MFPE\\VendorService\\VendorService\\VendorService.csproj": {
+    "E:\\Module\\Retail-Product-Management\\VendorService\\VendorService\\VendorService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MFPE\\VendorService\\VendorService\\VendorService.csproj",
+        "projectUniqueName": "E:\\Module\\Retail-Product-Management\\VendorService\\VendorService\\VendorService.csproj",
         "projectName": "VendorService",
-        "projectPath": "E:\\MFPE\\VendorService\\VendorService\\VendorService.csproj",
+        "projectPath": "E:\\Module\\Retail-Product-Management\\VendorService\\VendorService\\VendorService.csproj",
         "packagesPath": "C:\\Users\\SARADA PRASATH\\.nuget\\packages\\",
-        "outputPath": "E:\\MFPE\\VendorService\\VendorService\\obj\\",
+        "outputPath": "E:\\Module\\Retail-Product-Management\\VendorService\\VendorService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SARADA PRASATH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.7, )"
