@@ -1,7 +1,9 @@
 ﻿using E_Commerce_Portal.Models;
+using E_Commerce_Portal.Services;
 using E_Commerce_Portal.ViewModel;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,36 +13,39 @@ namespace E_Commerce_Portal.Controllers
 {
     public class CartController : Controller
     {
-        static List<Product> products = new List<Product> {
-            new Product() {Id = 1, Price = 20000, Name = "Iphone", Description="Some example text.", Image_Name="1.jfif", Rating=2 },
-            new Product() {Id = 2, Price = 2000, Name = "Bracelet", Description="Some example text.", Image_Name="1.jfif", Rating=3 }
-        };
+        private readonly IRepository repo;
+        private readonly ILogger<CartController> _logger;
+        static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(ECommerceController));
 
-        static List<Vendor> vendors = new List<Vendor> {
-            new Vendor() {VendorId = 1, VendorName = "Ekart", DeliveryCharge = 50, Rating=2 },
-            new Vendor() {VendorId = 2, VendorName = "Logic", DeliveryCharge = 40, Rating=3 }
-        };
 
-        static List<Cart> cart = new List<Cart>();
+        public CartController(ILogger<CartController> logger, IRepository _repo)
+        {
+            
+            repo = _repo;
+            _logger = logger;
+            _log4net.Info("Logger in Cart");
+        }
 
-        // GET: CartController
+ 
         // cart page
+        
         public ActionResult Index()
         {
             List<ProductCartView> mymodel = new List<ProductCartView>();
-            List<Product> carProducts = new List<Product>();
-            foreach(var item in cart)
+            
+            foreach(var item in repo.GetCarts())
             {
                 mymodel.Add(
                     new ProductCartView()
                     {
                     
-                        Products = products.SingleOrDefault(z => z.Id == item.ProductId),
+                        Products = repo.GetProducts().SingleOrDefault(z => z.Id == item.ProductId),
                         Carts = item
                     }
                );
             }
-            
+            _log4net.Info("User is viewing cart");
+
             return View(mymodel);
         }
 
@@ -48,6 +53,7 @@ namespace E_Commerce_Portal.Controllers
         public ActionResult AddToCart(int Id)
         {
             ViewData["ProductId"] = Id;
+            _log4net.Info("User is in add to cart page");
             return View();
         }
 
@@ -55,16 +61,22 @@ namespace E_Commerce_Portal.Controllers
         [HttpPost]
         public ActionResult AddToCart(Cart productCart)
         {
-            var product = cart.SingleOrDefault(x => x.ProductId == productCart.ProductId);
+            var product = repo.GetCarts().SingleOrDefault(x => x.ProductId == productCart.ProductId);
             if (product == null)
             {
                 productCart.Quantity = 1;
-                cart.Add(productCart);
+                repo.AddCart(productCart);
             }
             else
                 product.Quantity += 1;
+
+            _log4net.Info("User is adding to cart");
             return RedirectToAction("Index");
         }
+        
+
+
+
 
 
         // GET: CartController/Details/5
