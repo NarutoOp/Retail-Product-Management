@@ -37,3 +37,47 @@ INFO  09:29:44 Content root path: E:\Module\Retail-Product-Management\VendorServ
 INFO  09:32:52 Application started. Press Ctrl+C to shut down.
 INFO  09:32:52 Hosting environment: Development
 INFO  09:32:52 Content root path: E:\Module\Retail-Product-Management\VendorService\VendorService
+INFO  12:10:03 Application started. Press Ctrl+C to shut down.
+INFO  12:10:03 Hosting environment: Development
+INFO  12:10:03 Content root path: E:\Module\Retail-Product-Management\VendorService\VendorService
+INFO  12:10:44 Getting Info
+ERROR 12:10:51 An exception occurred while iterating over the results of a query for context type 'VendorService.Models.VendorContext'.
+System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.Double'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Double()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetDouble(Int32 i)
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.Double'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Double()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetDouble(Int32 i)
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ERROR 12:10:51 An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.Double'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Double()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetDouble(Int32 i)
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Text.Json.JsonSerializer.HandleEnumerable(JsonClassInfo elementClassInfo, JsonSerializerOptions options, Utf8JsonWriter writer, WriteStack& state)
+   at System.Text.Json.JsonSerializer.Write(Utf8JsonWriter writer, Int32 originalWriterDepth, Int32 flushThreshold, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteAsyncCore(Stream utf8Json, Object value, Type inputType, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  12:12:40 Application started. Press Ctrl+C to shut down.
+INFO  12:12:40 Hosting environment: Development
+INFO  12:12:40 Content root path: E:\Module\Retail-Product-Management\VendorService\VendorService
+INFO  12:12:57 Getting Info

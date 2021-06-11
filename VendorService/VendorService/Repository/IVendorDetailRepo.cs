@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using VendorService.Models;
 
-namespace VendorService.Services
+namespace VendorService.Repository
 {
-    public interface IVendorDetail<T>
+    public interface IVendorDetailRepo<T>
     {
         public IEnumerable<Vendor> GetVendor(int id);
         public void PostStock(VendorStock vs);
