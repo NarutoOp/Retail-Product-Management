@@ -10,8 +10,8 @@ namespace AuthorizationAPI.Provider
     {
         private static List<UserCredentials> List = new List<UserCredentials>()
         {
-            new UserCredentials{ Username = "user1", Password = "user1"},
-            new UserCredentials{ Username = "user2", Password = "user2"}
+            new UserCredentials{ Id = 1, Username = "user1", Password = "user1"},
+            new UserCredentials{ Id = 2, Username = "user2", Password = "user2"}
         };
         public List<UserCredentials> GetList()
         {

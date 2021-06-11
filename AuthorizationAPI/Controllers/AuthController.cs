@@ -29,11 +29,9 @@ namespace AuthorizationAPI.Controllers
             repo = _repo;
         }
 
-        /// <summary>
+       
         /// Post method for Login
-        /// </summary>
-        /// <param name="login"></param>
-        /// <returns></returns>
+
 
         [HttpPost]
         public IActionResult Login([FromBody] UserCredentials login)
