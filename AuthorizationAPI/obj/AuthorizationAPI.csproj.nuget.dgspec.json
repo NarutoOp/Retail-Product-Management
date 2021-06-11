@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zinga\\Desktop\\Pension-Management-Portal-master\\AuthorizationAPI\\AuthorizationAPI.csproj": {}
+    "C:\\Users\\zinga\\Documents\\GitHub\\Retail-Product-Management\\AuthorizationAPI\\AuthorizationAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zinga\\Desktop\\Pension-Management-Portal-master\\AuthorizationAPI\\AuthorizationAPI.csproj": {
+    "C:\\Users\\zinga\\Documents\\GitHub\\Retail-Product-Management\\AuthorizationAPI\\AuthorizationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zinga\\Desktop\\Pension-Management-Portal-master\\AuthorizationAPI\\AuthorizationAPI.csproj",
+        "projectUniqueName": "C:\\Users\\zinga\\Documents\\GitHub\\Retail-Product-Management\\AuthorizationAPI\\AuthorizationAPI.csproj",
         "projectName": "AuthorizationAPI",
-        "projectPath": "C:\\Users\\zinga\\Desktop\\Pension-Management-Portal-master\\AuthorizationAPI\\AuthorizationAPI.csproj",
+        "projectPath": "C:\\Users\\zinga\\Documents\\GitHub\\Retail-Product-Management\\AuthorizationAPI\\AuthorizationAPI.csproj",
         "packagesPath": "C:\\Users\\zinga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zinga\\Desktop\\Pension-Management-Portal-master\\AuthorizationAPI\\obj\\",
+        "outputPath": "C:\\Users\\zinga\\Documents\\GitHub\\Retail-Product-Management\\AuthorizationAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zinga\\AppData\\Roaming\\NuGet\\NuGet.Config",

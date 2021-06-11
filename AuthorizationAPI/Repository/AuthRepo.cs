@@ -1,4 +1,4 @@
-﻿using AuthorizationAPI.Model;
+﻿using AuthorizationAPI.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -15,14 +15,14 @@ namespace AuthorizationAPI.Repository
 
         private readonly IConfiguration _config;
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(AuthRepo));
-        private readonly IPensionRepo repo;
-        public AuthRepo(IConfiguration config, IPensionRepo _repo)
+        private readonly IUserRepo repo;
+        public AuthRepo(IConfiguration config, IUserRepo _repo)
         {
             _config = config;
             repo = _repo;
         }
 
-        public string GenerateJSONWebToken(PensionCredentials userInfo)
+        public string GenerateJSONWebToken(UserCredentials userInfo)
         {
             _log4net.Info("Token Is Generated!");
 
@@ -50,12 +50,12 @@ namespace AuthorizationAPI.Repository
         /// <param name="login"></param>
         /// <returns></returns>
         
-        public PensionCredentials AuthenticateUser(PensionCredentials login)
+        public UserCredentials AuthenticateUser(UserCredentials login)
         {
             _log4net.Info("Validating the User!");
 
             //Validate the User Credentials 
-            PensionCredentials usr = repo.GetPensionerCred(login);
+            UserCredentials usr = repo.GetUserCred(login);
 
 
             return usr;

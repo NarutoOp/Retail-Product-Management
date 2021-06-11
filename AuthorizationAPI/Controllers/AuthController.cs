@@ -4,7 +4,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AuthorizationAPI.Model;
+using AuthorizationAPI.Models;
 using AuthorizationAPI.Provider;
 using AuthorizationAPI.Repository;
 using Microsoft.AspNetCore.Http;
@@ -20,10 +20,10 @@ namespace AuthorizationAPI.Controllers
     {
         private IConfiguration _config;
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(AuthController));
-        private readonly IPensionRepo repo;
+        private readonly IUserRepo repo;
         
 
-        public AuthController(IConfiguration config,IPensionRepo _repo)
+        public AuthController(IConfiguration config,IUserRepo _repo)
         {
             _config = config;
             repo = _repo;
@@ -36,7 +36,7 @@ namespace AuthorizationAPI.Controllers
         /// <returns></returns>
 
         [HttpPost]
-        public IActionResult Login([FromBody] PensionCredentials login)
+        public IActionResult Login([FromBody] UserCredentials login)
         {
             AuthRepo auth_repo = new AuthRepo(_config,repo);
             _log4net.Info("Login initiated!");

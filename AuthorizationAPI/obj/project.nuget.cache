@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BJ1SvMSkNUWw2QRryuqMg7xiSBnHW1Xu3HkhbX3sDgXAmWnoClKdIq+L+QX86OestyusKR8UxQmxnIEv8Z41NQ==",
+  "dgSpecHash": "KoLvKGx3SisQ/8E/Y1tBX0nDLr5PzPbWZS/6pd03fudKC11Y3Nu+DOksLI7Is0IR6OW7wl2c7onPq+Zbn725zA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zinga\\Desktop\\Pension-Management-Portal-master\\AuthorizationAPI\\AuthorizationAPI.csproj",
+  "projectFilePath": "C:\\Users\\zinga\\Documents\\GitHub\\Retail-Product-Management\\AuthorizationAPI\\AuthorizationAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zinga\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\zinga\\.nuget\\packages\\log4net\\2.0.11\\log4net.2.0.11.nupkg.sha512",
