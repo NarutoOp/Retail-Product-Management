@@ -1,0 +1,166 @@
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\appsettings.Development.json
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\appsettings.json
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\ProceedToBuy.exe
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\ProceedToBuy.deps.json
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\ProceedToBuy.runtimeconfig.json
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\ProceedToBuy.runtimeconfig.dev.json
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\ProceedToBuy.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\ProceedToBuy.pdb
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\EntityFramework.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.csproj.AssemblyReference.cache
+F:\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.AssemblyInfoInputs.cache
+F:\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.AssemblyInfo.cs
+F:\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.csproj.CoreCompileInputs.cache
+F:\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.MvcApplicationPartsAssemblyInfo.cache
+F:\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\staticwebassets\ProceedToBuy.StaticWebAssets.Manifest.cache
+F:\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\staticwebassets\ProceedToBuy.StaticWebAssets.xml
+F:\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\scopedcss\bundle\ProceedToBuy.styles.css
+F:\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.RazorTargetAssemblyInfo.cache
+F:\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.csproj.CopyComplete
+F:\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.dll
+F:\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.pdb
+F:\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.genruntimeconfig.cache
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Humanizer.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.MvcApplicationPartsAssemblyInfo.cs
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\appsettings.Development.json
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\appsettings.json
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\log4net.config
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\ProceedToBuy.exe
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\ProceedToBuy.deps.json
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\ProceedToBuy.runtimeconfig.json
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\ProceedToBuy.runtimeconfig.dev.json
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\ProceedToBuy.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\ProceedToBuy.pdb
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\EntityFramework.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Humanizer.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\log4net.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.csproj.AssemblyReference.cache
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.AssemblyInfoInputs.cache
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.AssemblyInfo.cs
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.csproj.CoreCompileInputs.cache
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.MvcApplicationPartsAssemblyInfo.cs
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.MvcApplicationPartsAssemblyInfo.cache
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\staticwebassets\ProceedToBuy.StaticWebAssets.Manifest.cache
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\staticwebassets\ProceedToBuy.StaticWebAssets.xml
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\scopedcss\bundle\ProceedToBuy.styles.css
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.RazorTargetAssemblyInfo.cache
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.csproj.CopyComplete
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.dll
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.pdb
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\obj\Debug\netcoreapp3.1\ProceedToBuy.genruntimeconfig.cache
+F:\ProceedToBuy MicroService\ProceedToBuy\ProceedToBuy\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
