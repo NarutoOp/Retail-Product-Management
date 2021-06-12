@@ -22,20 +22,35 @@ namespace ProductMicroservices.Controllers
     public class ProductController : ControllerBase
     {
         private readonly IProductRepository _productRepository;
-        private readonly ILogger<ProductController> _logger;
+      
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(ProductController));
-        public ProductController(IProductRepository productRepository, ILogger<ProductController> logger)
+        public ProductController(IProductRepository productRepository)
         {
             _productRepository = productRepository;
-            _logger = logger;
             _log4net.Info("Logger initiated");
         }
 
-        
+        // GET api/<ProductController>
+        [HttpGet("GetAll")]
+        [Authorize]
+        public IActionResult GetAll()
+        {
+            _log4net.Info("Loading all available product");
+            var product = _productRepository.GetAllProduct();
+            if (product == null)
+            {
+                _log4net.Error("There are no product in the stock");
+                return NotFound("There are no product in the stock");
+            }
+
+            return new OkObjectResult(product);
+        }
+
+
 
         // GET api/<ProductController>/5
         [HttpGet("GetById/{id}")]
-       [Authorize]
+        [Authorize]
         public IActionResult Get(int id)
         {
             _log4net.Info("Searching product by productId");
@@ -83,18 +98,6 @@ namespace ProductMicroservices.Controllers
 
         } 
         
-
-        // PUT api/<ProductController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [Microsoft.AspNetCore.Mvc.FromBody] string value)
-        {
-        }
-
-        // DELETE api/<ProductController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
     }
 
    

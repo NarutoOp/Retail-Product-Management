@@ -13,8 +13,17 @@ namespace ProductMicroservices.Context
         public ProductContext(DbContextOptions<ProductContext> options)
             : base(options)
         { }
-          
-        
-       
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Product>().HasData(
+                    new Product() { Id = 1, Price = 20000, Name = "Iphone", Description = "Some example text.", Image_Name = "1.jfif", Rating = 2 },
+                    new Product() { Id = 2, Price = 2000, Name = "Bracelet", Description = "Some example text.", Image_Name = "1.jfif", Rating = 3 }
+
+                );
+        }
+
+
+
     }
 }

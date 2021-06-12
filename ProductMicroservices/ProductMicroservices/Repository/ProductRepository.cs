@@ -22,6 +22,11 @@ namespace ProductMicroservices.Repository
             _dbContext = dbContext;
         }
 
+        public List<Product> GetAllProduct()
+        {
+            return _dbContext.Products.ToList();
+        }
+
         public void AddProductRating(int Id, int rating)
         {
             Product P = new Product();

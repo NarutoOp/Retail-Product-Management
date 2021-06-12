@@ -1,39 +1,122 @@
-2021-06-10 15:55:11,488 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 15:55:11,897 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 15:55:12,036 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 15:55:12,047 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 15:55:12,258 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 15:55:12,261 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 15:55:12,277 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 15:55:12,500 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 15:55:12,888 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 15:55:12,919 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 15:55:51,995 [15] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-10 15:55:52,231 [15] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
-2021-06-10 15:57:36,017 [6] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-10 16:50:01,179 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 16:50:01,220 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 16:50:01,224 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 16:50:01,224 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 16:50:01,228 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 16:50:01,228 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 16:50:01,232 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 16:50:01,232 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 16:50:01,235 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 16:50:01,236 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 16:51:37,946 [20] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-10 16:51:38,115 [20] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
-2021-06-10 16:53:27,790 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 16:53:27,808 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 16:53:27,810 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 16:53:27,811 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 16:53:27,814 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 16:53:27,814 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 16:53:27,817 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 16:53:27,817 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 16:53:27,824 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 16:53:27,824 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 16:54:36,599 [23] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+2021-06-12 13:30:22,870 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-12 13:30:22,881 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-12 13:30:22,884 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-12 13:30:22,884 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-12 13:30:22,884 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-12 13:30:22,884 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-12 13:30:22,955 [10] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-12 13:30:22,955 [10] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-12 13:32:38,394 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-12 13:32:38,407 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-12 13:32:38,411 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-12 13:32:38,411 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-12 13:32:38,411 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-12 13:32:38,411 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-12 13:32:38,502 [10] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-12 13:32:38,502 [10] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-12 13:33:14,891 [10] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'connectionString')
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotEmpty(String value, String parameterName)
+   at Microsoft.EntityFrameworkCore.SqlServerDbContextOptionsExtensions.UseSqlServer(DbContextOptionsBuilder optionsBuilder, String connectionString, Action`1 sqlServerOptionsAction)
+   at ProductMicroservices.Startup.<ConfigureServices>b__4_0(DbContextOptionsBuilder options) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Startup.cs:line 41
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider p, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-12 13:33:14,896 [10] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'connectionString')
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotEmpty(String value, String parameterName)
+   at Microsoft.EntityFrameworkCore.SqlServerDbContextOptionsExtensions.UseSqlServer(DbContextOptionsBuilder optionsBuilder, String connectionString, Action`1 sqlServerOptionsAction)
+   at ProductMicroservices.Startup.<ConfigureServices>b__4_0(DbContextOptionsBuilder options) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Startup.cs:line 41
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass1_0`2.<AddDbContext>b__0(IServiceProvider p, DbContextOptionsBuilder b)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider, Action`2 optionsAction)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__DisplayClass17_0`1.<AddCoreServices>b__0(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-12 13:36:35,614 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-12 13:36:35,629 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-12 13:36:35,632 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-12 13:36:35,632 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-12 13:36:35,632 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-12 13:36:35,632 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-12 13:36:35,700 [9] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-12 13:36:35,700 [9] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-12 13:36:55,845 [10] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-12 13:36:55,856 [10] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
+2021-06-12 13:38:05,338 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-12 13:38:05,347 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-12 13:38:05,349 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-12 13:38:05,349 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-12 13:38:05,350 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-12 13:38:05,350 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-12 13:38:05,407 [10] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-12 13:38:05,407 [10] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-12 13:38:24,771 [9] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
 System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
    at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
    at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
@@ -41,7 +124,7 @@ System.InvalidOperationException: No authenticationScheme was specified, and the
    at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
    at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
-2021-06-10 16:54:36,617 [23] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+2021-06-12 13:38:24,774 [9] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
 System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
    at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
    at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
@@ -49,9 +132,7 @@ System.InvalidOperationException: No authenticationScheme was specified, and the
    at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
    at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
-2021-06-10 16:55:13,121 [27] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-10 16:55:13,171 [27] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
-2021-06-10 17:05:33,950 [42] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+2021-06-12 13:38:46,568 [6] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
 System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
    at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
    at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
@@ -59,7 +140,7 @@ System.InvalidOperationException: No authenticationScheme was specified, and the
    at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
    at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
-2021-06-10 17:05:33,962 [42] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+2021-06-12 13:38:46,569 [6] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
 System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
    at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
    at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
@@ -67,1024 +148,33 @@ System.InvalidOperationException: No authenticationScheme was specified, and the
    at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
    at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
-2021-06-10 17:56:11,745 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 17:56:11,815 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 17:56:11,819 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 17:56:11,821 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 17:56:11,828 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 17:56:11,829 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 17:56:11,842 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 17:56:11,843 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 17:56:11,857 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 17:56:11,858 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 18:16:34,079 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 18:16:34,094 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 18:16:34,101 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 18:16:34,101 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 18:16:34,104 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 18:16:34,105 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 18:16:34,110 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 18:16:34,110 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 18:16:34,116 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 18:16:34,116 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 18:17:12,204 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-10 18:20:38,323 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 18:20:38,352 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 18:20:38,381 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 18:20:38,381 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 18:20:38,393 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 18:20:38,394 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 18:20:38,414 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 18:20:38,415 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 18:20:38,422 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 18:20:38,423 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 18:21:08,350 [11] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-10 18:21:16,215 [11] ERROR Microsoft.EntityFrameworkCore.Database.Command - Failed executing DbCommand (138ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Double), @p5='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
-SET NOCOUNT ON;
-INSERT INTO [Products] ([Id], [Description], [Image_name], [Name], [Price], [Rating])
-VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
-2021-06-10 18:21:16,245 [11] ERROR Microsoft.EntityFrameworkCore.Database.Command - Failed executing DbCommand (138ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Double), @p5='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
-SET NOCOUNT ON;
-INSERT INTO [Products] ([Id], [Description], [Image_name], [Name], [Price], [Rating])
-VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
-2021-06-10 18:21:16,980 [11] ERROR Microsoft.EntityFrameworkCore.Update - An exception occurred in the database while saving changes for context type 'ProductMicroservices.Context.ProductContext'.
-Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
- ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
-   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
-   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
-   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
-   at System.Data.Common.DbCommand.ExecuteReader()
-   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-ClientConnectionId:489147b9-9120-4dd3-a1d1-24eb2e4c3150
-Error Number:544,State:1,Class:16
-   --- End of inner exception stack trace ---
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
- ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
-   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
-   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
-   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
-   at System.Data.Common.DbCommand.ExecuteReader()
-   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-ClientConnectionId:489147b9-9120-4dd3-a1d1-24eb2e4c3150
-Error Number:544,State:1,Class:16
-   --- End of inner exception stack trace ---
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-2021-06-10 18:21:17,050 [11] ERROR Microsoft.EntityFrameworkCore.Update - An exception occurred in the database while saving changes for context type 'ProductMicroservices.Context.ProductContext'.
-Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
- ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
-   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
-   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
-   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
-   at System.Data.Common.DbCommand.ExecuteReader()
-   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-ClientConnectionId:489147b9-9120-4dd3-a1d1-24eb2e4c3150
-Error Number:544,State:1,Class:16
-   --- End of inner exception stack trace ---
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
- ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
-   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
-   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
-   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
-   at System.Data.Common.DbCommand.ExecuteReader()
-   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-ClientConnectionId:489147b9-9120-4dd3-a1d1-24eb2e4c3150
-Error Number:544,State:1,Class:16
-   --- End of inner exception stack trace ---
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-2021-06-10 18:30:17,888 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 18:30:17,911 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 18:30:17,914 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 18:30:17,915 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 18:30:17,920 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 18:30:17,920 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 18:30:17,923 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 18:30:17,923 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 18:30:17,928 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 18:30:17,929 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 18:30:43,882 [14] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-10 18:30:47,230 [14] ERROR Microsoft.EntityFrameworkCore.Database.Command - Failed executing DbCommand (19ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Double), @p5='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
-SET NOCOUNT ON;
-INSERT INTO [Products] ([Id], [Description], [Image_name], [Name], [Price], [Rating])
-VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
-2021-06-10 18:30:47,232 [14] ERROR Microsoft.EntityFrameworkCore.Database.Command - Failed executing DbCommand (19ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Double), @p5='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
-SET NOCOUNT ON;
-INSERT INTO [Products] ([Id], [Description], [Image_name], [Name], [Price], [Rating])
-VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
-2021-06-10 18:30:47,354 [14] ERROR Microsoft.EntityFrameworkCore.Update - An exception occurred in the database while saving changes for context type 'ProductMicroservices.Context.ProductContext'.
-Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
- ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
-   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
-   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
-   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
-   at System.Data.Common.DbCommand.ExecuteReader()
-   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-ClientConnectionId:2743ed36-f415-467d-8c03-39c414955b25
-Error Number:544,State:1,Class:16
-   --- End of inner exception stack trace ---
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
- ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
-   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
-   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
-   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
-   at System.Data.Common.DbCommand.ExecuteReader()
-   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-ClientConnectionId:2743ed36-f415-467d-8c03-39c414955b25
-Error Number:544,State:1,Class:16
-   --- End of inner exception stack trace ---
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-2021-06-10 18:30:47,414 [14] ERROR Microsoft.EntityFrameworkCore.Update - An exception occurred in the database while saving changes for context type 'ProductMicroservices.Context.ProductContext'.
-Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
- ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
-   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
-   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
-   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
-   at System.Data.Common.DbCommand.ExecuteReader()
-   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-ClientConnectionId:2743ed36-f415-467d-8c03-39c414955b25
-Error Number:544,State:1,Class:16
-   --- End of inner exception stack trace ---
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
- ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
-   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
-   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
-   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
-   at System.Data.Common.DbCommand.ExecuteReader()
-   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-ClientConnectionId:2743ed36-f415-467d-8c03-39c414955b25
-Error Number:544,State:1,Class:16
-   --- End of inner exception stack trace ---
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-2021-06-10 18:38:57,068 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 18:38:58,053 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 18:38:58,516 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 18:38:58,566 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 18:38:59,653 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 18:38:59,690 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 18:38:59,931 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 18:38:59,936 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 18:39:01,503 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 18:39:01,506 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 18:40:09,533 [6] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
-System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
-   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
-   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
-   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
-   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
-   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
-   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
-2021-06-10 18:40:09,552 [6] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
-System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
-   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
-   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
-   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
-   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
-   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
-   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
-2021-06-10 18:40:36,952 [6] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-10 18:40:37,002 [6] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
-2021-06-10 18:41:46,917 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-10 18:41:47,385 [4] ERROR Microsoft.EntityFrameworkCore.Database.Command - Failed executing DbCommand (10ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Double), @p5='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
-SET NOCOUNT ON;
-INSERT INTO [Products] ([Id], [Description], [Image_name], [Name], [Price], [Rating])
-VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
-2021-06-10 18:41:47,387 [4] ERROR Microsoft.EntityFrameworkCore.Database.Command - Failed executing DbCommand (10ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Double), @p5='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
-SET NOCOUNT ON;
-INSERT INTO [Products] ([Id], [Description], [Image_name], [Name], [Price], [Rating])
-VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
-2021-06-10 18:41:47,511 [4] ERROR Microsoft.EntityFrameworkCore.Update - An exception occurred in the database while saving changes for context type 'ProductMicroservices.Context.ProductContext'.
-Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
- ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
-   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
-   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
-   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
-   at System.Data.Common.DbCommand.ExecuteReader()
-   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-ClientConnectionId:25f6b6ae-1e87-45d3-b637-fd97fc5693c9
-Error Number:544,State:1,Class:16
-   --- End of inner exception stack trace ---
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
- ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
-   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
-   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
-   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
-   at System.Data.Common.DbCommand.ExecuteReader()
-   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-ClientConnectionId:25f6b6ae-1e87-45d3-b637-fd97fc5693c9
-Error Number:544,State:1,Class:16
-   --- End of inner exception stack trace ---
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-2021-06-10 18:41:47,574 [4] ERROR Microsoft.EntityFrameworkCore.Update - An exception occurred in the database while saving changes for context type 'ProductMicroservices.Context.ProductContext'.
-Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
- ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
-   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
-   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
-   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
-   at System.Data.Common.DbCommand.ExecuteReader()
-   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-ClientConnectionId:25f6b6ae-1e87-45d3-b637-fd97fc5693c9
-Error Number:544,State:1,Class:16
-   --- End of inner exception stack trace ---
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
- ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
-   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
-   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
-   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
-   at System.Data.Common.DbCommand.ExecuteReader()
-   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-ClientConnectionId:25f6b6ae-1e87-45d3-b637-fd97fc5693c9
-Error Number:544,State:1,Class:16
-   --- End of inner exception stack trace ---
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-2021-06-10 18:49:56,395 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 18:49:56,419 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 18:49:56,423 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 18:49:56,423 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 18:49:56,430 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 18:49:56,431 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 18:49:56,434 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 18:49:56,435 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 18:49:56,439 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 18:49:56,439 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 18:51:36,698 [10] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
-System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
-   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
-   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
-   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
-   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
-   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
-   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
-2021-06-10 18:51:36,725 [10] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
-System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
-   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
-   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
-   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
-   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
-   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
-   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
-2021-06-10 18:53:11,040 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 18:53:18,994 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 18:53:19,511 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 18:53:19,696 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 18:53:20,659 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 18:53:20,981 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 18:53:27,173 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 18:53:27,521 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 18:53:30,887 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 18:53:30,906 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 18:53:48,168 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-10 18:53:48,720 [4] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
-2021-06-10 21:14:03,481 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 21:14:03,552 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 21:14:03,556 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 21:14:03,556 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 21:14:03,561 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 21:14:03,561 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 21:14:03,567 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 21:14:03,567 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 21:14:03,572 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 21:14:03,572 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 21:14:39,054 [12] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-10 21:14:44,936 [12] ERROR Microsoft.EntityFrameworkCore.Database.Command - Failed executing DbCommand (67ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Double), @p5='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
-SET NOCOUNT ON;
-INSERT INTO [Products] ([Id], [Description], [Image_name], [Name], [Price], [Rating])
-VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
-2021-06-10 21:14:44,939 [12] ERROR Microsoft.EntityFrameworkCore.Database.Command - Failed executing DbCommand (67ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Double), @p5='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
-SET NOCOUNT ON;
-INSERT INTO [Products] ([Id], [Description], [Image_name], [Name], [Price], [Rating])
-VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
-2021-06-10 21:14:45,558 [12] ERROR Microsoft.EntityFrameworkCore.Update - An exception occurred in the database while saving changes for context type 'ProductMicroservices.Context.ProductContext'.
-Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
- ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
-   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
-   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
-   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
-   at System.Data.Common.DbCommand.ExecuteReader()
-   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-ClientConnectionId:758ba9e3-0d40-4871-ba34-6b225ac8966c
-Error Number:544,State:1,Class:16
-   --- End of inner exception stack trace ---
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
- ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
-   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
-   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
-   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
-   at System.Data.Common.DbCommand.ExecuteReader()
-   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-ClientConnectionId:758ba9e3-0d40-4871-ba34-6b225ac8966c
-Error Number:544,State:1,Class:16
-   --- End of inner exception stack trace ---
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-2021-06-10 21:14:45,615 [12] ERROR Microsoft.EntityFrameworkCore.Update - An exception occurred in the database while saving changes for context type 'ProductMicroservices.Context.ProductContext'.
-Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
- ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
-   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
-   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
-   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
-   at System.Data.Common.DbCommand.ExecuteReader()
-   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-ClientConnectionId:758ba9e3-0d40-4871-ba34-6b225ac8966c
-Error Number:544,State:1,Class:16
-   --- End of inner exception stack trace ---
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
- ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
-   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
-   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
-   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
-   at System.Data.Common.DbCommand.ExecuteReader()
-   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-ClientConnectionId:758ba9e3-0d40-4871-ba34-6b225ac8966c
-Error Number:544,State:1,Class:16
-   --- End of inner exception stack trace ---
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-2021-06-10 21:25:57,115 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 21:25:57,138 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-10 21:25:57,141 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 21:25:57,141 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-10 21:25:57,145 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 21:25:57,146 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-10 21:25:57,148 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 21:25:57,149 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-10 21:25:57,151 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 21:25:57,152 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-10 21:26:35,280 [13] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-10 21:26:35,320 [13] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
-2021-06-10 21:27:05,468 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-10 21:27:05,836 [4] ERROR Microsoft.EntityFrameworkCore.Database.Command - Failed executing DbCommand (10ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Double), @p5='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
-SET NOCOUNT ON;
-INSERT INTO [Products] ([Id], [Description], [Image_name], [Name], [Price], [Rating])
-VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
-2021-06-10 21:27:05,838 [4] ERROR Microsoft.EntityFrameworkCore.Database.Command - Failed executing DbCommand (10ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Double), @p5='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
-SET NOCOUNT ON;
-INSERT INTO [Products] ([Id], [Description], [Image_name], [Name], [Price], [Rating])
-VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
-2021-06-10 21:27:05,945 [4] ERROR Microsoft.EntityFrameworkCore.Update - An exception occurred in the database while saving changes for context type 'ProductMicroservices.Context.ProductContext'.
-Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
- ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
-   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
-   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
-   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
-   at System.Data.Common.DbCommand.ExecuteReader()
-   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-ClientConnectionId:8496747e-d489-42d2-a17f-395f9e73993c
-Error Number:544,State:1,Class:16
-   --- End of inner exception stack trace ---
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
- ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
-   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
-   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
-   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
-   at System.Data.Common.DbCommand.ExecuteReader()
-   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-ClientConnectionId:8496747e-d489-42d2-a17f-395f9e73993c
-Error Number:544,State:1,Class:16
-   --- End of inner exception stack trace ---
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-2021-06-10 21:27:05,972 [4] ERROR Microsoft.EntityFrameworkCore.Update - An exception occurred in the database while saving changes for context type 'ProductMicroservices.Context.ProductContext'.
-Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
- ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
-   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
-   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
-   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
-   at System.Data.Common.DbCommand.ExecuteReader()
-   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-ClientConnectionId:8496747e-d489-42d2-a17f-395f9e73993c
-Error Number:544,State:1,Class:16
-   --- End of inner exception stack trace ---
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
- ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Products' when IDENTITY_INSERT is set to OFF.
-   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
-   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
-   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
-   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
-   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
-   at System.Data.Common.DbCommand.ExecuteReader()
-   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-ClientConnectionId:8496747e-d489-42d2-a17f-395f9e73993c
-Error Number:544,State:1,Class:16
-   --- End of inner exception stack trace ---
-   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
-   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
-   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
-   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
-2021-06-11 10:42:55,817 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 10:42:55,922 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 10:42:55,926 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 10:42:55,926 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 10:42:55,931 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 10:42:55,931 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 10:42:55,935 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 10:42:55,935 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 10:42:55,939 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 10:42:55,940 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 10:43:30,276 [15] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 10:51:11,624 [10] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 10:51:11,659 [10] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
-2021-06-11 10:51:39,278 [10] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 10:51:39,285 [10] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
-2021-06-11 10:54:43,723 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 10:54:43,748 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 10:54:43,752 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 10:54:43,753 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 10:54:43,756 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 10:54:43,756 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 10:54:43,760 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 10:54:43,760 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 10:54:43,766 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 10:54:43,767 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 10:55:11,557 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 10:57:07,502 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 10:57:07,523 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 10:57:07,526 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 10:57:07,526 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 10:57:07,529 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 10:57:07,530 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 10:57:07,533 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 10:57:07,534 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 10:57:07,536 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 10:57:07,537 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 10:57:32,050 [5] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 10:58:31,204 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 10:58:31,232 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 10:58:31,235 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 10:58:31,236 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 10:58:31,239 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 10:58:31,240 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 10:58:31,244 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 10:58:31,245 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 10:58:31,249 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 10:58:31,250 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 11:03:33,724 [16] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 11:03:33,775 [16] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
-2021-06-11 11:04:06,895 [10] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 11:05:05,983 [8] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 11:05:05,986 [8] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
-2021-06-11 11:50:49,189 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 11:50:49,208 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 11:50:49,214 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 11:50:49,214 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 11:50:49,217 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 11:50:49,218 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 11:50:49,223 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 11:50:49,223 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 11:50:49,226 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 11:50:49,227 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 11:52:29,954 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 11:52:29,996 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 11:52:30,001 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 11:52:30,024 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 11:52:30,046 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 11:52:30,078 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 11:52:30,181 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 11:52:30,195 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 11:52:30,200 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 11:52:30,200 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 12:28:54,901 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 12:28:54,934 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 12:28:54,940 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 12:28:54,940 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 12:28:54,946 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 12:28:54,947 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 12:28:54,951 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 12:28:54,951 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 12:28:54,957 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 12:28:54,957 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 12:29:28,374 [14] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
-System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
-   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
-   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
-   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
-   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
-   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
-   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
-2021-06-11 12:29:28,389 [14] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
-System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
-   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
-   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
-   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
-   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
-   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
-   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
-2021-06-11 12:29:56,944 [20] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 12:29:57,049 [20] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
-2021-06-11 14:36:57,046 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 14:36:57,391 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 14:36:57,521 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 14:36:57,522 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 14:36:57,568 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 14:36:57,580 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 14:36:57,729 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 14:36:57,731 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 14:36:57,751 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 14:36:57,752 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 14:37:23,894 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 14:37:23,949 [4] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
-2021-06-11 14:43:15,335 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 14:43:15,348 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 14:43:15,352 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 14:43:15,352 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 14:43:15,354 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 14:43:15,355 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 14:43:15,357 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 14:43:15,358 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 14:43:15,360 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 14:43:15,360 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 14:43:44,015 [12] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 14:43:44,052 [12] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
-2021-06-11 15:00:17,609 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 15:00:17,628 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 15:00:17,632 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 15:00:17,632 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 15:00:17,636 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 15:00:17,638 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 15:00:17,642 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 15:00:17,642 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 15:00:17,646 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 15:00:17,646 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 15:00:37,917 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 15:00:37,988 [4] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
-2021-06-11 15:12:43,046 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 15:12:43,067 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 15:12:43,070 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 15:12:43,071 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 15:12:43,074 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 15:12:43,075 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 15:12:43,078 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 15:12:43,079 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 15:12:43,083 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 15:12:43,084 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 15:13:03,311 [12] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 15:13:03,349 [12] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
-2021-06-11 15:13:06,146 [12] ERROR ProductMicroservices.Controllers.ProductController - Productid searched not found
-2021-06-11 15:20:01,568 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 15:20:01,582 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 15:20:01,586 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 15:20:01,587 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 15:20:01,591 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 15:20:01,591 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 15:20:01,594 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 15:20:01,595 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 15:20:01,598 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 15:20:01,598 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 15:20:26,623 [12] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 15:20:26,667 [12] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
-2021-06-11 15:20:30,070 [12] ERROR ProductMicroservices.Controllers.ProductController - Productid searched not found
-2021-06-11 15:22:33,481 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 15:22:33,500 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 15:22:33,502 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 15:22:33,503 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 15:22:33,506 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 15:22:33,507 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 15:22:33,509 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 15:22:33,509 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 15:22:33,515 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 15:22:33,515 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 15:22:56,724 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 15:22:56,781 [4] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
-2021-06-11 15:23:00,661 [4] ERROR ProductMicroservices.Controllers.ProductController - Productid searched not found
-2021-06-11 15:25:20,150 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 15:25:20,164 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 15:25:20,169 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 15:25:20,169 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 15:25:20,173 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 15:25:20,173 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 15:25:20,176 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 15:25:20,176 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 15:25:20,179 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 15:25:20,179 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 15:25:41,981 [12] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 15:25:42,069 [12] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
-2021-06-11 15:25:45,458 [12] ERROR ProductMicroservices.Controllers.ProductController - Productid searched not found
-2021-06-11 15:27:50,016 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 15:27:50,048 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 15:27:50,071 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 15:27:50,072 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 15:27:50,080 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 15:27:50,080 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 15:27:50,085 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 15:27:50,087 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 15:27:50,093 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 15:27:50,093 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 15:28:10,274 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 15:28:10,310 [4] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
-2021-06-11 15:28:12,893 [4] ERROR ProductMicroservices.Controllers.ProductController - Productid searched not found
-2021-06-11 15:33:55,221 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 15:33:55,243 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 15:33:55,248 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 15:33:55,248 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 15:33:55,274 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 15:33:55,275 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 15:33:55,280 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 15:33:55,284 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 15:33:55,290 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 15:33:55,291 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 15:34:18,753 [10] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 15:34:18,798 [10] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
-2021-06-11 15:34:21,745 [10] ERROR ProductMicroservices.Controllers.ProductController - Productid searched not found
-2021-06-11 16:04:11,616 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 16:04:11,644 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 16:04:11,654 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 16:04:11,656 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 16:04:11,671 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 16:04:11,672 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 16:04:11,677 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 16:04:11,677 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 16:04:11,685 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 16:04:11,686 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 16:05:09,423 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 16:05:09,473 [4] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
-2021-06-11 16:05:12,999 [4] ERROR ProductMicroservices.Controllers.ProductController - Productid searched not found
-2021-06-11 16:10:38,197 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 16:10:38,212 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 16:10:38,215 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 16:10:38,216 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 16:10:38,220 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 16:10:38,220 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 16:10:38,223 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 16:10:38,223 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 16:10:38,226 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 16:10:38,227 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 16:11:26,479 [19] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 16:11:26,511 [19] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
-2021-06-11 16:11:40,715 [15] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 16:11:40,718 [15] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
-2021-06-11 16:11:40,810 [15] ERROR ProductMicroservices.Controllers.ProductController - Product not found for the given productID
-2021-06-11 16:11:58,329 [16] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 16:11:58,349 [16] INFO ProductMicroservices.Controllers.ProductController - Add Rating to the Product
-2021-06-11 16:11:58,374 [16] ERROR ProductMicroservices.Controllers.ProductController - Product not found for the given productID
-2021-06-11 16:14:25,382 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 16:14:25,405 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 16:14:25,409 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 16:14:25,409 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 16:14:25,413 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 16:14:25,413 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 16:14:25,419 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 16:14:25,419 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 16:14:25,422 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 16:14:25,423 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 16:14:55,420 [12] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 16:14:55,455 [12] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
-2021-06-11 16:15:11,299 [11] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 16:15:11,302 [11] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
-2021-06-11 16:15:11,392 [11] ERROR ProductMicroservices.Controllers.ProductController - Product not found for the given productName
-2021-06-11 16:15:34,229 [12] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 16:15:34,236 [12] INFO ProductMicroservices.Controllers.ProductController - Add Rating to the Product
-2021-06-11 16:15:48,484 [17] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 16:15:48,488 [17] INFO ProductMicroservices.Controllers.ProductController - Add Rating to the Product
-2021-06-11 16:15:48,506 [17] ERROR ProductMicroservices.Controllers.ProductController - Product not found for the given productID
-2021-06-11 16:17:27,829 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 16:17:27,841 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
-2021-06-11 16:17:27,845 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 16:17:27,845 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
-2021-06-11 16:17:27,848 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 16:17:27,848 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
-2021-06-11 16:17:27,851 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 16:17:27,851 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
-2021-06-11 16:17:27,854 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 16:17:27,854 [1] INFO Microsoft.Hosting.Lifetime - Content root path: F:\Project_Retail_Product_Management\ProductMicroservices\ProductMicroservices
-2021-06-11 16:17:55,073 [12] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
-2021-06-11 16:17:57,376 [12] ERROR ProductMicroservices.Controllers.ProductController - Product not found for the given productID
+2021-06-12 13:39:09,337 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-12 13:39:09,347 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-12 13:39:09,349 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-12 13:39:09,349 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-12 13:39:09,350 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-12 13:39:09,350 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-12 13:39:09,404 [10] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-12 13:39:09,405 [10] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-12 13:39:16,547 [10] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-12 13:39:16,558 [10] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
+2021-06-12 14:41:57,254 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-12 14:41:57,263 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-12 14:41:57,271 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-12 14:41:57,271 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-12 14:41:57,271 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-12 14:41:57,271 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-12 14:42:04,706 [8] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-12 14:42:04,706 [8] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-12 14:42:04,886 [8] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-12 14:42:04,887 [8] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-12 14:42:50,157 [5] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-12 14:42:50,208 [5] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-12 14:42:57,359 [13] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-12 14:42:57,361 [13] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-12 14:44:57,742 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-12 14:44:57,752 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-12 14:44:57,754 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-12 14:44:57,754 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-12 14:44:57,754 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-12 14:44:57,754 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
