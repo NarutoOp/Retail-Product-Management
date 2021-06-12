@@ -35,9 +35,9 @@ namespace AuthorizationAPI
 
             var key = Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]);
 
-            services.AddTransient<IUserProvider, UserProvider>();
+            services.AddScoped<IUserProvider, UserProvider>();
 
-            services.AddTransient<IUserRepo, UserRepo>();
+            services.AddScoped<IUserRepo, UserRepo>();
 
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                  .AddJwtBearer(options =>
