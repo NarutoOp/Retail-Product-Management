@@ -31,6 +31,14 @@ namespace E_Commerce_Portal.Controllers
         
         public ActionResult Index()
         {
+            string token = HttpContext.Session.GetString("token");
+            if (token == null)
+            {
+                _log4net.Info("User is not logged in");
+                ViewBag.Message = "Please Login First";
+                return RedirectToAction("Index", "Login");
+            }
+
             List<ProductCartView> mymodel = new List<ProductCartView>();
             
             foreach(var item in repo.GetCarts())
@@ -38,8 +46,8 @@ namespace E_Commerce_Portal.Controllers
                 mymodel.Add(
                     new ProductCartView()
                     {
-                    
-                        Products = repo.GetProducts().SingleOrDefault(z => z.Id == item.ProductId),
+                        
+                        Products = repo.GetProducts(token).SingleOrDefault(z => z.Id == item.ProductId),
                         Carts = item
                     }
                );
@@ -52,6 +60,13 @@ namespace E_Commerce_Portal.Controllers
         // add cart form
         public ActionResult AddToCart(int Id)
         {
+            if (HttpContext.Session.GetString("token") == null)
+            {
+                _log4net.Info("User is not logged in");
+                ViewBag.Message = "Please Login First";
+                return RedirectToAction("Index", "Login");
+            }
+
             ViewData["ProductId"] = Id;
             _log4net.Info("User is in add to cart page");
             return View();
@@ -61,6 +76,13 @@ namespace E_Commerce_Portal.Controllers
         [HttpPost]
         public ActionResult AddToCart(Cart productCart)
         {
+            if (HttpContext.Session.GetString("token") == null)
+            {
+                _log4net.Info("User is not logged in");
+                ViewBag.Message = "Please Login First";
+                return RedirectToAction("Index", "Login");
+            }
+
             var product = repo.GetCarts().SingleOrDefault(x => x.ProductId == productCart.ProductId);
             if (product == null)
             {

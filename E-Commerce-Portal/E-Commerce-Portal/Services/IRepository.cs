@@ -9,7 +9,7 @@ namespace E_Commerce_Portal.Services
 {
     public interface IRepository
     {
-        public List<Product> GetProducts();
+        public List<Product> GetProducts(string token);
 
         public List<Cart> GetCarts();
 

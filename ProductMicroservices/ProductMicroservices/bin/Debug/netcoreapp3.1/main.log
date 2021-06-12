@@ -278,3 +278,121 @@ System.ArgumentNullException: String reference not set to an instance of a Strin
 2021-06-12 14:59:49,071 [13] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
 2021-06-12 14:59:49,652 [13] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
 2021-06-12 14:59:49,654 [13] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-12 17:31:00,127 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-12 17:31:00,151 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-12 17:31:00,153 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-12 17:31:00,153 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-12 17:31:00,153 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-12 17:31:00,153 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-12 17:31:21,916 [6] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-12 17:31:21,916 [6] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-12 22:39:32,898 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-12 22:39:32,952 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-12 22:39:32,959 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-12 22:39:32,960 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-12 22:39:32,962 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-12 22:39:32,964 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-12 22:39:50,245 [7] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-12 22:39:50,245 [7] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-12 22:40:15,250 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-12 22:40:15,269 [4] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-12 22:50:51,059 [22] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-12 22:50:51,059 [22] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-12 22:50:58,512 [24] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-12 22:50:58,512 [24] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-12 22:50:58,531 [23] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-12 22:50:58,531 [23] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-12 22:51:39,864 [25] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-12 22:51:39,865 [25] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-12 22:51:39,877 [27] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-12 22:51:39,877 [27] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-12 22:52:15,734 [26] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-12 22:52:15,735 [26] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-12 23:51:14,210 [36] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-12 23:51:14,211 [36] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-12 23:51:30,451 [36] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-12 23:51:30,452 [36] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-12 23:51:30,462 [39] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-12 23:51:30,462 [39] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-12 23:52:55,736 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-12 23:52:55,746 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-12 23:52:55,747 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-12 23:52:55,747 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-12 23:52:55,747 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-12 23:52:55,747 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-12 23:53:02,226 [13] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-12 23:53:02,226 [13] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-13 00:45:46,489 [36] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 00:45:46,490 [36] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 00:47:57,278 [39] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 00:47:57,279 [39] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 00:48:45,029 [43] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 00:48:45,030 [43] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 00:48:45,050 [45] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 00:48:45,050 [45] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 00:50:32,533 [46] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 00:50:32,534 [46] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 00:50:37,543 [50] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 00:50:37,543 [50] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 00:50:37,552 [47] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 00:50:37,552 [47] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:29:40,881 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-13 01:29:40,892 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-13 01:29:40,893 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-13 01:29:40,893 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-13 01:29:40,893 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-13 01:29:40,893 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-13 01:29:40,940 [4] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-13 01:29:40,940 [4] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-13 01:29:41,211 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:29:41,213 [4] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:30:06,362 [11] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:30:06,363 [11] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:30:06,413 [12] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:30:06,413 [12] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:33:51,546 [7] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:33:51,548 [7] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:33:58,899 [17] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:33:58,899 [17] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:33:58,912 [17] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:33:58,913 [17] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:34:40,067 [20] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:34:40,067 [20] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:34:40,078 [21] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:34:40,078 [21] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:45:16,846 [27] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:45:16,847 [27] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:45:17,370 [28] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:45:17,371 [28] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:45:28,138 [29] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:45:28,138 [29] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:45:28,193 [30] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:45:28,193 [30] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:45:50,862 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-13 01:45:50,871 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-13 01:45:50,872 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-13 01:45:50,872 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-13 01:45:50,872 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-13 01:45:50,873 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-13 01:45:50,924 [4] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-13 01:45:50,924 [4] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-13 01:45:51,313 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:45:51,315 [4] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:45:52,588 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:45:52,589 [4] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:46:04,038 [13] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:46:04,039 [13] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:46:04,058 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:46:04,058 [4] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:46:53,270 [14] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:46:53,270 [14] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:46:53,416 [16] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:46:53,416 [16] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:48:15,141 [17] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:48:15,142 [17] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:48:15,231 [19] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:48:15,232 [19] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:48:19,905 [20] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:48:19,905 [20] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-13 01:48:19,915 [20] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-13 01:48:19,915 [20] INFO ProductMicroservices.Controllers.ProductController - Loading all available product

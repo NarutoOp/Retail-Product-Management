@@ -24,7 +24,13 @@ namespace E_Commerce_Portal
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            
+            services.AddSession(option =>
+            {
+                option.IdleTimeout = TimeSpan.FromMinutes(30);
+            });
             services.AddScoped<IRepository, Repository>();
+
             services.AddControllersWithViews();
         }
 
@@ -39,6 +45,8 @@ namespace E_Commerce_Portal
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+
+            app.UseSession();
 
             loggerFactory.AddLog4Net();
 

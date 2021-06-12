@@ -48,7 +48,8 @@ namespace AuthorizationAPI.Controllers
             else
             {
                 var tokenString = auth_repo.GenerateJSONWebToken(user);
-                response = Ok(new { token = tokenString });
+                /*response = Ok(new { token = tokenString });*/
+                response = Ok(tokenString);
             }
 
             return response;
