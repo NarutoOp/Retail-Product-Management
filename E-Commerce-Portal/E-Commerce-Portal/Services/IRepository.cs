@@ -11,6 +11,10 @@ namespace E_Commerce_Portal.Services
     {
         public List<Product> GetProducts(string token);
 
+        public List<Product> GetProductsByName(string token, string name);
+
+        public List<Product> GetProductsById(string token, int id);
+
         public List<Cart> GetCarts();
 
         public List<Vendor> GetVendors();

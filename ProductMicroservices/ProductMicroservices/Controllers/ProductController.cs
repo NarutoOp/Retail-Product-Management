@@ -66,7 +66,7 @@ namespace ProductMicroservices.Controllers
 
         [HttpGet("GetByName/{name}")]
         [Authorize]
-        public IActionResult GetbyName(string name)
+        public IActionResult GetByName(string name)
         {
             _log4net.Info("Searching product by productName");
             var product = _productRepository.SearchProductByName(name);

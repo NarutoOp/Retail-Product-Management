@@ -29,9 +29,11 @@ namespace E_Commerce_Portal
             {
                 option.IdleTimeout = TimeSpan.FromMinutes(30);
             });
-            services.AddScoped<IRepository, Repository>();
+            services.AddScoped<IRepository, Repository>(); 
 
             services.AddControllersWithViews();
+
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,6 +47,7 @@ namespace E_Commerce_Portal
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+            
 
             app.UseSession();
 

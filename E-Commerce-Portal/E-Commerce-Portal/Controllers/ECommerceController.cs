@@ -45,8 +45,59 @@ namespace E_Commerce_Portal.Controllers
         public IActionResult Index(string productName)
         {
             string token = HttpContext.Session.GetString("token");
+
+            List<Product> productsByName = repo.GetProducts(token);
+
+            if (token == null)
+            {
+                _log4net.Info("User is not logged in");
+                ViewBag.Message = "Please Login First";
+                return RedirectToAction("Index", "Login");
+            }
+
+            /*var searchProduct = repo.GetProducts(token);*/
+            _log4net.Info("User is Searching product by Id");
+            /*ViewData["ProductName"] = option;*/
+            if (!String.IsNullOrEmpty(productName))
+            {
+                /*searchProduct = products.Where(x => x.Name == productName).ToList();*/
+                productsByName = repo.GetProductsByName(token, productName);
+            }
+
+            return View(productsByName);
+        }
+
+
+
+        /*        public IActionResult SearchById(int productId)
+                {
+                    string token = HttpContext.Session.GetString("token");
+                    List<Product> productsById = new List<Product>();
+
+                    if (token == null)
+                    {
+                        _log4net.Info("User is not logged in");
+                        ViewBag.Message = "Please Login First";
+                        return RedirectToAction("Index", "Login");
+                    }
+
+                    _log4net.Info("User is Searching product by Id");
+                    ViewData["ProductId"] = productId;
+                    if (productId!= 0)
+                    {
+                        productsById = repo.GetProductsById(token, productId);
+                    }
+
+                    return View(productsById);
+                }
+         */
+
+        /*[HttpGet]
+        public IActionResult Index(string productName)
+        {
+            string token = HttpContext.Session.GetString("token");
             List<Product> products = repo.GetProducts(token);
-            
+
             if (token == null)
             {
                 _log4net.Info("User is not logged in");
@@ -63,8 +114,8 @@ namespace E_Commerce_Portal.Controllers
             }
 
             return View(searchProduct);
-        }
-
+        }*/
+       
 
 
     }

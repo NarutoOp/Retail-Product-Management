@@ -25,7 +25,7 @@ namespace E_Commerce_Portal.Services
             new Product() {Id = 2, Price = 2000, Name = "Bracelet", Description="Some example text.", Image_Name="1.jfif", Rating=3 }
         };*/
 
-        private static List<Vendor> vendors = new List<Vendor> {
+        private readonly static List<Vendor> vendors = new List<Vendor> {
             new Vendor() {VendorId = 1, VendorName = "Ekart", DeliveryCharge = 50, Rating=2 },
             new Vendor() {VendorId = 2, VendorName = "Logic", DeliveryCharge = 40, Rating=3 }
         };
@@ -69,11 +69,8 @@ namespace E_Commerce_Portal.Services
                         }
                         var ApiResponse = result.Content.ReadAsAsync<List<Product>>();
                         ApiResponse.Wait();
-                        /*List<Product> res = JsonConvert.DeserializeObject<List<Product> >(apiResponse);*/
                         
-                        products = ApiResponse.Result;
-                        /*esponse.Content.*/
-                        
+                        products = ApiResponse.Result;                        
 
                     
                 }
@@ -85,6 +82,89 @@ namespace E_Commerce_Portal.Services
 
             return products;
         }
+
+        public List<Product> GetProductsByName(string token,string name)
+        {
+            _log4net.Info("fetching products by name from product microservice");
+
+            List<Product> productsByName = null;
+
+            string bearer = String.Format("Bearer {0}", token);
+
+            using (var httpClient = new HttpClient())
+            {
+                httpClient.BaseAddress = new Uri(productURI);
+                try
+                {
+                    httpClient.DefaultRequestHeaders.Accept.Clear();
+                    httpClient.DefaultRequestHeaders.Add("Authorization", bearer);
+
+                    var response = httpClient.GetAsync("GetByName/Iphone");
+
+                    response.Wait();
+                    var result = response.Result;
+
+                    if (!result.IsSuccessStatusCode)
+                    {
+                        _log4net.Info("Product microservice failed");
+
+                        return null;
+                    }
+                    var ApiResponse = result.Content.ReadAsAsync<List<Product>>();
+                    ApiResponse.Wait();
+
+                    productsByName = ApiResponse.Result;
+                }
+                catch (Exception)
+                {
+                    _log4net.Error("Product Microservice is Down!!");
+                }
+            }
+
+            return productsByName;
+        }
+
+        public List<Product> GetProductsById(string token,int id)
+        {
+            _log4net.Info("fetching products by ID from product microservice");
+
+            List<Product> productsById = null;
+
+            string bearer = String.Format("Bearer {0}", token);
+
+            using (var httpClient = new HttpClient())
+            {
+                httpClient.BaseAddress = new Uri(productURI);
+                try
+                {
+                    httpClient.DefaultRequestHeaders.Accept.Clear();
+                    httpClient.DefaultRequestHeaders.Add("Authorization", bearer);
+
+                    var response = httpClient.GetAsync("GetById/"+id);
+
+                    response.Wait();
+                    var result = response.Result;
+
+                    if (!result.IsSuccessStatusCode)
+                    {
+                        _log4net.Info("Product microservice failed");
+
+                        return null;
+                    }
+                    var ApiResponse = result.Content.ReadAsAsync<List<Product>>();
+                    ApiResponse.Wait();
+
+                    productsById = ApiResponse.Result;
+
+                }
+                catch (Exception)
+                {
+                    _log4net.Error("Product Microservice is Down!!");
+                }
+            }
+            return productsById;
+        }
+
 
         public List<Cart> GetCarts()
         {
