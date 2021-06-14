@@ -10,23 +10,21 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace ProceedToBuy.Controllers
-{   [Authorize]
+{   
     [Route("api/[controller]")]
     [ApiController]
     public class ProceedToBuyController : ControllerBase
     {
         IRepository<Cart> _repository;
-        private readonly ILogger<ProceedToBuyController> _logger;
+
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(ProceedToBuyController));
 
 
-        public ProceedToBuyController(IRepository<Cart> repository, ILogger<ProceedToBuyController> logger)
+        public ProceedToBuyController(IRepository<Cart> repository)
         {
             _repository = repository;
-            _logger = logger;
 
         }
         // GET: api/<ProceedToBuyController>

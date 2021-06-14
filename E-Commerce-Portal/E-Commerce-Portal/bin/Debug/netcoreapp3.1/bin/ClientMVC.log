@@ -7525,3 +7525,907 @@ System.NullReferenceException: Object reference not set to an instance of an obj
    at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
    at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  11:38:53 User is logging in
+INFO  11:39:11 User is logging in
+INFO  11:39:11 Login Successful and token generated
+INFO  11:39:11 Logger in ECommerce
+INFO  11:39:11 fetching products from product microservice
+INFO  11:39:16 User is Searching product by Id
+INFO  11:39:37 Logger in ECommerce
+INFO  11:39:37 fetching products from product microservice
+INFO  11:39:37 User is Searching product by Id
+INFO  11:39:37 fetching products by name from product microservice
+ERROR 11:39:37 Product Microservice is Down!!
+ERROR 11:39:37 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_ECommerce_Index.ExecuteAsync() in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\Views\ECommerce\Index.cshtml:line 19
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 11:39:37 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_ECommerce_Index.ExecuteAsync() in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\Views\ECommerce\Index.cshtml:line 19
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:09:45 Application started. Press Ctrl+C to shut down.
+INFO  01:09:45 Application started. Press Ctrl+C to shut down.
+INFO  01:09:45 Hosting environment: Development
+INFO  01:09:45 Hosting environment: Development
+INFO  01:09:45 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  01:09:45 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  01:09:48 Logger in ECommerce
+INFO  01:09:48 fetching products from product microservice
+INFO  01:09:49 Product microservice failed
+INFO  01:09:49 User is not logged in
+INFO  01:09:49 User is logging in
+INFO  01:09:55 User is logging in
+ERROR 01:09:55 An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException: The handshake failed due to an unexpected packet format.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsClient(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsClientAsync>b__65_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsyncCore(Stream stream, SslClientAuthenticationOptions sslOptions, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsyncCore(Stream stream, SslClientAuthenticationOptions sslOptions, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at E_Commerce_Portal.Controllers.LoginController.Index(Login cred) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\Controllers\LoginController.cs:line 48
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 01:09:55 An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException: The handshake failed due to an unexpected packet format.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsClient(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsClientAsync>b__65_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsyncCore(Stream stream, SslClientAuthenticationOptions sslOptions, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsyncCore(Stream stream, SslClientAuthenticationOptions sslOptions, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at E_Commerce_Portal.Controllers.LoginController.Index(Login cred) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\Controllers\LoginController.cs:line 48
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:12:23 User is logging in
+INFO  01:12:23 Login Successful and token generated
+INFO  01:12:23 Logger in ECommerce
+INFO  01:12:23 fetching products from product microservice
+INFO  01:12:29 User is Searching product by Id
+INFO  01:12:34 Logger in ECommerce
+INFO  01:12:34 fetching products from product microservice
+INFO  01:12:34 User is Searching product by Id
+INFO  01:12:34 fetching products by name from product microservice
+ERROR 01:12:34 Product Microservice is Down!!
+ERROR 01:12:34 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_ECommerce_Index.ExecuteAsync() in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\Views\ECommerce\Index.cshtml:line 19
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 01:12:34 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_ECommerce_Index.ExecuteAsync() in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\Views\ECommerce\Index.cshtml:line 19
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  02:21:38 Application started. Press Ctrl+C to shut down.
+INFO  02:21:38 Application started. Press Ctrl+C to shut down.
+INFO  02:21:38 Hosting environment: Development
+INFO  02:21:38 Hosting environment: Development
+INFO  02:21:38 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  02:21:38 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  02:21:41 Logger in ECommerce
+INFO  02:21:42 fetching products from product microservice
+INFO  02:21:42 Product microservice failed
+INFO  02:21:42 User is not logged in
+INFO  02:21:43 User is logging in
+INFO  02:21:48 User is logging in
+INFO  02:21:49 Login Successful and token generated
+INFO  02:21:49 Logger in ECommerce
+INFO  02:21:49 fetching products from product microservice
+INFO  02:22:00 User is Searching product by Id
+INFO  02:22:08 Logger in ECommerce
+INFO  02:22:08 fetching products from product microservice
+INFO  02:22:08 User is Searching product by Id
+INFO  02:22:08 fetching products by name from product microservice
+INFO  02:33:56 Application started. Press Ctrl+C to shut down.
+INFO  02:33:56 Application started. Press Ctrl+C to shut down.
+INFO  02:33:56 Hosting environment: Development
+INFO  02:33:56 Hosting environment: Development
+INFO  02:33:56 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  02:33:56 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  02:34:32 Logger in ECommerce
+INFO  02:34:32 fetching products from product microservice
+INFO  02:34:32 Product microservice failed
+INFO  02:34:32 User is not logged in
+INFO  02:34:32 User is logging in
+INFO  02:34:37 User is logging in
+INFO  02:34:38 Login Successful and token generated
+INFO  02:34:38 Logger in ECommerce
+INFO  02:34:38 fetching products from product microservice
+INFO  02:34:49 User is Searching product by Name
+INFO  02:35:02 Logger in ECommerce
+INFO  02:35:02 fetching products from product microservice
+INFO  02:35:02 User is Searching product by Name
+INFO  02:35:02 fetching products by name from product microservice
+INFO  02:35:09 Logger in ECommerce
+INFO  02:35:09 fetching products from product microservice
+INFO  02:35:09 User is Searching product by Id
+INFO  02:35:09 fetching products by ID from product microservice
+INFO  02:35:17 Logger in ECommerce
+INFO  02:35:17 fetching products from product microservice
+INFO  02:35:17 User is Searching product by Id
+INFO  02:35:17 fetching products by ID from product microservice
+INFO  02:35:29 Logger in ECommerce
+INFO  02:35:29 fetching products from product microservice
+INFO  02:35:29 User is Searching product by Name
+INFO  02:35:29 fetching products by name from product microservice
+INFO  02:35:34 Logger in ECommerce
+INFO  02:35:34 fetching products from product microservice
+INFO  02:35:34 User is Searching product by Name
+INFO  02:35:34 fetching products by name from product microservice
+INFO  02:36:59 Application started. Press Ctrl+C to shut down.
+INFO  02:36:59 Application started. Press Ctrl+C to shut down.
+INFO  02:36:59 Hosting environment: Development
+INFO  02:36:59 Hosting environment: Development
+INFO  02:36:59 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  02:36:59 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  02:37:01 Logger in ECommerce
+INFO  02:37:01 fetching products from product microservice
+INFO  02:37:01 Product microservice failed
+INFO  02:37:01 User is not logged in
+INFO  02:37:01 User is logging in
+INFO  02:37:07 User is logging in
+INFO  02:37:07 Login Successful and token generated
+INFO  02:37:07 Logger in ECommerce
+INFO  02:37:07 fetching products from product microservice
+INFO  02:37:07 User is Searching product by Name
+INFO  02:37:15 Logger in ECommerce
+INFO  02:37:15 fetching products from product microservice
+INFO  02:37:15 User is Searching product by Id
+INFO  02:37:15 fetching products by ID from product microservice
+INFO  02:37:19 Logger in ECommerce
+INFO  02:37:19 fetching products from product microservice
+INFO  02:37:19 User is Searching product by Name
+INFO  02:37:19 fetching products by name from product microservice
+INFO  02:37:19 Logger in ECommerce
+INFO  02:37:19 fetching products from product microservice
+INFO  02:37:19 User is Searching product by Name
+INFO  02:37:20 Logger in ECommerce
+INFO  02:37:20 fetching products from product microservice
+INFO  02:37:20 User is Searching product by Name
+INFO  02:37:23 Logger in ECommerce
+INFO  02:37:23 fetching products from product microservice
+INFO  02:37:23 User is Searching product by Name
+INFO  02:37:23 fetching products by name from product microservice
+INFO  02:37:33 Logger in ECommerce
+INFO  02:37:33 fetching products from product microservice
+INFO  02:37:33 User is Searching product by Name
+INFO  02:37:33 fetching products by name from product microservice
+INFO  03:03:38 Application started. Press Ctrl+C to shut down.
+INFO  03:03:38 Application started. Press Ctrl+C to shut down.
+INFO  03:03:38 Hosting environment: Development
+INFO  03:03:38 Hosting environment: Development
+INFO  03:03:38 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  03:03:38 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  03:03:40 Logger in ECommerce
+INFO  03:03:41 fetching products from product microservice
+INFO  03:03:41 Product microservice failed
+INFO  03:03:41 User is not logged in
+INFO  03:03:41 User is logging in
+INFO  03:03:47 User is logging in
+INFO  03:03:47 Login Successful and token generated
+INFO  03:03:47 Logger in ECommerce
+INFO  03:03:47 fetching products from product microservice
+INFO  03:03:52 User is Searching product by Name
+INFO  03:04:33 Application started. Press Ctrl+C to shut down.
+INFO  03:04:33 Application started. Press Ctrl+C to shut down.
+INFO  03:04:33 Hosting environment: Development
+INFO  03:04:33 Hosting environment: Development
+INFO  03:04:33 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  03:04:33 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  03:04:35 Logger in ECommerce
+INFO  03:04:35 fetching products from product microservice
+INFO  03:04:35 Product microservice failed
+INFO  03:04:35 User is not logged in
+INFO  03:04:35 User is logging in
+INFO  03:04:41 User is logging in
+INFO  03:04:41 Login Successful and token generated
+INFO  03:04:41 Logger in ECommerce
+INFO  03:04:41 fetching products from product microservice
+INFO  03:04:41 User is Searching product by Name
+INFO  03:06:12 Application started. Press Ctrl+C to shut down.
+INFO  03:06:12 Application started. Press Ctrl+C to shut down.
+INFO  03:06:12 Hosting environment: Development
+INFO  03:06:12 Hosting environment: Development
+INFO  03:06:12 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  03:06:12 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  03:06:12 User is logging in
+INFO  03:06:20 User is logging in
+INFO  03:06:20 Login Successful and token generated
+INFO  03:06:20 Logger in ECommerce
+INFO  03:06:20 fetching products from product microservice
+INFO  03:06:20 User is Searching product by Name
+INFO  03:06:26 Logger in ECommerce
+INFO  03:06:26 User is seeing products
+INFO  03:06:26 fetching products from product microservice
+INFO  03:10:09 Logger in ECommerce
+INFO  03:10:09 User is seeing products
+INFO  03:10:09 fetching products from product microservice
+INFO  03:10:12 Logger in ECommerce
+INFO  03:10:12 User is seeing products
+INFO  03:10:12 fetching products from product microservice
+INFO  03:10:13 Logger in ECommerce
+INFO  03:10:13 User is seeing products
+INFO  03:10:13 fetching products from product microservice
+INFO  03:10:14 Logger in ECommerce
+INFO  03:10:14 User is seeing products
+INFO  03:10:14 fetching products from product microservice
+INFO  03:10:16 Logger in ECommerce
+INFO  03:10:16 User is seeing products
+INFO  03:10:16 fetching products from product microservice
+INFO  03:10:43 Application started. Press Ctrl+C to shut down.
+INFO  03:10:43 Application started. Press Ctrl+C to shut down.
+INFO  03:10:43 Hosting environment: Development
+INFO  03:10:43 Hosting environment: Development
+INFO  03:10:43 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  03:10:43 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  03:10:45 Logger in ECommerce
+INFO  03:10:45 fetching products from product microservice
+INFO  03:10:45 Product microservice failed
+INFO  03:10:45 User is not logged in
+INFO  03:10:45 User is logging in
+INFO  03:10:50 User is logging in
+INFO  03:10:50 Login Successful and token generated
+INFO  03:10:50 Logger in ECommerce
+INFO  03:10:50 fetching products from product microservice
+INFO  03:10:50 User is Searching product by Name
+INFO  03:10:57 Logger in ECommerce
+INFO  03:10:57 Adding rating
+INFO  03:10:58 Product microservice failed
+ERROR 03:10:58 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_ECommerce_Index.ExecuteAsync() in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\Views\ECommerce\Index.cshtml:line 23
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 03:10:58 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_ECommerce_Index.ExecuteAsync() in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\Views\ECommerce\Index.cshtml:line 23
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  03:11:52 Application started. Press Ctrl+C to shut down.
+INFO  03:11:52 Application started. Press Ctrl+C to shut down.
+INFO  03:11:52 Hosting environment: Development
+INFO  03:11:52 Hosting environment: Development
+INFO  03:11:52 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  03:11:52 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  03:11:54 Logger in ECommerce
+INFO  03:11:54 fetching products from product microservice
+INFO  03:11:54 Product microservice failed
+INFO  03:11:54 User is not logged in
+INFO  03:11:54 User is logging in
+INFO  03:12:01 User is logging in
+INFO  03:12:01 Login Successful and token generated
+INFO  03:12:01 Logger in ECommerce
+INFO  03:12:01 fetching products from product microservice
+INFO  03:12:01 User is Searching product by Name
+INFO  03:12:08 Logger in ECommerce
+INFO  03:12:08 Adding rating
+INFO  03:12:08 Product microservice failed
+INFO  03:12:08 Logger in ECommerce
+INFO  03:12:08 fetching products from product microservice
+INFO  03:12:08 User is Searching product by Name
+INFO  03:12:16 Logger in ECommerce
+INFO  03:12:16 Adding rating
+INFO  03:12:16 Product microservice failed
+INFO  03:12:16 Logger in ECommerce
+INFO  03:12:16 fetching products from product microservice
+INFO  03:12:16 User is Searching product by Name
+INFO  03:12:20 Logger in ECommerce
+INFO  03:12:20 Adding rating
+INFO  03:12:20 Product microservice failed
+INFO  03:12:20 Logger in ECommerce
+INFO  03:12:20 fetching products from product microservice
+INFO  03:12:20 User is Searching product by Name
+INFO  03:12:40 Logger in ECommerce
+INFO  03:12:40 Adding rating
+INFO  03:12:40 Product microservice failed
+INFO  03:12:40 Logger in ECommerce
+INFO  03:12:40 fetching products from product microservice
+INFO  03:12:40 User is Searching product by Name
+INFO  03:12:46 Logger in ECommerce
+INFO  03:12:46 Adding rating
+INFO  03:12:46 Product microservice failed
+INFO  03:12:46 Logger in ECommerce
+INFO  03:12:46 fetching products from product microservice
+INFO  03:12:46 User is Searching product by Name
+INFO  03:12:59 Logger in ECommerce
+INFO  03:12:59 fetching products from product microservice
+INFO  03:12:59 User is Searching product by Name
+INFO  03:12:59 fetching products by name from product microservice
+INFO  03:20:39 Logger in ECommerce
+INFO  03:20:39 fetching products from product microservice
+INFO  03:20:45 User is Searching product by Name
+INFO  03:20:45 fetching products by name from product microservice
+INFO  03:20:53 Logger in ECommerce
+INFO  03:20:53 Adding rating
+INFO  03:20:53 Product microservice failed
+INFO  03:20:53 Logger in ECommerce
+INFO  03:20:53 fetching products from product microservice
+INFO  03:20:53 User is Searching product by Name
+INFO  03:20:57 Logger in ECommerce
+INFO  03:20:57 Adding rating
+INFO  03:20:57 Product microservice failed
+INFO  03:20:57 Logger in ECommerce
+INFO  03:20:57 fetching products from product microservice
+INFO  03:20:57 User is Searching product by Name
+INFO  03:29:00 Application started. Press Ctrl+C to shut down.
+INFO  03:29:00 Application started. Press Ctrl+C to shut down.
+INFO  03:29:00 Hosting environment: Development
+INFO  03:29:00 Hosting environment: Development
+INFO  03:29:00 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  03:29:00 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  03:29:00 User is logging in
+INFO  03:29:13 User is logging in
+INFO  03:29:13 Login Successful and token generated
+INFO  03:29:13 Logger in ECommerce
+INFO  03:29:13 fetching products from product microservice
+INFO  03:29:14 User is Searching product by Name
+INFO  03:29:21 Logger in ECommerce
+INFO  03:29:21 Adding rating
+INFO  03:29:22 Product microservice failed
+INFO  03:31:08 Application started. Press Ctrl+C to shut down.
+INFO  03:31:08 Application started. Press Ctrl+C to shut down.
+INFO  03:31:08 Hosting environment: Development
+INFO  03:31:08 Hosting environment: Development
+INFO  03:31:08 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  03:31:08 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  03:31:10 Logger in ECommerce
+INFO  03:31:10 fetching products from product microservice
+INFO  03:31:17 User is not logged in
+INFO  03:31:17 User is logging in
+INFO  03:31:35 User is logging in
+INFO  03:31:35 Login Successful and token generated
+INFO  03:31:35 Logger in ECommerce
+INFO  03:31:35 fetching products from product microservice
+INFO  03:31:36 User is Searching product by Name
+INFO  03:58:42 Application started. Press Ctrl+C to shut down.
+INFO  03:58:42 Application started. Press Ctrl+C to shut down.
+INFO  03:58:42 Hosting environment: Development
+INFO  03:58:42 Hosting environment: Development
+INFO  03:58:42 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  03:58:42 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:00:39 Logger in ECommerce
+INFO  04:00:39 fetching products from product microservice
+INFO  04:00:44 User is not logged in
+INFO  04:00:44 User is logging in
+INFO  04:00:52 User is logging in
+INFO  04:00:52 Login Successful and token generated
+INFO  04:00:52 Logger in ECommerce
+INFO  04:00:52 fetching products from product microservice
+INFO  04:00:53 User is Searching product by Name
+INFO  04:02:34 Logger in ECommerce
+INFO  04:02:34 Adding rating
+INFO  04:02:34 Product microservice failed
+INFO  04:36:58 Application started. Press Ctrl+C to shut down.
+INFO  04:36:58 Application started. Press Ctrl+C to shut down.
+INFO  04:36:58 Hosting environment: Development
+INFO  04:36:58 Hosting environment: Development
+INFO  04:36:58 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:36:58 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:37:03 Logger in ECommerce
+INFO  04:37:03 fetching products from product microservice
+INFO  04:37:15 User is not logged in
+INFO  04:37:15 User is logging in
+INFO  04:38:32 User is logging in
+INFO  04:38:32 Login Successful and token generated
+INFO  04:38:32 Logger in ECommerce
+INFO  04:38:32 fetching products from product microservice
+INFO  04:38:33 User is Searching product by Name
+INFO  04:38:40 Logger in ECommerce
+INFO  04:38:40 Adding rating
+INFO  04:38:41 Product microservice failed
+INFO  04:39:32 Application started. Press Ctrl+C to shut down.
+INFO  04:39:32 Application started. Press Ctrl+C to shut down.
+INFO  04:39:32 Hosting environment: Development
+INFO  04:39:32 Hosting environment: Development
+INFO  04:39:32 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:39:32 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:39:35 Logger in ECommerce
+INFO  04:39:35 fetching products from product microservice
+INFO  04:39:35 User is not logged in
+INFO  04:39:35 User is logging in
+INFO  04:39:41 User is logging in
+INFO  04:39:41 Login Successful and token generated
+INFO  04:39:41 Logger in ECommerce
+INFO  04:39:41 fetching products from product microservice
+INFO  04:39:41 User is Searching product by Name
+INFO  04:39:48 Logger in ECommerce
+INFO  04:39:48 Adding rating
+INFO  04:39:48 Product microservice failed
+INFO  04:40:12 Logger in ECommerce
+INFO  04:40:12 fetching products from product microservice
+INFO  04:40:12 User is Searching product by Name
+INFO  04:40:16 Logger in ECommerce
+INFO  04:40:16 fetching products from product microservice
+INFO  04:40:16 User is Searching product by Name
+INFO  04:40:16 fetching products by name from product microservice
+INFO  04:40:20 Logger in ECommerce
+INFO  04:40:20 Adding rating
+INFO  04:40:20 Product microservice failed
+INFO  04:40:55 Logger in ECommerce
+INFO  04:40:55 fetching products from product microservice
+INFO  04:40:56 User is Searching product by Name
+INFO  04:40:56 fetching products by name from product microservice
+INFO  04:46:09 Application started. Press Ctrl+C to shut down.
+INFO  04:46:09 Application started. Press Ctrl+C to shut down.
+INFO  04:46:09 Hosting environment: Development
+INFO  04:46:09 Hosting environment: Development
+INFO  04:46:09 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:46:09 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:46:09 Logger in ECommerce
+INFO  04:46:09 User is not logged in
+INFO  04:46:09 User is logging in
+INFO  04:46:19 User is logging in
+INFO  04:46:19 Login Successful and token generated
+INFO  04:46:19 Logger in ECommerce
+INFO  04:46:19 fetching products from product microservice
+INFO  04:46:19 User is Searching product by Name
+INFO  04:46:28 Logger in ECommerce
+INFO  04:46:28 Adding rating
+INFO  04:46:28 Product microservice failed
+INFO  04:46:48 Application started. Press Ctrl+C to shut down.
+INFO  04:46:48 Application started. Press Ctrl+C to shut down.
+INFO  04:46:48 Hosting environment: Development
+INFO  04:46:48 Hosting environment: Development
+INFO  04:46:48 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:46:48 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  04:46:53 Logger in ECommerce
+INFO  04:46:53 fetching products from product microservice
+INFO  04:46:53 User is not logged in
+INFO  04:46:53 User is logging in
+INFO  04:47:00 User is logging in
+INFO  04:47:01 Login Successful and token generated
+INFO  04:47:01 Logger in ECommerce
+INFO  04:47:01 fetching products from product microservice
+INFO  04:47:01 User is Searching product by Name
+INFO  04:47:07 Logger in ECommerce
+INFO  04:47:07 Adding rating
+INFO  04:47:07 Product microservice failed
+INFO  05:00:43 Application started. Press Ctrl+C to shut down.
+INFO  05:00:43 Application started. Press Ctrl+C to shut down.
+INFO  05:00:43 Hosting environment: Development
+INFO  05:00:43 Hosting environment: Development
+INFO  05:00:43 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:00:43 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:00:53 Logger in ECommerce
+INFO  05:00:53 fetching products from product microservice
+INFO  05:01:01 User is not logged in
+INFO  05:01:01 User is logging in
+INFO  05:01:14 User is logging in
+INFO  05:01:14 Login Successful and token generated
+INFO  05:01:14 Logger in ECommerce
+INFO  05:01:14 fetching products from product microservice
+INFO  05:01:14 User is Searching product by Name
+INFO  05:01:26 Logger in ECommerce
+INFO  05:01:26 Adding rating
+INFO  05:01:26 Product microservice failed
+INFO  05:19:05 Application started. Press Ctrl+C to shut down.
+INFO  05:19:05 Application started. Press Ctrl+C to shut down.
+INFO  05:19:05 Hosting environment: Development
+INFO  05:19:05 Hosting environment: Development
+INFO  05:19:05 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:19:05 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:19:20 Logger in ECommerce
+INFO  05:19:20 fetching products from product microservice
+INFO  05:19:27 User is not logged in
+INFO  05:19:27 User is logging in
+INFO  05:19:40 User is logging in
+INFO  05:19:40 Login Successful and token generated
+INFO  05:19:40 Logger in ECommerce
+INFO  05:19:40 fetching products from product microservice
+INFO  05:19:40 User is Searching product by Name
+INFO  05:19:47 Logger in ECommerce
+INFO  05:19:47 Adding rating
+INFO  05:19:47 Product microservice failed
+INFO  05:27:30 User is logging in
+INFO  05:27:36 User is logging in
+INFO  05:27:37 Login failed
+INFO  05:27:42 User is logging in
+INFO  05:27:42 Login failed
+INFO  05:28:06 User is logging in
+INFO  05:28:06 Login failed
+INFO  05:28:07 User is logging in
+INFO  05:28:07 Login failed
+INFO  05:28:10 User is logging in
+INFO  05:28:10 Login failed
+INFO  05:28:27 Logger in ECommerce
+INFO  05:28:27 fetching products from product microservice
+INFO  05:28:31 User is not logged in
+INFO  05:28:31 User is logging in
+INFO  05:29:05 User is logging in
+INFO  05:29:05 Login failed
+INFO  05:29:06 User is logging in
+INFO  05:29:06 Login failed
+INFO  05:29:14 User is logging in
+INFO  05:29:14 Login Successful and token generated
+INFO  05:29:14 Logger in ECommerce
+INFO  05:29:14 fetching products from product microservice
+INFO  05:29:15 User is Searching product by Name
+INFO  05:29:20 Logger in ECommerce
+INFO  05:29:20 Adding rating
+INFO  05:29:20 Product microservice failed
+INFO  05:42:30 Application started. Press Ctrl+C to shut down.
+INFO  05:42:30 Application started. Press Ctrl+C to shut down.
+INFO  05:42:30 Hosting environment: Development
+INFO  05:42:30 Hosting environment: Development
+INFO  05:42:30 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:42:30 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:42:33 Logger in ECommerce
+INFO  05:42:33 fetching products from product microservice
+INFO  05:42:45 User is not logged in
+INFO  05:42:45 User is logging in
+INFO  05:42:53 User is logging in
+INFO  05:42:53 Login Successful and token generated
+INFO  05:42:53 Logger in ECommerce
+INFO  05:42:53 fetching products from product microservice
+INFO  05:42:53 User is Searching product by Name
+INFO  05:43:00 Logger in ECommerce
+INFO  05:43:00 Adding rating
+INFO  05:43:00 Logger in ECommerce
+INFO  05:43:00 fetching products from product microservice
+INFO  05:43:00 User is Searching product by Name
+INFO  05:43:12 Logger in ECommerce
+INFO  05:43:12 Adding rating
+INFO  05:43:12 Logger in ECommerce
+INFO  05:43:12 fetching products from product microservice
+INFO  05:43:12 User is Searching product by Name
+INFO  05:43:16 Logger in ECommerce
+INFO  05:43:16 Adding rating
+INFO  05:43:16 Logger in ECommerce
+INFO  05:43:16 fetching products from product microservice
+INFO  05:43:16 User is Searching product by Name
+INFO  05:44:52 Application started. Press Ctrl+C to shut down.
+INFO  05:44:52 Application started. Press Ctrl+C to shut down.
+INFO  05:44:52 Hosting environment: Development
+INFO  05:44:52 Hosting environment: Development
+INFO  05:44:52 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:44:52 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:44:52 Logger in ECommerce
+INFO  05:44:52 Logger in ECommerce
+INFO  05:44:52 fetching products from product microservice
+INFO  05:44:52 fetching products from product microservice
+INFO  05:44:53 User is not logged in
+INFO  05:44:53 User is not logged in
+INFO  05:44:53 User is logging in
+INFO  05:44:59 User is logging in
+INFO  05:44:59 Login Successful and token generated
+INFO  05:44:59 Logger in ECommerce
+INFO  05:44:59 fetching products from product microservice
+INFO  05:44:59 User is Searching product by Name
+INFO  05:45:08 Logger in ECommerce
+INFO  05:45:08 fetching products from product microservice
+INFO  05:45:08 User is Searching product by Name
+INFO  05:45:08 fetching products by name from product microservice
+INFO  05:45:11 Logger in ECommerce
+INFO  05:45:11 Adding rating
+INFO  05:45:11 Logger in ECommerce
+INFO  05:45:11 fetching products from product microservice
+INFO  05:45:11 User is Searching product by Name
+INFO  05:52:27 Application started. Press Ctrl+C to shut down.
+INFO  05:52:27 Application started. Press Ctrl+C to shut down.
+INFO  05:52:27 Hosting environment: Development
+INFO  05:52:27 Hosting environment: Development
+INFO  05:52:27 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:52:27 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:52:27 Logger in ECommerce
+INFO  05:52:27 fetching products from product microservice
+INFO  05:52:28 User is not logged in
+INFO  05:52:28 User is logging in
+INFO  05:52:36 User is logging in
+INFO  05:52:36 Login Successful and token generated
+INFO  05:52:36 Logger in ECommerce
+INFO  05:52:36 fetching products from product microservice
+INFO  05:52:36 User is Searching product by Name
+INFO  05:52:47 Logger in ECommerce
+INFO  05:52:47 fetching products from product microservice
+INFO  05:52:47 User is Searching product by Name
+INFO  05:52:47 fetching products by name from product microservice
+INFO  05:54:33 Application started. Press Ctrl+C to shut down.
+INFO  05:54:33 Application started. Press Ctrl+C to shut down.
+INFO  05:54:33 Hosting environment: Development
+INFO  05:54:33 Hosting environment: Development
+INFO  05:54:33 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:54:33 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:54:35 Logger in ECommerce
+INFO  05:54:35 User is not logged in
+INFO  05:54:35 User is logging in
+INFO  05:54:42 User is logging in
+INFO  05:54:42 Login Successful and token generated
+INFO  05:54:42 Logger in ECommerce
+INFO  05:54:42 User is seeing products
+INFO  05:54:42 fetching products from product microservice
+INFO  05:54:48 Logger in ECommerce
+INFO  05:54:48 fetching products from product microservice
+INFO  05:54:48 User is Searching product by Name
+INFO  05:54:48 fetching products by name from product microservice
+INFO  05:54:55 Logger in ECommerce
+INFO  05:54:55 Adding rating
+INFO  05:54:55 Logger in ECommerce
+INFO  05:54:55 User is seeing products
+INFO  05:54:55 fetching products from product microservice
+INFO  05:57:21 Application started. Press Ctrl+C to shut down.
+INFO  05:57:21 Application started. Press Ctrl+C to shut down.
+INFO  05:57:21 Hosting environment: Development
+INFO  05:57:21 Hosting environment: Development
+INFO  05:57:21 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:57:21 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  05:57:21 Logger in ECommerce
+INFO  05:57:21 fetching products from product microservice
+INFO  05:57:22 User is not logged in
+INFO  05:57:22 User is logging in
+INFO  05:57:30 User is logging in
+INFO  05:57:30 Login Successful and token generated
+INFO  05:57:30 Logger in ECommerce
+INFO  05:57:30 User is seeing products
+INFO  05:57:30 fetching products from product microservice
+INFO  05:57:36 Logger in ECommerce
+INFO  05:57:36 fetching products from product microservice
+INFO  05:57:36 User is Searching product by Name
+INFO  05:57:36 fetching products by name from product microservice
+INFO  06:01:25 Application started. Press Ctrl+C to shut down.
+INFO  06:01:25 Application started. Press Ctrl+C to shut down.
+INFO  06:01:25 Hosting environment: Development
+INFO  06:01:25 Hosting environment: Development
+INFO  06:01:25 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  06:01:25 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  06:01:25 User is logging in
+INFO  06:01:36 User is logging in
+INFO  06:01:36 Login Successful and token generated
+INFO  06:01:36 Logger in ECommerce
+INFO  06:01:36 User is seeing products
+INFO  06:01:36 fetching products from product microservice
+INFO  06:01:42 Logger in ECommerce
+INFO  06:01:42 fetching products from product microservice
+INFO  06:01:42 User is Searching product by Name
+INFO  06:01:42 fetching products by name from product microservice
+INFO  06:02:21 Logger in ECommerce
+INFO  06:02:21 fetching products from product microservice
+INFO  06:02:21 User is Searching product by Name
+INFO  06:02:21 fetching products by name from product microservice
+INFO  06:02:25 Application started. Press Ctrl+C to shut down.
+INFO  06:02:25 Application started. Press Ctrl+C to shut down.
+INFO  06:02:25 Hosting environment: Development
+INFO  06:02:25 Hosting environment: Development
+INFO  06:02:25 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  06:02:25 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  06:02:25 User is logging in
+INFO  06:02:35 User is logging in
+INFO  06:02:35 Login Successful and token generated
+INFO  06:02:35 Logger in ECommerce
+INFO  06:02:35 User is seeing products
+INFO  06:02:35 fetching products from product microservice
+INFO  06:02:41 Logger in ECommerce
+INFO  06:02:41 fetching products from product microservice
+INFO  06:02:41 User is Searching product by Name
+INFO  06:02:41 fetching products by name from product microservice
+INFO  06:04:39 Application started. Press Ctrl+C to shut down.
+INFO  06:04:39 Application started. Press Ctrl+C to shut down.
+INFO  06:04:39 Hosting environment: Development
+INFO  06:04:39 Hosting environment: Development
+INFO  06:04:39 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  06:04:39 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  06:04:39 Logger in ECommerce
+INFO  06:04:39 fetching products from product microservice
+INFO  06:04:39 User is not logged in
+INFO  06:04:40 User is logging in
+INFO  06:04:51 User is logging in
+INFO  06:04:51 Login Successful and token generated
+INFO  06:04:51 Logger in ECommerce
+INFO  06:04:51 User is seeing products
+INFO  06:04:51 fetching products from product microservice
+INFO  06:04:58 Logger in ECommerce
+INFO  06:04:58 fetching products from product microservice
+INFO  06:04:58 User is Searching product by Name
+INFO  06:04:58 fetching products by name from product microservice
+INFO  06:08:20 Application started. Press Ctrl+C to shut down.
+INFO  06:08:20 Application started. Press Ctrl+C to shut down.
+INFO  06:08:20 Hosting environment: Development
+INFO  06:08:20 Hosting environment: Development
+INFO  06:08:20 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  06:08:20 Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal
+INFO  06:08:20 Logger in ECommerce
+INFO  06:08:20 fetching products from product microservice
+INFO  06:08:20 User is not logged in
+INFO  06:08:20 User is logging in
+INFO  06:08:29 User is logging in
+INFO  06:08:29 Login Successful and token generated
+INFO  06:08:29 Logger in ECommerce
+INFO  06:08:29 User is seeing products
+INFO  06:08:29 fetching products from product microservice

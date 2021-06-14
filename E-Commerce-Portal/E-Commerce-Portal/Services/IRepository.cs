@@ -15,6 +15,8 @@ namespace E_Commerce_Portal.Services
 
         public List<Product> GetProductsById(string token, int id);
 
+        public Boolean AddRating(string token, int Id, int rating);
+
         public List<Cart> GetCarts();
 
         public List<Vendor> GetVendors();

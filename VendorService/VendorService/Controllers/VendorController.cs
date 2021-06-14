@@ -12,7 +12,7 @@ using VendorService.Repository;
 
 namespace VendorService.Controllers
 {
-    [Authorize]
+    
     [Route("api/[controller]")]
     [ApiController]
     public class VendorController : ControllerBase

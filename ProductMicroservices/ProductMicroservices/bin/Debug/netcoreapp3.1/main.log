@@ -792,3 +792,1117 @@ System.ArgumentNullException: String reference not set to an instance of a Strin
 2021-06-14 11:16:11,672 [53] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
 2021-06-14 11:16:11,686 [50] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
 2021-06-14 11:16:11,687 [50] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 11:39:11,696 [58] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 11:39:11,697 [58] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 11:39:37,826 [59] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 11:39:37,826 [59] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 11:39:37,836 [62] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 11:39:37,838 [62] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 13:12:23,985 [69] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:12:23,988 [69] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 13:12:34,915 [73] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:12:34,915 [73] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 13:12:34,926 [73] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:12:34,927 [73] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 14:21:10,120 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 14:21:10,149 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 14:21:10,151 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 14:21:10,151 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 14:21:10,151 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 14:21:10,151 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 14:21:42,761 [14] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 14:21:42,762 [14] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 14:21:50,162 [17] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:21:50,164 [17] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 14:22:08,561 [5] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:22:08,562 [5] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 14:22:08,687 [17] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:22:08,697 [17] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 14:34:38,116 [13] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:34:38,116 [13] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 14:35:02,569 [10] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:35:02,570 [10] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 14:35:02,587 [9] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:35:02,588 [9] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 14:35:09,747 [9] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:35:09,748 [9] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 14:35:09,771 [9] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:35:09,772 [9] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
+2021-06-14 14:35:17,070 [13] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:35:17,071 [13] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 14:35:17,085 [10] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:35:17,086 [10] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
+2021-06-14 14:35:29,114 [13] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:35:29,115 [13] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 14:35:29,129 [9] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:35:29,130 [9] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 14:35:34,434 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:35:34,434 [4] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 14:35:34,447 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:35:34,448 [4] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 14:37:07,871 [17] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:37:07,872 [17] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 14:37:15,963 [20] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:37:15,963 [20] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 14:37:15,978 [17] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:37:15,980 [17] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
+2021-06-14 14:37:19,381 [20] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:37:19,382 [20] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 14:37:19,398 [20] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:37:19,399 [20] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 14:37:19,727 [19] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:37:19,727 [19] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 14:37:20,689 [20] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:37:20,689 [20] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 14:37:23,482 [17] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:37:23,482 [17] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 14:37:23,500 [20] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:37:23,501 [20] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 14:37:33,792 [20] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:37:33,792 [20] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 14:37:33,805 [21] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 14:37:33,806 [21] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 15:03:47,214 [26] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:03:47,215 [26] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:04:41,185 [31] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:04:41,185 [31] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:06:20,386 [34] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:06:20,386 [34] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:06:26,215 [36] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:06:26,215 [36] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:10:09,611 [40] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:10:09,611 [40] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:10:12,977 [41] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:10:12,978 [41] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:10:13,991 [40] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:10:13,992 [40] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:10:14,830 [40] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:10:14,830 [40] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:10:16,029 [41] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:10:16,029 [41] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:10:50,887 [46] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:10:50,887 [46] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:10:57,576 [45] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:10:57,589 [45] INFO ProductMicroservices.Controllers.ProductController - Added Rating to the Product
+2021-06-14 15:10:58,195 [45] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 95
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 15:10:58,200 [45] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 95
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 15:12:01,547 [51] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:12:01,547 [51] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:12:08,373 [50] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:12:08,374 [50] INFO ProductMicroservices.Controllers.ProductController - Added Rating to the Product
+2021-06-14 15:12:08,384 [50] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 95
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 15:12:08,386 [50] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 95
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 15:12:08,406 [50] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:12:08,406 [50] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:12:16,288 [51] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:12:16,294 [51] INFO ProductMicroservices.Controllers.ProductController - Added Rating to the Product
+2021-06-14 15:12:16,300 [51] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 95
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 15:12:16,301 [51] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 95
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 15:12:16,322 [51] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:12:16,322 [51] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:12:20,915 [49] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:12:20,917 [49] INFO ProductMicroservices.Controllers.ProductController - Added Rating to the Product
+2021-06-14 15:12:20,921 [49] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 95
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 15:12:20,922 [49] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 95
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 15:12:20,944 [52] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:12:20,944 [52] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:12:40,712 [51] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:12:40,714 [51] INFO ProductMicroservices.Controllers.ProductController - Added Rating to the Product
+2021-06-14 15:12:40,718 [51] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 95
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 15:12:40,718 [51] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 95
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 15:12:40,745 [51] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:12:40,745 [51] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:12:46,367 [52] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:12:46,374 [52] INFO ProductMicroservices.Controllers.ProductController - Added Rating to the Product
+2021-06-14 15:12:46,378 [52] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 95
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 15:12:46,379 [52] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 95
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 15:12:46,398 [49] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:12:46,398 [49] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:12:59,310 [52] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:12:59,310 [52] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:12:59,315 [52] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:12:59,318 [52] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 15:20:43,442 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 15:20:43,452 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 15:20:43,453 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 15:20:43,453 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 15:20:43,453 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 15:20:43,453 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 15:20:43,504 [4] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 15:20:43,504 [4] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 15:20:44,072 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:20:44,073 [4] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:20:45,395 [10] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:20:45,406 [10] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 15:20:53,817 [10] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:20:53,939 [10] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int32.Parse(String s)
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(String id, String rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 85
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 15:20:53,943 [10] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int32.Parse(String s)
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(String id, String rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 85
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 15:20:53,968 [12] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:20:53,968 [12] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:20:57,871 [10] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:20:57,882 [10] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int32.Parse(String s)
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(String id, String rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 85
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 15:20:57,883 [10] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int32.Parse(String s)
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(String id, String rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 85
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 15:20:57,925 [10] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:20:57,925 [10] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:21:14,586 [15] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:21:14,597 [15] INFO ProductMicroservices.Controllers.ProductController - Added Rating to the Product
+2021-06-14 15:21:24,834 [12] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:21:24,841 [12] INFO ProductMicroservices.Controllers.ProductController - Added Rating to the Product
+2021-06-14 15:21:53,740 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 15:21:53,754 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 15:21:53,755 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 15:21:53,755 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 15:21:53,755 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 15:21:53,755 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 15:21:53,828 [4] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 15:21:53,828 [4] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 15:21:54,044 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:21:54,046 [4] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:29:13,862 [15] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:29:13,863 [15] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:29:21,895 [17] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:29:22,064 [17] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int32.Parse(String s)
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(String id, String rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 85
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 15:29:22,074 [17] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int32.Parse(String s)
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(String id, String rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 85
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 15:31:14,209 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 15:31:14,222 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 15:31:14,252 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 15:31:14,252 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 15:31:14,252 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 15:31:14,252 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 15:31:14,316 [10] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 15:31:14,316 [10] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 15:31:14,612 [10] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:31:14,613 [10] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 15:31:36,241 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 15:31:36,242 [4] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 16:00:40,097 [16] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 16:00:40,098 [16] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 16:00:52,990 [18] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 16:00:52,990 [18] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 16:02:34,688 [21] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 16:02:34,795 [21] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int32.Parse(String s)
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(String id, String rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 85
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 16:02:34,808 [21] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.Int32.Parse(String s)
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(String id, String rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 85
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 16:37:07,447 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 16:37:07,461 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 16:37:07,462 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 16:37:07,462 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 16:37:07,462 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 16:37:07,462 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 16:37:07,544 [10] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 16:37:07,544 [10] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 16:37:07,806 [10] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 16:37:07,808 [10] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 16:38:32,931 [6] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 16:38:32,932 [6] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 16:38:40,661 [14] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 16:38:40,686 [14] INFO ProductMicroservices.Controllers.ProductController - Added Rating to the Product
+2021-06-14 16:38:41,013 [14] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 94
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 16:38:41,020 [14] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 94
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 16:39:35,282 [12] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 16:39:35,283 [12] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 16:39:41,655 [11] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 16:39:41,655 [11] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 16:39:48,383 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 16:39:48,392 [4] INFO ProductMicroservices.Controllers.ProductController - Added Rating to the Product
+2021-06-14 16:39:48,415 [4] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 94
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 16:39:48,417 [4] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 94
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 16:40:12,282 [16] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 16:40:12,283 [16] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 16:40:16,643 [17] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 16:40:16,644 [17] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 16:40:16,667 [17] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 16:40:16,671 [17] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 16:40:20,554 [16] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 16:40:20,561 [16] INFO ProductMicroservices.Controllers.ProductController - Added Rating to the Product
+2021-06-14 16:40:20,574 [16] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 94
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 16:40:20,576 [16] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 94
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 16:40:55,987 [19] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 16:40:55,987 [19] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 16:40:56,008 [21] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 16:40:56,015 [21] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 16:46:19,727 [26] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 16:46:19,727 [26] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 16:46:28,695 [27] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 16:46:28,700 [27] INFO ProductMicroservices.Controllers.ProductController - Added Rating to the Product
+2021-06-14 16:46:28,709 [27] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 94
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 16:46:28,711 [27] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 94
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 16:46:53,565 [27] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 16:46:53,565 [27] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 16:47:01,047 [29] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 16:47:01,048 [29] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 16:47:07,240 [27] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 16:47:07,244 [27] INFO ProductMicroservices.Controllers.ProductController - Added Rating to the Product
+2021-06-14 16:47:07,251 [27] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 94
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 16:47:07,252 [27] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 94
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 16:57:25,888 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 16:57:25,909 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 16:57:25,910 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 16:57:25,910 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 16:57:25,910 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 16:57:25,910 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 17:00:53,304 [6] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 17:00:53,304 [6] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 17:00:53,710 [6] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:00:53,712 [6] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:01:14,683 [6] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:01:14,683 [6] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:14:57,035 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 17:14:57,048 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 17:14:57,050 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 17:14:57,050 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 17:14:57,050 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 17:14:57,050 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 17:19:20,654 [5] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 17:19:20,654 [5] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 17:19:20,851 [5] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:19:20,852 [5] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:19:40,406 [14] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:19:40,407 [14] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:19:47,590 [5] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:19:47,615 [5] INFO ProductMicroservices.Controllers.ProductController - Added Rating to the Product
+2021-06-14 17:19:47,768 [5] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 94
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 17:19:47,772 [5] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 94
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 17:28:30,240 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 17:28:30,254 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 17:28:30,255 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 17:28:30,255 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 17:28:30,255 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 17:28:30,255 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 17:28:30,323 [4] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 17:28:30,323 [4] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 17:28:30,521 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:28:30,522 [4] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:29:15,097 [6] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:29:15,097 [6] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:29:20,751 [15] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:29:20,779 [15] INFO ProductMicroservices.Controllers.ProductController - Added Rating to the Product
+2021-06-14 17:29:20,929 [15] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 94
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 17:29:20,933 [15] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductMicroservices.Repository.ProductRepository.AddProductRating(Int32 Id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Repository\ProductRepository.cs:line 35
+   at ProductMicroservices.Controllers.ProductController.PostAddRating(Int32 id, Int32 rating) in C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices\Controllers\ProductController.cs:line 94
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-14 17:42:38,538 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 17:42:38,555 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 17:42:38,557 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 17:42:38,557 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 17:42:38,557 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 17:42:38,557 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 17:42:38,633 [9] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 17:42:38,633 [9] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 17:42:38,953 [9] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:42:38,956 [9] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:42:53,676 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:42:53,676 [4] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:43:00,506 [9] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:43:00,539 [9] INFO ProductMicroservices.Controllers.ProductController - Added Rating to the Product
+2021-06-14 17:43:00,769 [9] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:43:00,769 [9] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:43:12,949 [8] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:43:12,954 [8] INFO ProductMicroservices.Controllers.ProductController - Added Rating to the Product
+2021-06-14 17:43:12,996 [12] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:43:12,996 [12] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:43:16,068 [12] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:43:16,072 [12] INFO ProductMicroservices.Controllers.ProductController - Added Rating to the Product
+2021-06-14 17:43:16,109 [10] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:43:16,110 [10] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:44:53,114 [13] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:44:53,114 [13] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:44:53,117 [14] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:44:53,117 [14] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:44:59,817 [13] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:44:59,818 [13] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:45:08,078 [14] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:45:08,078 [14] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:45:08,097 [16] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:45:08,098 [16] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 17:45:11,427 [15] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:45:11,431 [15] INFO ProductMicroservices.Controllers.ProductController - Added Rating to the Product
+2021-06-14 17:45:11,465 [13] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:45:11,465 [13] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:52:27,982 [20] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:52:27,982 [20] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:52:36,640 [20] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:52:36,640 [20] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:52:47,903 [20] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:52:47,903 [20] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:52:47,920 [21] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:52:47,921 [21] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 17:54:42,425 [25] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:54:42,426 [25] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:54:48,969 [27] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:54:48,969 [27] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:54:48,983 [26] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:54:48,985 [26] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 17:54:55,342 [26] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:54:55,345 [26] INFO ProductMicroservices.Controllers.ProductController - Added Rating to the Product
+2021-06-14 17:54:55,397 [27] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:54:55,398 [27] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:57:21,954 [31] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:57:21,954 [31] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:57:30,685 [31] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:57:30,685 [31] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:57:36,157 [33] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:57:36,157 [33] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 17:57:36,169 [30] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 17:57:36,170 [30] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 18:01:36,452 [36] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 18:01:36,452 [36] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 18:01:42,774 [39] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 18:01:42,775 [39] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 18:01:42,787 [37] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 18:01:42,788 [37] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 18:02:21,715 [40] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 18:02:21,715 [40] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 18:02:21,832 [40] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 18:02:21,832 [40] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 18:02:35,631 [41] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 18:02:35,631 [41] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 18:02:41,379 [40] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 18:02:41,379 [40] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 18:02:41,393 [40] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 18:02:41,394 [40] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 18:04:39,648 [45] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 18:04:39,648 [45] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 18:04:51,146 [48] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 18:04:51,146 [48] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 18:04:58,410 [47] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 18:04:58,410 [47] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 18:04:58,415 [46] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 18:04:58,416 [46] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 18:08:20,354 [51] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 18:08:20,354 [51] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 18:08:29,592 [54] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 18:08:29,592 [54] INFO ProductMicroservices.Controllers.ProductController - Loading all available product

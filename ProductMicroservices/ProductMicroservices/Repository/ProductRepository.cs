@@ -39,16 +39,16 @@ namespace ProductMicroservices.Repository
 
         }
 
-        public Product SearchProductByID(int Id)
+        public IEnumerable<Product> SearchProductByID(int Id)
         {
 
-            Product p = _dbContext.Products.Find(Id);
+            IEnumerable<Product> p = _dbContext.Products.Where(x => x.Id == Id);
             return p;
         }
 
-        public Product SearchProductByName(string name)
+        public IEnumerable<Product> SearchProductByName(string name)
         {
-            Product P = _dbContext.Products.FirstOrDefault(x => x.Name == name);
+            IEnumerable<Product> P = _dbContext.Products.Where(x => x.Name == name);
             return P;
         }
 

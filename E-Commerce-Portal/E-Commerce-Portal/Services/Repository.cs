@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using Newtonsoft.Json;
+using System.Text;
 
 namespace E_Commerce_Portal.Services
 {
@@ -19,11 +21,6 @@ namespace E_Commerce_Portal.Services
         private readonly string productURI;
 
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger("log");
-
-       /* private static List<Product> products = new List<Product> {
-            new Product() {Id = 1, Price = 20000, Name = "Iphone", Description="Some example text.", Image_Name="1.jfif", Rating=2 },
-            new Product() {Id = 2, Price = 2000, Name = "Bracelet", Description="Some example text.", Image_Name="1.jfif", Rating=3 }
-        };*/
 
         private readonly static List<Vendor> vendors = new List<Vendor> {
             new Vendor() {VendorId = 1, VendorName = "Ekart", DeliveryCharge = 50, Rating=2 },
@@ -99,7 +96,7 @@ namespace E_Commerce_Portal.Services
                     httpClient.DefaultRequestHeaders.Accept.Clear();
                     httpClient.DefaultRequestHeaders.Add("Authorization", bearer);
 
-                    var response = httpClient.GetAsync("GetByName/Iphone");
+                    var response = httpClient.GetAsync("GetByName/"+name);
 
                     response.Wait();
                     var result = response.Result;
@@ -163,6 +160,50 @@ namespace E_Commerce_Portal.Services
                 }
             }
             return productsById;
+        }
+
+        // add rating
+
+        public Boolean AddRating(string token,int id, int rating)
+        {
+            _log4net.Info("Adding rating");
+
+
+            string bearer = String.Format("Bearer {0}", token);
+
+            using (var httpClient = new HttpClient())
+            {
+                httpClient.BaseAddress = new Uri(productURI);
+                try
+                {
+                    httpClient.DefaultRequestHeaders.Accept.Clear();
+                    httpClient.DefaultRequestHeaders.Add("Authorization", bearer);
+
+                    var pocoObject = new
+                    {
+                        Id = id,
+                        rating = rating
+                    };
+
+
+                    var response = httpClient.PostAsJsonAsync("AddProductRating",pocoObject);
+
+                    response.Wait();
+                    var result = response.Result;
+
+                    if (!result.IsSuccessStatusCode)
+                    {
+                        _log4net.Info("Product microservice failed");
+                        return false;
+                    }
+
+                }
+                catch (Exception)
+                {
+                    _log4net.Error("Product Microservice is Down!!");
+                }
+                return true;
+            }
         }
 
 

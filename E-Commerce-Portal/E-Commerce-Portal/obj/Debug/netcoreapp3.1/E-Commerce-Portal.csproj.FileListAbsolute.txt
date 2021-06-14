@@ -129,3 +129,4 @@ C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Co
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Index.cshtml.g.cs
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\zinga\Documents\GitHub\Retail-Product-Management\E-Commerce-Portal\E-Commerce-Portal\obj\Debug\netcoreapp3.1\Razor\Views\ECommerce\Details.cshtml.g.cs

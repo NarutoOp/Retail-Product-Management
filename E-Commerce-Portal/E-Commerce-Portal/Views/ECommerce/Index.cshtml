@@ -6,9 +6,13 @@
 }
 
 
-<form method="get" asp-action="Index">
+<form method="get" asp-action="Search">
 
-    <input type="search" placeholder="Enter Product Name ..." name="productName" />
+    <select name="option">
+        <option value="1">Search By Name</option>
+        <option value="2">Search By Id</option>
+    </select>
+    <input type="search" placeholder="Enter Product Name ..." name="productNameOrId" />
     <input type="submit" class="btn-sm btn-primary" />
 
 </form>
@@ -23,22 +27,11 @@
             <div class="card">
                 <img class="card-img-top" src="@("~/image/"+item.Image_Name)" asp-append-version="true" alt="Card image">
                 <div class="card-body">
+                    <h3 class="card-title float-sm-right">@item.Rating <span>&#9734;</span></h3>
                     <h4 class="card-title">@item.Name</h4>
                     <h4 class="card-title"><span>&#8377;</span>@item.Price</h4>
                     <p class="card-text">@item.Description</p>
 
-                    <div class="rate">
-                        <input type="radio" id="star5" name="rate" value="5" />
-                        <label for="star5" title="text">5 stars</label>
-                        <input type="radio" id="star4" name="rate" value="4" />
-                        <label for="star4" title="text">4 stars</label>
-                        <input type="radio" id="star3" name="rate" value="3" />
-                        <label for="star3" title="text">3 stars</label>
-                        <input type="radio" id="star2" name="rate" value="2" />
-                        <label for="star2" title="text">2 stars</label>
-                        <input type="radio" id="star1" name="rate" value="1" />
-                        <label for="star1" title="text">1 star</label>
-                    </div>
                     <a class="btn btn-primary" asp-controller="Cart" asp-action="AddToCart" asp-route-Id="@item.Id">Proceed To Buy</a>
                 </div>
             </div>

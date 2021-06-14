@@ -32,7 +32,7 @@ namespace ProductMicroservices.Controllers
 
         // GET api/<ProductController>
         [HttpGet("GetAll")]
-        [Authorize]
+
         public IActionResult GetAll()
         {
             _log4net.Info("Loading all available product");
@@ -80,10 +80,9 @@ namespace ProductMicroservices.Controllers
 
         // POST api/<ProductController>
         [HttpPost("AddProductRating")]
-        [Authorize]
-        public IActionResult PostAddRating(int id,int rating)
+        public IActionResult PostAddRating(JsonData data)
         {
-            var product = _productRepository.SearchProductByID(id);
+            var product = _productRepository.SearchProductByID(data.Id);
             if (product == null)
             {
                 _log4net.Error("Product not found for the given productID...no rating added");
@@ -92,7 +91,7 @@ namespace ProductMicroservices.Controllers
             else
             {
                 _log4net.Info("Added Rating to the Product");
-                _productRepository.AddProductRating(id, rating);
+                _productRepository.AddProductRating(data.Id, data.rating);
             }
             return Ok("Success");
 
