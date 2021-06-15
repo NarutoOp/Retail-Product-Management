@@ -27,8 +27,13 @@ namespace VendorService.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     b.Property<double>("DeliveryCharge")
                         .HasColumnType("float");
+=======
+                    b.Property<int>("DeliveryCharge")
+                        .HasColumnType("int");
+>>>>>>> Stashed changes
 =======
                     b.Property<int>("DeliveryCharge")
                         .HasColumnType("int");
@@ -38,8 +43,13 @@ namespace VendorService.Migrations
                         .HasColumnType("nvarchar(max)");
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     b.Property<double>("Rating")
                         .HasColumnType("float");
+=======
+                    b.Property<int>("Rating")
+                        .HasColumnType("int");
+>>>>>>> Stashed changes
 =======
                     b.Property<int>("Rating")
                         .HasColumnType("int");
@@ -49,7 +59,10 @@ namespace VendorService.Migrations
 
                     b.ToTable("Vendor");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 
                     b.HasData(
                         new
@@ -66,6 +79,9 @@ namespace VendorService.Migrations
                             Name = "HydMotoShop",
                             Rating = 4
                         });
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 });
 
@@ -94,7 +110,10 @@ namespace VendorService.Migrations
 
                     b.ToTable("VendorStock");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 
                     b.HasData(
                         new
@@ -113,6 +132,9 @@ namespace VendorService.Migrations
                             ReplinshmentDate = new DateTime(2021, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             VendorId = 201
                         });
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
                 });
 
