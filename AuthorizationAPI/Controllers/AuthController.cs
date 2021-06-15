@@ -37,6 +37,7 @@ namespace AuthorizationAPI.Controllers
         public IActionResult Login([FromBody] UserCredentials login)
         {
             AuthRepo auth_repo = new AuthRepo(_config,repo);
+            UserToken userToken = new UserToken();
             _log4net.Info("Login initiated!");
             IActionResult response = Unauthorized();
             //login.FullName = "user1";
@@ -49,10 +50,14 @@ namespace AuthorizationAPI.Controllers
             {
                 var tokenString = auth_repo.GenerateJSONWebToken(user);
                 /*response = Ok(new { token = tokenString });*/
-                response = Ok(tokenString);
+
+                userToken.Id = user.Id;
+                userToken.Username = user.Username;
+                userToken.Token = tokenString;
+
             }
 
-            return response;
+            return new OkObjectResult(userToken);
         }
 
         

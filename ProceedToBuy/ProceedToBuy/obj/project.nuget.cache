@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "zAaRuEnVoF38NjyJNZ1DHmC5tyeDdMoOb0TwHmNsaRle6Gp4moLYFeil40zLLvSdk01MBUR500FzW4euFzCkKg==",
+=======
+  "dgSpecHash": "9rB+EwwytvnORtGe7hsXd7O+/B5ZlagDduae2cK1al/8/6slIP7+df5BWCDYbSBUq14nvIzI8ezI/xgdZqRbfg==",
+>>>>>>> Stashed changes
   "success": true,
   "projectFilePath": "C:\\Users\\zinga\\Documents\\GitHub\\Retail-Product-Management\\ProceedToBuy\\ProceedToBuy\\ProceedToBuy.csproj",
   "expectedPackageFiles": [
@@ -15,6 +19,10 @@
     "C:\\Users\\zinga\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.7\\microsoft.entityframeworkcore.abstractions.5.0.7.nupkg.sha512",
     "C:\\Users\\zinga\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.7\\microsoft.entityframeworkcore.analyzers.5.0.7.nupkg.sha512",
     "C:\\Users\\zinga\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.7\\microsoft.entityframeworkcore.design.5.0.7.nupkg.sha512",
+<<<<<<< Updated upstream
+=======
+    "C:\\Users\\zinga\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.7\\microsoft.entityframeworkcore.inmemory.5.0.7.nupkg.sha512",
+>>>>>>> Stashed changes
     "C:\\Users\\zinga\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.7\\microsoft.entityframeworkcore.relational.5.0.7.nupkg.sha512",
     "C:\\Users\\zinga\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.7\\microsoft.entityframeworkcore.sqlserver.5.0.7.nupkg.sha512",
     "C:\\Users\\zinga\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.7\\microsoft.entityframeworkcore.tools.5.0.7.nupkg.sha512",

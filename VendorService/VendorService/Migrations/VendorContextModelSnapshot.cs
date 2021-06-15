@@ -26,18 +26,47 @@ namespace VendorService.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+<<<<<<< Updated upstream
                     b.Property<double>("DeliveryCharge")
                         .HasColumnType("float");
+=======
+                    b.Property<int>("DeliveryCharge")
+                        .HasColumnType("int");
+>>>>>>> Stashed changes
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
+<<<<<<< Updated upstream
                     b.Property<double>("Rating")
                         .HasColumnType("float");
+=======
+                    b.Property<int>("Rating")
+                        .HasColumnType("int");
+>>>>>>> Stashed changes
 
                     b.HasKey("Id");
 
                     b.ToTable("Vendor");
+<<<<<<< Updated upstream
+=======
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 201,
+                            DeliveryCharge = 45,
+                            Name = "DelhiMotoShop",
+                            Rating = 5
+                        },
+                        new
+                        {
+                            Id = 202,
+                            DeliveryCharge = 50,
+                            Name = "HydMotoShop",
+                            Rating = 4
+                        });
+>>>>>>> Stashed changes
                 });
 
             modelBuilder.Entity("VendorService.Models.VendorStock", b =>
@@ -64,6 +93,27 @@ namespace VendorService.Migrations
                     b.HasIndex("VendorId");
 
                     b.ToTable("VendorStock");
+<<<<<<< Updated upstream
+=======
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            HandInStocks = 24,
+                            ProductId = 101,
+                            ReplinshmentDate = new DateTime(2021, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            VendorId = 201
+                        },
+                        new
+                        {
+                            Id = 2,
+                            HandInStocks = 24,
+                            ProductId = 1,
+                            ReplinshmentDate = new DateTime(2021, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            VendorId = 201
+                        });
+>>>>>>> Stashed changes
                 });
 
             modelBuilder.Entity("VendorService.Models.VendorStock", b =>

@@ -38,7 +38,6 @@ namespace E_Commerce_Portal.Controllers
             _log4net.Info("User is logging in");
             
 
-            /*Login loginCred = new Login();*/
             string tokenURI = configuration.GetValue<string>("MyLinkValue:tokenUri");
 
             using (var httpClient = new HttpClient())
@@ -58,10 +57,10 @@ namespace E_Commerce_Portal.Controllers
                     string strtoken = await response.Content.ReadAsStringAsync();
 
 
-                    /*loginCred = JsonConvert.DeserializeObject<Login>(strtoken);*/
+
                     string userName = cred.Username;
                     int userId = cred.Id;
-                    /*token = strtoken;*/
+
                     HttpContext.Session.SetString("token", strtoken);
                     HttpContext.Session.SetString("user", JsonConvert.SerializeObject(cred));
                     HttpContext.Session.SetString("owner", userName);

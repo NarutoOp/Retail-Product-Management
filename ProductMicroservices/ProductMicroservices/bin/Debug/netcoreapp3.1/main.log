@@ -792,6 +792,7 @@ System.ArgumentNullException: String reference not set to an instance of a Strin
 2021-06-14 11:16:11,672 [53] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
 2021-06-14 11:16:11,686 [50] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
 2021-06-14 11:16:11,687 [50] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+<<<<<<< Updated upstream
 2021-06-14 11:39:11,696 [58] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
 2021-06-14 11:39:11,697 [58] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
 2021-06-14 11:39:37,826 [59] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
@@ -1906,3 +1907,441 @@ System.NullReferenceException: Object reference not set to an instance of an obj
 2021-06-14 18:08:20,354 [51] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
 2021-06-14 18:08:29,592 [54] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
 2021-06-14 18:08:29,592 [54] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+=======
+2021-06-14 11:30:36,922 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 11:30:36,940 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 11:30:36,944 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 11:30:36,944 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 11:30:36,947 [1] INFO Microsoft.Hosting.Lifetime - Content root path: E:\Module\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 11:30:36,947 [1] INFO Microsoft.Hosting.Lifetime - Content root path: E:\Module\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 11:33:32,100 [7] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 11:33:32,101 [7] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 11:33:40,111 [9] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 11:33:40,114 [9] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 11:34:46,723 [9] ERROR Microsoft.EntityFrameworkCore.Database.Connection - An error occurred using the connection to database 'ECommerce' on server '(localdb)\mssqllocaldb'.
+2021-06-14 11:34:46,723 [9] ERROR Microsoft.EntityFrameworkCore.Database.Connection - An error occurred using the connection to database 'ECommerce' on server '(localdb)\mssqllocaldb'.
+2021-06-14 11:34:47,759 [9] ERROR Microsoft.EntityFrameworkCore.Query - An exception occurred while iterating over the results of a query for context type 'ProductMicroservices.Context.ProductContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "ECommerce" requested by the login. The login failed.
+Login failed for user 'LAPTOP-SCTDVC38\SARADA PRASATH'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:d921c1e0-36e4-473a-bc7f-b560d6c1a3bb
+Error Number:4060,State:1,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "ECommerce" requested by the login. The login failed.
+Login failed for user 'LAPTOP-SCTDVC38\SARADA PRASATH'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:d921c1e0-36e4-473a-bc7f-b560d6c1a3bb
+Error Number:4060,State:1,Class:11
+2021-06-14 11:34:47,772 [9] ERROR Microsoft.EntityFrameworkCore.Query - An exception occurred while iterating over the results of a query for context type 'ProductMicroservices.Context.ProductContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "ECommerce" requested by the login. The login failed.
+Login failed for user 'LAPTOP-SCTDVC38\SARADA PRASATH'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:d921c1e0-36e4-473a-bc7f-b560d6c1a3bb
+Error Number:4060,State:1,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "ECommerce" requested by the login. The login failed.
+Login failed for user 'LAPTOP-SCTDVC38\SARADA PRASATH'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:d921c1e0-36e4-473a-bc7f-b560d6c1a3bb
+Error Number:4060,State:1,Class:11
+2021-06-14 11:43:56,214 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 11:43:56,231 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 11:43:56,234 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 11:43:56,235 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 11:43:56,238 [1] INFO Microsoft.Hosting.Lifetime - Content root path: E:\Module\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 11:43:56,238 [1] INFO Microsoft.Hosting.Lifetime - Content root path: E:\Module\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 11:44:06,602 [5] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 11:44:06,603 [5] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 11:44:07,472 [5] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 11:44:07,474 [5] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 11:44:13,646 [5] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 11:44:13,647 [5] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 11:50:34,753 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 11:50:34,772 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 11:50:34,778 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 11:50:34,778 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 11:50:34,781 [1] INFO Microsoft.Hosting.Lifetime - Content root path: E:\Module\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 11:50:34,781 [1] INFO Microsoft.Hosting.Lifetime - Content root path: E:\Module\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 11:51:29,224 [14] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 11:51:29,225 [14] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 11:51:30,218 [14] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 11:51:30,219 [14] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 11:51:39,525 [10] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 11:51:39,525 [10] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 11:51:39,592 [22] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 11:51:39,605 [22] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 11:53:44,744 [14] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 11:53:44,744 [14] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 11:53:49,825 [24] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 11:53:49,825 [24] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 11:53:49,836 [25] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 11:53:49,836 [25] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 12:01:23,391 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 12:01:23,401 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 12:01:23,404 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 12:01:23,404 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 12:01:23,406 [1] INFO Microsoft.Hosting.Lifetime - Content root path: E:\Module\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 12:01:23,406 [1] INFO Microsoft.Hosting.Lifetime - Content root path: E:\Module\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 12:02:02,974 [5] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 12:02:02,974 [5] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 12:08:21,975 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 12:08:22,001 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 12:08:22,005 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 12:08:22,005 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 12:08:22,007 [1] INFO Microsoft.Hosting.Lifetime - Content root path: E:\Module\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 12:08:22,007 [1] INFO Microsoft.Hosting.Lifetime - Content root path: E:\Module\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 12:08:41,702 [10] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 12:08:41,703 [10] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 12:12:08,587 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 12:12:08,599 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 12:12:08,602 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 12:12:08,603 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 12:12:08,607 [1] INFO Microsoft.Hosting.Lifetime - Content root path: E:\Module\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 12:12:08,608 [1] INFO Microsoft.Hosting.Lifetime - Content root path: E:\Module\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 12:12:31,649 [4] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 12:12:31,677 [4] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 12:12:32,367 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 12:12:32,369 [4] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 12:12:48,902 [21] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 12:12:48,924 [21] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
+2021-06-14 12:13:09,247 [16] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 12:13:09,248 [16] INFO ProductMicroservices.Controllers.ProductController - Searching product by productId
+2021-06-14 12:13:09,304 [16] ERROR ProductMicroservices.Controllers.ProductController - Product not found for the given productID
+2021-06-14 12:38:02,313 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 12:38:02,324 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 12:38:02,328 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 12:38:02,329 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 12:38:02,331 [1] INFO Microsoft.Hosting.Lifetime - Content root path: E:\Module\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 12:38:02,331 [1] INFO Microsoft.Hosting.Lifetime - Content root path: E:\Module\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 12:45:34,122 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 12:45:34,152 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 12:45:34,158 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 12:45:34,160 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 12:45:34,166 [1] INFO Microsoft.Hosting.Lifetime - Content root path: E:\Module\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 12:45:34,167 [1] INFO Microsoft.Hosting.Lifetime - Content root path: E:\Module\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 12:47:16,592 [8] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 12:47:16,593 [8] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 12:47:19,156 [8] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 12:47:19,159 [8] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 12:48:36,331 [16] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 12:48:36,337 [16] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 12:48:37,471 [22] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 12:48:37,488 [22] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 12:58:39,134 [31] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 12:58:39,136 [31] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 12:58:43,326 [35] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 12:58:43,327 [35] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 13:01:39,916 [37] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:01:39,917 [37] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 13:01:43,918 [36] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:01:43,918 [36] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 13:01:56,439 [37] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:01:56,439 [37] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 13:01:57,524 [40] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:01:57,527 [40] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 13:04:58,525 [44] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:04:58,526 [44] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 13:05:04,845 [44] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:05:04,846 [44] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 13:06:39,256 [30] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:06:39,256 [30] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 13:06:44,043 [28] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:06:44,044 [28] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 13:06:44,068 [25] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:06:44,069 [25] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 13:08:03,720 [23] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:08:03,721 [23] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 13:08:09,885 [23] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:08:09,886 [23] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 13:08:09,949 [20] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:08:09,949 [20] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 13:11:01,516 [42] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:11:01,516 [42] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 13:11:11,207 [42] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:11:11,207 [42] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 13:11:11,233 [22] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:11:11,234 [22] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+2021-06-14 13:21:16,249 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 13:21:16,273 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 13:21:16,280 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 13:21:16,280 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 13:21:16,284 [1] INFO Microsoft.Hosting.Lifetime - Content root path: E:\Module\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 13:21:16,284 [1] INFO Microsoft.Hosting.Lifetime - Content root path: E:\Module\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 13:22:15,606 [6] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 13:22:15,606 [6] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 13:22:18,244 [6] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:22:18,250 [6] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 13:22:36,368 [9] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:22:36,369 [9] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 13:22:36,599 [14] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 13:22:36,612 [14] INFO ProductMicroservices.Controllers.ProductController - Searching product by productName
+>>>>>>> Stashed changes
+2021-06-14 20:23:45,474 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 20:23:45,517 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-14 20:23:45,560 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 20:23:45,560 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-14 20:23:45,631 [1] INFO Microsoft.Hosting.Lifetime - Content root path: E:\Module\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 20:23:45,631 [1] INFO Microsoft.Hosting.Lifetime - Content root path: E:\Module\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-14 20:26:01,995 [7] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 20:26:01,996 [7] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-14 20:26:04,408 [7] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 20:26:04,410 [7] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 20:26:10,327 [21] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 20:26:10,328 [21] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 20:28:59,327 [16] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 20:28:59,328 [16] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 20:28:59,369 [14] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 20:28:59,369 [14] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 20:28:59,546 [16] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 20:28:59,546 [9] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 20:28:59,546 [16] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 20:28:59,546 [9] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 20:28:59,571 [9] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 20:28:59,571 [15] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 20:28:59,571 [15] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 20:28:59,571 [9] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:00:00,602 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:00:00,603 [4] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:00:01,167 [23] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:00:01,167 [23] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:04:43,036 [22] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:04:43,037 [22] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:04:43,351 [28] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:04:43,351 [28] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:46:27,762 [26] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:46:27,762 [26] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:46:27,855 [27] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:46:27,855 [27] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:50:39,540 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:50:39,541 [4] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:50:39,728 [21] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:50:39,728 [21] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:51:54,807 [33] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:51:54,807 [33] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:51:55,137 [36] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:51:55,138 [36] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:51:57,704 [33] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:51:57,704 [33] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:55:48,597 [39] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:55:48,597 [39] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:55:54,268 [40] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:55:54,268 [40] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:55:54,276 [41] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:55:54,276 [41] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:56:01,863 [39] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:56:01,863 [39] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:56:19,718 [42] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:56:19,718 [42] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:56:19,733 [41] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:56:19,733 [41] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:56:23,256 [42] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:56:23,256 [42] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:56:25,720 [39] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:56:25,720 [39] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:56:25,728 [43] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:56:25,728 [43] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:56:30,194 [40] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:56:30,194 [40] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 21:56:48,497 [39] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 21:56:48,497 [39] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:07:14,670 [32] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:07:14,697 [32] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:07:17,324 [31] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:07:17,324 [31] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:07:23,808 [23] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:07:23,808 [23] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:07:27,025 [32] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:07:27,025 [32] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:07:27,044 [4] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:07:27,044 [4] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:08:08,822 [7] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:08:08,822 [7] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:08:10,772 [26] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:08:10,772 [26] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:08:10,844 [26] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:08:10,844 [26] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:08:24,149 [7] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:08:24,149 [7] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:08:38,519 [7] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:08:38,519 [7] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:08:38,525 [27] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:08:38,525 [27] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:15:37,385 [33] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:15:37,388 [33] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:15:37,717 [36] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:15:37,717 [36] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:31:36,524 [39] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:31:36,524 [39] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:31:36,785 [41] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:31:36,785 [41] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:36:33,743 [44] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:36:33,743 [44] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:36:33,841 [46] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:36:33,841 [46] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:38:07,507 [48] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:38:07,507 [48] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:38:07,633 [52] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:38:07,633 [52] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:44:39,097 [37] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:44:39,097 [37] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:44:39,333 [33] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:44:39,333 [33] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:46:26,736 [34] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:46:26,736 [34] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:46:38,230 [57] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:46:38,230 [57] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:46:38,245 [56] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:46:38,245 [56] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:48:07,344 [60] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:48:07,344 [60] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:51:44,316 [65] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:51:44,316 [65] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:51:44,440 [66] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:51:44,440 [66] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:52:26,044 [68] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:52:26,044 [68] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:56:35,173 [72] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:56:35,173 [72] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:56:35,223 [74] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:56:35,223 [74] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:57:30,910 [75] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:57:30,910 [75] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:58:29,280 [79] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:58:29,280 [79] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 22:58:29,293 [83] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 22:58:29,293 [83] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 23:08:01,793 [50] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 23:08:01,793 [50] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-14 23:08:01,925 [53] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-14 23:08:01,925 [53] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-15 10:51:10,770 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-15 10:51:10,805 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2021-06-15 10:51:10,807 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-15 10:51:10,807 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2021-06-15 10:51:10,807 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-15 10:51:10,807 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Users\zinga\Documents\GitHub\Retail-Product-Management\ProductMicroservices\ProductMicroservices
+2021-06-15 10:52:15,770 [7] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-15 10:52:15,770 [7] WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2021-06-15 10:54:13,055 [15] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-15 10:54:13,057 [15] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-15 10:54:14,889 [15] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-15 10:54:14,890 [15] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-15 11:01:43,191 [22] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-15 11:01:43,192 [22] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-15 11:01:43,396 [24] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-15 11:01:43,397 [24] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-15 11:10:02,246 [11] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-15 11:10:02,247 [11] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-15 11:10:02,290 [28] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-15 11:10:02,290 [28] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-15 11:10:18,350 [28] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-15 11:10:18,353 [28] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+2021-06-15 11:10:18,366 [28] INFO ProductMicroservices.Controllers.ProductController - Logger initiated
+2021-06-15 11:10:18,366 [28] INFO ProductMicroservices.Controllers.ProductController - Loading all available product
+>>>>>>> Stashed changes

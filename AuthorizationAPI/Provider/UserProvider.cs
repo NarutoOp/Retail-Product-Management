@@ -8,14 +8,23 @@ namespace AuthorizationAPI.Provider
 {
     public class UserProvider : IUserProvider
     {
-        private static List<UserCredentials> List = new List<UserCredentials>()
+
+        UserContext _context;
+
+        public UserProvider(UserContext dbContext)
         {
+<<<<<<< Updated upstream
             new UserCredentials{ Id = 1, Username = "admin", Password = "admin"},
             new UserCredentials{ Id = 2, Username = "user", Password = "user"}
         };
+=======
+            _context = dbContext;
+        }
+
+>>>>>>> Stashed changes
         public List<UserCredentials> GetList()
         {
-            return List;
+            return _context.Users.ToList();
         }
 
         public UserCredentials GetUser(UserCredentials cred)

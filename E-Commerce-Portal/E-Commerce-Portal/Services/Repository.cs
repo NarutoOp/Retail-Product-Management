@@ -21,6 +21,7 @@ namespace E_Commerce_Portal.Services
         private readonly string productURI;
 
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger("log");
+<<<<<<< Updated upstream
 
         private readonly static List<Vendor> vendors = new List<Vendor> {
             new Vendor() {VendorId = 1, VendorName = "Ekart", DeliveryCharge = 50, Rating=2 },
@@ -28,6 +29,9 @@ namespace E_Commerce_Portal.Services
         };
 
         private static List<Cart> carts = new List<Cart>();
+=======
+        
+>>>>>>> Stashed changes
 
         public Repository(IConfiguration _configuration)
         {
@@ -80,7 +84,10 @@ namespace E_Commerce_Portal.Services
             return products;
         }
 
+<<<<<<< Updated upstream
         public List<Product> GetProductsByName(string token,string name)
+=======
+        public List<Product> GetProductsByName(string token, string name)
         {
             _log4net.Info("fetching products by name from product microservice");
 
@@ -96,7 +103,140 @@ namespace E_Commerce_Portal.Services
                     httpClient.DefaultRequestHeaders.Accept.Clear();
                     httpClient.DefaultRequestHeaders.Add("Authorization", bearer);
 
+                    var response = httpClient.GetAsync("GetByName/" + name);
+
+                    response.Wait();
+                    var result = response.Result;
+
+                    if (!result.IsSuccessStatusCode)
+                    {
+                        _log4net.Info("Product microservice failed");
+
+                        return null;
+                    }
+                    var ApiResponse = result.Content.ReadAsAsync<List<Product>>();
+                    ApiResponse.Wait();
+
+                    productsByName = ApiResponse.Result;
+                }
+                catch (Exception)
+                {
+                    _log4net.Error("Product Microservice is Down!!");
+                }
+            }
+
+            return productsByName;
+        }
+
+        public List<Product> GetProductsById(string token, int id)
+        {
+            _log4net.Info("fetching products by ID from product microservice");
+
+            List<Product> productsById = null;
+
+            string bearer = String.Format("Bearer {0}", token);
+
+            using (var httpClient = new HttpClient())
+            {
+                httpClient.BaseAddress = new Uri(productURI);
+                try
+                {
+                    httpClient.DefaultRequestHeaders.Accept.Clear();
+                    httpClient.DefaultRequestHeaders.Add("Authorization", bearer);
+
+                    var response = httpClient.GetAsync("GetById/" + id);
+
+                    response.Wait();
+                    var result = response.Result;
+
+                    if (!result.IsSuccessStatusCode)
+                    {
+                        _log4net.Info("Product microservice failed");
+
+                        return null;
+                    }
+                    var ApiResponse = result.Content.ReadAsAsync<List<Product>>();
+                    ApiResponse.Wait();
+
+                    productsById = ApiResponse.Result;
+
+                }
+                catch (Exception)
+                {
+                    _log4net.Error("Product Microservice is Down!!");
+                }
+            }
+            return productsById;
+        }
+
+        // add rating
+
+        public Boolean AddRating(string token, int id, int rating)
+        {
+            _log4net.Info("Adding rating");
+
+
+            string bearer = String.Format("Bearer {0}", token);
+
+            using (var httpClient = new HttpClient())
+            {
+                httpClient.BaseAddress = new Uri(productURI);
+                try
+                {
+                    httpClient.DefaultRequestHeaders.Accept.Clear();
+                    httpClient.DefaultRequestHeaders.Add("Authorization", bearer);
+
+                    var pocoObject = new
+                    {
+                        Id = id,
+                        rating = rating
+                    };
+
+
+                    var response = httpClient.PostAsJsonAsync("AddProductRating", pocoObject);
+
+                    response.Wait();
+                    var result = response.Result;
+
+                    if (!result.IsSuccessStatusCode)
+                    {
+                        _log4net.Info("Product microservice failed");
+                        return false;
+                    }
+
+                }
+                catch (Exception)
+                {
+                    _log4net.Error("Product Microservice is Down!!");
+                }
+                return true;
+            }
+        }
+
+
+
+        public List<Cart> GetCarts(string token,int id)
+>>>>>>> Stashed changes
+        {
+            _log4net.Info("fetching products by name from product microservice");
+
+            List<Product> productsByName = null;
+
+            string bearer = String.Format("Bearer {0}", token);
+
+            using (var httpClient = new HttpClient())
+            {
+                httpClient.BaseAddress = new Uri(productURI);
+                try
+                {
+                    httpClient.DefaultRequestHeaders.Accept.Clear();
+                    httpClient.DefaultRequestHeaders.Add("Authorization", bearer);
+
+<<<<<<< Updated upstream
                     var response = httpClient.GetAsync("GetByName/"+name);
+=======
+                    var response = httpClient.GetAsync("ProceedToBuy/"+id);
+>>>>>>> Stashed changes
 
                     response.Wait();
                     var result = response.Result;
@@ -162,6 +302,7 @@ namespace E_Commerce_Portal.Services
             return productsById;
         }
 
+<<<<<<< Updated upstream
         // add rating
 
         public Boolean AddRating(string token,int id, int rating)
@@ -172,10 +313,17 @@ namespace E_Commerce_Portal.Services
             string bearer = String.Format("Bearer {0}", token);
 
             using (var httpClient = new HttpClient())
+=======
+        public void AddCart(string token,Cart cart)
+        {
+            string bearer = String.Format("Bearer {0}", token);
+            try
+>>>>>>> Stashed changes
             {
                 httpClient.BaseAddress = new Uri(productURI);
                 try
                 {
+<<<<<<< Updated upstream
                     httpClient.DefaultRequestHeaders.Accept.Clear();
                     httpClient.DefaultRequestHeaders.Add("Authorization", bearer);
 
@@ -197,6 +345,15 @@ namespace E_Commerce_Portal.Services
                         return false;
                     }
 
+=======
+                    client.BaseAddress = new Uri(proceedToBuyUri);
+                    client.DefaultRequestHeaders.Accept.Clear();
+                    client.DefaultRequestHeaders.Add("Authorization", bearer);
+                    var responseTask = client.PostAsJsonAsync<Cart>("ProceedToBuy", cart);
+                    responseTask.Wait();
+                    var result = responseTask.Result;
+                    
+>>>>>>> Stashed changes
                 }
                 catch (Exception)
                 {

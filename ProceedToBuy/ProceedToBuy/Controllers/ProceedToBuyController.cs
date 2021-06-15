@@ -13,6 +13,10 @@ using System.Threading.Tasks;
 
 namespace ProceedToBuy.Controllers
 {   
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     [Route("api/[controller]")]
     [ApiController]
     public class ProceedToBuyController : ControllerBase
@@ -37,9 +41,10 @@ namespace ProceedToBuy.Controllers
 
         // GET api/<ProceedToBuyController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public List<Cart> Get(int id)
         {
-            throw new NotImplementedException();
+            List<Cart> cart = _repository.GetCart();
+            return cart.Where(x => x.CustomerId == id).ToList();
             
         }
 
@@ -65,18 +70,5 @@ namespace ProceedToBuy.Controllers
 
         }
 
-        // PUT api/<ProceedToBuyController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-            throw new NotImplementedException();
-        }
-
-        // DELETE api/<ProceedToBuyController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

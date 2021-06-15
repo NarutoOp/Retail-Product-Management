@@ -352,9 +352,15 @@ E:\Module\Retail-Product-Management\VendorService\VendorService\obj\Debug\netcor
 E:\Module\Retail-Product-Management\VendorService\VendorService\obj\Debug\netcoreapp3.1\VendorService.dll
 E:\Module\Retail-Product-Management\VendorService\VendorService\obj\Debug\netcoreapp3.1\VendorService.pdb
 E:\Module\Retail-Product-Management\VendorService\VendorService\obj\Debug\netcoreapp3.1\VendorService.genruntimeconfig.cache
+<<<<<<< Updated upstream
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\VendorService\VendorService\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\VendorService\VendorService\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\VendorService\VendorService\bin\Debug\netcoreapp3.1\log4net.config
+=======
+C:\Users\zinga\Documents\GitHub\Retail-Product-Management\VendorService\VendorService\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\zinga\Documents\GitHub\Retail-Product-Management\VendorService\VendorService\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\zinga\Documents\GitHub\Retail-Product-Management\VendorService\VendorService\bin\Debug\netcoreapp3.1\appsettings.json
+>>>>>>> Stashed changes
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\VendorService\VendorService\bin\Debug\netcoreapp3.1\VendorService.exe
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\VendorService\VendorService\bin\Debug\netcoreapp3.1\VendorService.deps.json
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\VendorService\VendorService\bin\Debug\netcoreapp3.1\VendorService.runtimeconfig.json

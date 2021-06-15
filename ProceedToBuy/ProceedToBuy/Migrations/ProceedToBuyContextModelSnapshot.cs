@@ -35,7 +35,7 @@ namespace ProceedToBuy.Migrations
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("VendorId")
+                    b.Property<int>("Quantity")
                         .HasColumnType("int");
 
                     b.Property<int>("Zipcode")
@@ -43,33 +43,18 @@ namespace ProceedToBuy.Migrations
 
                     b.HasKey("CartId");
 
-                    b.HasIndex("VendorId");
-
                     b.ToTable("Carts");
-                });
 
-            modelBuilder.Entity("ProceedToBuy.Models.Vendor", b =>
-                {
-                    b.Property<int>("VendorId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<double>("DeliveryCharge")
-                        .HasColumnType("float");
-
-                    b.Property<int>("Id")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<double>("Rating")
-                        .HasColumnType("float");
-
-                    b.HasKey("VendorId");
-
-                    b.ToTable("Vendors");
+                    b.HasData(
+                        new
+                        {
+                            CartId = 1,
+                            CustomerId = 201,
+                            DeliveryDate = new DateTime(2016, 5, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ProductId = 101,
+                            Quantity = 5,
+                            Zipcode = 641008
+                        });
                 });
 
             modelBuilder.Entity("ProceedToBuy.Models.VendorWishlist", b =>
@@ -94,15 +79,6 @@ namespace ProceedToBuy.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("VendorWishlists");
-                });
-
-            modelBuilder.Entity("ProceedToBuy.Models.Cart", b =>
-                {
-                    b.HasOne("ProceedToBuy.Models.Vendor", "Vendor")
-                        .WithMany()
-                        .HasForeignKey("VendorId");
-
-                    b.Navigation("Vendor");
                 });
 #pragma warning restore 612, 618
         }

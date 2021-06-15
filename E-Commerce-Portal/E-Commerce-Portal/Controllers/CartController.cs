@@ -32,6 +32,7 @@ namespace E_Commerce_Portal.Controllers
         public ActionResult Index()
         {
             string token = HttpContext.Session.GetString("token");
+            int userid = (int)HttpContext.Session.GetInt32("userid");
             if (token == null)
             {
                 _log4net.Info("User is not logged in");
@@ -41,7 +42,11 @@ namespace E_Commerce_Portal.Controllers
 
             List<ProductCartView> mymodel = new List<ProductCartView>();
             
+<<<<<<< Updated upstream
             foreach(var item in repo.GetCarts())
+=======
+            foreach(var item in repo.GetCarts(token,userid))
+>>>>>>> Stashed changes
             {
                 mymodel.Add(
                     new ProductCartView()
@@ -83,6 +88,7 @@ namespace E_Commerce_Portal.Controllers
                 return RedirectToAction("Index", "Login");
             }
 
+<<<<<<< Updated upstream
             var product = repo.GetCarts().SingleOrDefault(x => x.ProductId == productCart.ProductId);
             if (product == null)
             {
@@ -91,6 +97,9 @@ namespace E_Commerce_Portal.Controllers
             }
             else
                 product.Quantity += 1;
+=======
+            repo.AddCart(token, productCart);
+>>>>>>> Stashed changes
 
             _log4net.Info("User is adding to cart");
             return RedirectToAction("Index");
