@@ -8,6 +8,7 @@ namespace VendorService.Repository
 {
     public interface IVendorDetailRepo<T>
     {
+        public IEnumerable<Vendor> GetAll();
         public IEnumerable<Vendor> GetVendor(int id);
         public void PostStock(VendorStock vs);
     }

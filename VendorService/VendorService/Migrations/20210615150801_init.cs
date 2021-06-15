@@ -14,8 +14,8 @@ namespace VendorService.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    DeliveryCharge = table.Column<int>(type: "int", nullable: false),
-                    Rating = table.Column<int>(type: "int", nullable: false)
+                    DeliveryCharge = table.Column<double>(type: "float", nullable: false),
+                    Rating = table.Column<double>(type: "float", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -29,9 +29,9 @@ namespace VendorService.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ProductId = table.Column<int>(type: "int", nullable: false),
+                    VendorId = table.Column<int>(type: "int", nullable: false),
                     HandInStocks = table.Column<int>(type: "int", nullable: false),
-                    ReplinshmentDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    VendorId = table.Column<int>(type: "int", nullable: false)
+                    ReplinshmentDate = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -47,12 +47,12 @@ namespace VendorService.Migrations
             migrationBuilder.InsertData(
                 table: "Vendor",
                 columns: new[] { "Id", "DeliveryCharge", "Name", "Rating" },
-                values: new object[] { 201, 45, "DelhiMotoShop", 5 });
+                values: new object[] { 201, 45.0, "DelhiMotoShop", 5.0 });
 
             migrationBuilder.InsertData(
                 table: "Vendor",
                 columns: new[] { "Id", "DeliveryCharge", "Name", "Rating" },
-                values: new object[] { 202, 50, "HydMotoShop", 4 });
+                values: new object[] { 202, 50.0, "HydMotoShop", 4.0 });
 
             migrationBuilder.InsertData(
                 table: "VendorStock",

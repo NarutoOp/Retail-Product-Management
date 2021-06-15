@@ -34,7 +34,7 @@ namespace VendorService
         {
             services.AddControllers();
             services.AddScoped<IVendorDetailRepo<Vendor>,VendorDetailRepo>();
-            services.AddDbContext<VendorContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:conn"]));
+            services.AddDbContext<VendorContext>(opts => opts.UseSqlServer(Configuration["ConnectionStrings:conn"]));
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(opts =>
                 {

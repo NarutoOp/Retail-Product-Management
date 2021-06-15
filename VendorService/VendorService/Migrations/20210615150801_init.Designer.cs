@@ -10,7 +10,7 @@ using VendorService.Data;
 namespace VendorService.Migrations
 {
     [DbContext(typeof(VendorContext))]
-    [Migration("20210614081253_init")]
+    [Migration("20210615150801_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -40,6 +40,22 @@ namespace VendorService.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Vendor");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 201,
+                            DeliveryCharge = 45.0,
+                            Name = "DelhiMotoShop",
+                            Rating = 5.0
+                        },
+                        new
+                        {
+                            Id = 202,
+                            DeliveryCharge = 50.0,
+                            Name = "HydMotoShop",
+                            Rating = 4.0
+                        });
                 });
 
             modelBuilder.Entity("VendorService.Models.VendorStock", b =>
@@ -66,6 +82,24 @@ namespace VendorService.Migrations
                     b.HasIndex("VendorId");
 
                     b.ToTable("VendorStock");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            HandInStocks = 24,
+                            ProductId = 101,
+                            ReplinshmentDate = new DateTime(2021, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            VendorId = 201
+                        },
+                        new
+                        {
+                            Id = 2,
+                            HandInStocks = 24,
+                            ProductId = 1,
+                            ReplinshmentDate = new DateTime(2021, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            VendorId = 201
+                        });
                 });
 
             modelBuilder.Entity("VendorService.Models.VendorStock", b =>

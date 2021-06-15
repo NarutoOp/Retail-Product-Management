@@ -28,9 +28,9 @@ namespace VendorService.Controllers
         
         // GET: api/<VendorController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Vendor> Get()
         {
-            return new string[] { "value1", "value2" };
+            return _vendor.GetAll();
         }
 
         // GET api/<VendorController>/5
@@ -48,16 +48,5 @@ namespace VendorService.Controllers
             _vendor.PostStock(vs);
         }
 
-        // PUT api/<VendorController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<VendorController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
     }
 }
