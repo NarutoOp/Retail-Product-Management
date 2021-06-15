@@ -44,26 +44,31 @@ namespace E_Commerce_Portal.Controllers
             {
                 StringContent content = new StringContent(JsonConvert.SerializeObject(cred), Encoding.UTF8, "application/json");
 
-                using (var response = await httpClient.PostAsync(tokenURI, content))
+                using (var response = httpClient.PostAsync(tokenURI, content))
                 {
+                    response.Wait();
+                    var result = response.Result;
 
-                    if (!response.IsSuccessStatusCode)
+                    if (!result.IsSuccessStatusCode)
                     {
                         _log4net.Info("Login failed");
                         ViewBag.Message = "Please Enter valid credentials";
                         return View("Index");
                     }
                     _log4net.Info("Login Successful and token generated");
-                    string strtoken = await response.Content.ReadAsStringAsync();
+                    /*string strtoken = await response.Content.ReadAsStringAsync();*/
+
+                    var ApiResponse = result.Content.ReadAsAsync<UserToken>();
+                    ApiResponse.Wait();
+                    var res = ApiResponse.Result;
 
 
-
-                    string userName = cred.Username;
-                    int userId = cred.Id;
+                    string userName = res.Username;
+                    int userId = res.Id;
+                    string strtoken = res.Token;
 
                     HttpContext.Session.SetString("token", strtoken);
-                    HttpContext.Session.SetString("user", JsonConvert.SerializeObject(cred));
-                    HttpContext.Session.SetString("owner", userName);
+                    HttpContext.Session.SetString("username", userName);
                     HttpContext.Session.SetInt32("userid", userId);
                 }
             }

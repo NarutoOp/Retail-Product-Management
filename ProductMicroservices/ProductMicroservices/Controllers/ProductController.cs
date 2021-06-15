@@ -32,7 +32,6 @@ namespace ProductMicroservices.Controllers
 
         // GET api/<ProductController>
         [HttpGet("GetAll")]
-        [Authorize]
         public IActionResult GetAll()
         {
             _log4net.Info("Loading all available product");
@@ -50,7 +49,6 @@ namespace ProductMicroservices.Controllers
 
         // GET api/<ProductController>/5
         [HttpGet("GetById/{id}")]
-        [Authorize]
         public IActionResult Get(int id)
         {
             _log4net.Info("Searching product by productId");
@@ -65,7 +63,6 @@ namespace ProductMicroservices.Controllers
         }
 
         [HttpGet("GetByName/{name}")]
-        [Authorize]
         public IActionResult GetbyName(string name)
         {
             _log4net.Info("Searching product by productName");
@@ -80,7 +77,6 @@ namespace ProductMicroservices.Controllers
 
         // POST api/<ProductController>
         [HttpPost("AddProductRating")]
-        [Authorize]
         public IActionResult PostAddRating(JsonData data)
         {
             var product = _productRepository.SearchProductByID(data.id);
