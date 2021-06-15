@@ -35,7 +35,11 @@
             </div>
             <div class="form-group">
                 <label asp-for="DeliveryDate" class="control-label"></label>
-                <input asp-for="DeliveryDate" class="form-control" />
+                @*<input asp-for="DeliveryDate" class="form-control" />*@
+            <select asp-for="DeliveryDate">
+                <option value="@ViewData["DeliveryDate1"]">2 Days</option>
+                <option value="@ViewData["DeliveryDate2"]">3 Days</option>
+            </select>
                 <span asp-validation-for="DeliveryDate" class="text-danger"></span>
             </div>
             <div class="form-group">

@@ -35,11 +35,18 @@ namespace ProceedToBuy.Repository
             if(cv.Vendor == null)
             {
                 AddToWishList(_cart.CustomerId, _cart.ProductId);
-
+                return cv;
             }
             else
             {
-                _proceedToBuyContext.Carts.Add(_cart);
+
+                Cart val = _proceedToBuyContext.Carts.SingleOrDefault(c => c.CustomerId == _cart.CustomerId && c.ProductId == _cart.ProductId);
+                if (val!= null)
+                {
+                    val.Quantity += _cart.Quantity;
+                }
+                else
+                    _proceedToBuyContext.Carts.Add(_cart);
                 _proceedToBuyContext.SaveChanges();
 
             }

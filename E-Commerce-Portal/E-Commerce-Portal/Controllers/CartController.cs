@@ -3,6 +3,7 @@ using E_Commerce_Portal.Services;
 using E_Commerce_Portal.ViewModel;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -70,6 +71,8 @@ namespace E_Commerce_Portal.Controllers
 
             ViewData["ProductId"] = Id;
             ViewData["CustomerId"] = HttpContext.Session.GetInt32("userid");
+            ViewData["DeliveryDate1"] = DateTime.Today.AddDays(2);
+            ViewData["DeliveryDate2"] = DateTime.Today.AddDays(3);
             _log4net.Info("User is in add to cart page");
             return View();
         }
