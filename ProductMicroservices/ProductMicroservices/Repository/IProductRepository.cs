@@ -9,7 +9,7 @@ namespace ProductMicroservices.Repository
     public interface IProductRepository
     {
         public List<Product> GetAllProduct();
-        public IEnumerable<Product> SearchProductByID(int Id);
+        public IEnumerable< Product> SearchProductByID(int Id);
         public IEnumerable<Product> SearchProductByName(string Name);
 
         public void AddProductRating(int Id, int rating);

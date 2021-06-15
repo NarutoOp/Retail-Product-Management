@@ -21,12 +21,18 @@ namespace ProceedToBuy.Repository
             _proceedToBuyContext = proceedToBuyContext;
            
         }
-        public Cart AddToCart(Cart _cart)
+        public List<Cart> GetCart()
         {
-       
-            
-            _cart.Vendor = _provider.GetVendors(_cart.ProductId);
-            if(_cart.Vendor == null)
+
+            return _proceedToBuyContext.Carts.ToList();
+        }
+        public CartVendor AddToCart(Cart _cart)
+        {
+
+            CartVendor cv = new CartVendor();
+            cv.Carts = _cart;
+            cv.Vendor = _provider.GetVendors(_cart.ProductId);
+            if(cv.Vendor == null)
             {
                 AddToWishList(_cart.CustomerId, _cart.ProductId);
 
@@ -38,7 +44,7 @@ namespace ProceedToBuy.Repository
 
             }
            
-            return _cart;
+            return cv;
         }
         public bool AddToWishList(int customerId,int productId)
         {
@@ -46,7 +52,7 @@ namespace ProceedToBuy.Repository
             vendorWishlist.ProductId = productId;
             vendorWishlist.Quantity = 1;
             vendorWishlist.DateAddedToWishlist = DateTime.Now;
-            Vendor vendor = _provider.GetVendors(productId);
+            VendorStock vendor = _provider.GetVendors(productId);
             vendorWishlist.VendorId = vendor.Id;
             _proceedToBuyContext.VendorWishlists.Add(vendorWishlist);
             _proceedToBuyContext.SaveChanges();

@@ -32,7 +32,7 @@ namespace ProductMicroservices.Controllers
 
         // GET api/<ProductController>
         [HttpGet("GetAll")]
-
+        [Authorize]
         public IActionResult GetAll()
         {
             _log4net.Info("Loading all available product");
@@ -66,7 +66,7 @@ namespace ProductMicroservices.Controllers
 
         [HttpGet("GetByName/{name}")]
         [Authorize]
-        public IActionResult GetByName(string name)
+        public IActionResult GetbyName(string name)
         {
             _log4net.Info("Searching product by productName");
             var product = _productRepository.SearchProductByName(name);
@@ -80,16 +80,10 @@ namespace ProductMicroservices.Controllers
 
         // POST api/<ProductController>
         [HttpPost("AddProductRating")]
-<<<<<<< Updated upstream
-        public IActionResult PostAddRating(JsonData data)
-        {
-            var product = _productRepository.SearchProductByID(data.Id);
-=======
         [Authorize]
         public IActionResult PostAddRating(JsonData data)
         {
             var product = _productRepository.SearchProductByID(data.id);
->>>>>>> Stashed changes
             if (product == null)
             {
                 _log4net.Error("Product not found for the given productID...no rating added");
@@ -98,11 +92,7 @@ namespace ProductMicroservices.Controllers
             else
             {
                 _log4net.Info("Added Rating to the Product");
-<<<<<<< Updated upstream
-                _productRepository.AddProductRating(data.Id, data.rating);
-=======
                 _productRepository.AddProductRating(data.id, data.rating);
->>>>>>> Stashed changes
             }
             return Ok("Success");
 

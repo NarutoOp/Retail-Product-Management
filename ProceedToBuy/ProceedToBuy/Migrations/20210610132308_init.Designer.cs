@@ -10,7 +10,7 @@ using ProceedToBuy.Models;
 namespace ProceedToBuy.Migrations
 {
     [DbContext(typeof(ProceedToBuyContext))]
-    [Migration("20210614084428_init")]
+    [Migration("20210610132308_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -34,7 +34,7 @@ namespace ProceedToBuy
         {
             services.AddScoped<IRepository<Cart>, Repo>();
             services.AddScoped<IProvider, Provider>();
-            services.AddDbContext<ProceedToBuyContext>(opts => opts.UseSqlServer(Configuration["ConnectionStrings:conn"]));
+            services.AddDbContext<ProceedToBuyContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:conn"]));
             services.AddControllers();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(opts =>

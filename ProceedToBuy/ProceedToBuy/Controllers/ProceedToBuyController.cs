@@ -10,33 +10,31 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 
+// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace ProceedToBuy.Controllers
 {   
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
     [Route("api/[controller]")]
     [ApiController]
     public class ProceedToBuyController : ControllerBase
     {
         IRepository<Cart> _repository;
-
+        private readonly ILogger<ProceedToBuyController> _logger;
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(ProceedToBuyController));
 
 
-        public ProceedToBuyController(IRepository<Cart> repository)
+        public ProceedToBuyController(IRepository<Cart> repository, ILogger<ProceedToBuyController> logger)
         {
             _repository = repository;
+            _logger = logger;
 
         }
         // GET: api/<ProceedToBuyController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Cart> Get()
         {
-            throw new NotImplementedException();
-            //return new string[] { "value1", "value2" };
+            return _repository.GetCart();
         }
 
         // GET api/<ProceedToBuyController>/5
@@ -50,7 +48,7 @@ namespace ProceedToBuy.Controllers
 
         // POST api/<ProceedToBuyController>
         [HttpPost]
-        public Cart Post([FromBody] Cart _cart)
+        public CartVendor Post([FromBody] Cart _cart)
         {
             _log4net.Info("Posting Cart");
             return _repository.AddToCart(_cart);

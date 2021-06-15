@@ -42,13 +42,13 @@ namespace ProductMicroservices.Repository
         public IEnumerable<Product> SearchProductByID(int Id)
         {
 
-            IEnumerable<Product> p = _dbContext.Products.Where(x => x.Id == Id);
+            IEnumerable<Product> p = _dbContext.Products.Where(p=>p.Id == Id);
             return p;
         }
 
         public IEnumerable<Product> SearchProductByName(string name)
         {
-            IEnumerable<Product> P = _dbContext.Products.Where(x => x.Name == name);
+            IEnumerable<Product> P = _dbContext.Products.Where(p => p.Name == name);
             return P;
         }
 
