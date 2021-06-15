@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using VendorService.Data;
 
 namespace VendorService.Migrations
 {
     [DbContext(typeof(VendorContext))]
-    partial class VendorContextModelSnapshot : ModelSnapshot
+    [Migration("20210615051411_init")]
+    partial class init
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -26,30 +28,18 @@ namespace VendorService.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-<<<<<<< Updated upstream
-                    b.Property<double>("DeliveryCharge")
-                        .HasColumnType("float");
-=======
                     b.Property<int>("DeliveryCharge")
                         .HasColumnType("int");
->>>>>>> Stashed changes
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-<<<<<<< Updated upstream
-                    b.Property<double>("Rating")
-                        .HasColumnType("float");
-=======
                     b.Property<int>("Rating")
                         .HasColumnType("int");
->>>>>>> Stashed changes
 
                     b.HasKey("Id");
 
                     b.ToTable("Vendor");
-<<<<<<< Updated upstream
-=======
 
                     b.HasData(
                         new
@@ -66,7 +56,6 @@ namespace VendorService.Migrations
                             Name = "HydMotoShop",
                             Rating = 4
                         });
->>>>>>> Stashed changes
                 });
 
             modelBuilder.Entity("VendorService.Models.VendorStock", b =>
@@ -93,8 +82,6 @@ namespace VendorService.Migrations
                     b.HasIndex("VendorId");
 
                     b.ToTable("VendorStock");
-<<<<<<< Updated upstream
-=======
 
                     b.HasData(
                         new
@@ -113,7 +100,6 @@ namespace VendorService.Migrations
                             ReplinshmentDate = new DateTime(2021, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             VendorId = 201
                         });
->>>>>>> Stashed changes
                 });
 
             modelBuilder.Entity("VendorService.Models.VendorStock", b =>
