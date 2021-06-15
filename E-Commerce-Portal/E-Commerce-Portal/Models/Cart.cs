@@ -8,11 +8,12 @@ namespace E_Commerce_Portal.Models
     public class Cart
     {
         public int CartId { get; set; }
+        public int CustomerId { get; set; }
         public int ProductId { get; set; }
-        public string Zipcode { get; set; }
-        public DateTime DeliveryDate { get; set; }
-        public Vendor vendor { get; set; }
+        public int Zipcode { get; set; }
         public int Quantity { get; set; }
+        public DateTime DeliveryDate { get; set; }
+        public Vendor Vendor { get; set; }
 
     }
 }

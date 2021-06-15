@@ -4,20 +4,24 @@
     ViewData["Title"] = "AddToCart";
 }
 
+<h1>AddToCart</h1>
 
-<h4>Add Details</h4>
+<h4>Cart</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="AddToCart">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
             <div class="form-group">
-                <input asp-for="CartId" hidden value="1" class="form-control" />
+                <label asp-for="CustomerId" hidden class="control-label"></label>
+                <input asp-for="CustomerId" hidden class="form-control" value="@ViewData["CustomerId"]"/>
+                <span asp-validation-for="CustomerId" hidden class="text-danger"></span>
             </div>
             <div class="form-group">
-
-                <input asp-for="ProductId" hidden class="form-control" value="@ViewData["ProductId"]" />
-
+                <label asp-for="ProductId" hidden class="control-label"></label>
+                <input asp-for="ProductId"hidden class="form-control" value="@ViewData["ProductId"]" />
+                <span asp-validation-for="ProductId" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Zipcode" class="control-label"></label>
@@ -25,22 +29,21 @@
                 <span asp-validation-for="Zipcode" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Quantity" class="control-label"></label>
+                <input asp-for="Quantity" class="form-control" />
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label asp-for="DeliveryDate" class="control-label"></label>
                 <input asp-for="DeliveryDate" class="form-control" />
                 <span asp-validation-for="DeliveryDate" class="text-danger"></span>
             </div>
-            @*<div class="form-group">
-                <label asp-for="Quantity" class="control-label"></label>
-                <input asp-for="Quantity" class="form-control" />
-                <span asp-validation-for="Quantity" class="text-danger"></span>
-            </div>*@
             <div class="form-group">
                 <input type="submit" value="Add Item" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
-
 
 <div>
     <a asp-action="Index">Back to List</a>

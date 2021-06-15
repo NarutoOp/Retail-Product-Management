@@ -42,11 +42,7 @@ namespace E_Commerce_Portal.Controllers
 
             List<ProductCartView> mymodel = new List<ProductCartView>();
             
-<<<<<<< Updated upstream
-            foreach(var item in repo.GetCarts())
-=======
             foreach(var item in repo.GetCarts(token,userid))
->>>>>>> Stashed changes
             {
                 mymodel.Add(
                     new ProductCartView()
@@ -73,6 +69,7 @@ namespace E_Commerce_Portal.Controllers
             }
 
             ViewData["ProductId"] = Id;
+            ViewData["CustomerId"] = HttpContext.Session.GetInt32("userid");
             _log4net.Info("User is in add to cart page");
             return View();
         }
@@ -81,25 +78,15 @@ namespace E_Commerce_Portal.Controllers
         [HttpPost]
         public ActionResult AddToCart(Cart productCart)
         {
-            if (HttpContext.Session.GetString("token") == null)
+            string token = HttpContext.Session.GetString("token");
+            if (token == null)
             {
                 _log4net.Info("User is not logged in");
                 ViewBag.Message = "Please Login First";
                 return RedirectToAction("Index", "Login");
             }
 
-<<<<<<< Updated upstream
-            var product = repo.GetCarts().SingleOrDefault(x => x.ProductId == productCart.ProductId);
-            if (product == null)
-            {
-                productCart.Quantity = 1;
-                repo.AddCart(productCart);
-            }
-            else
-                product.Quantity += 1;
-=======
             repo.AddCart(token, productCart);
->>>>>>> Stashed changes
 
             _log4net.Info("User is adding to cart");
             return RedirectToAction("Index");

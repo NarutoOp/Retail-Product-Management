@@ -42,11 +42,7 @@ namespace E_Commerce_Portal.Controllers
 
         // Search for a product
         [HttpGet]
-<<<<<<< Updated upstream
-        public IActionResult Search(int option,string productNameOrId)
-=======
         public IActionResult Search(int option, string productNameOrId)
->>>>>>> Stashed changes
         {
             string token = HttpContext.Session.GetString("token");
 
@@ -59,32 +55,6 @@ namespace E_Commerce_Portal.Controllers
                 return RedirectToAction("Index", "Login");
             }
 
-<<<<<<< Updated upstream
-            if(option == 2)
-            {
-                _log4net.Info("User is Searching product by Id");
-
-                if (Int32.Parse(productNameOrId) > 0)
-                {
-                    products = repo.GetProductsById(token, Int32.Parse(productNameOrId));
-                }
-
-                return View("Details",products);
-            }
-
-            _log4net.Info("User is Searching product by Name");
-
-            if (!String.IsNullOrEmpty(productNameOrId))
-            {
-                products = repo.GetProductsByName(token, productNameOrId);
-            }
-
-            return View("Details",products);
-        }
-
-        [HttpPost]
-        public IActionResult AddRating(int productId,int rate)
-=======
             if (option == 2)
             {
                 _log4net.Info("User is Searching product by Id");
@@ -109,7 +79,6 @@ namespace E_Commerce_Portal.Controllers
 
         [HttpPost]
         public IActionResult AddRating(int productId, int rate)
->>>>>>> Stashed changes
         {
             string token = HttpContext.Session.GetString("token");
 
@@ -122,15 +91,9 @@ namespace E_Commerce_Portal.Controllers
             ViewBag.Id = productId;
             ViewBag.rating = rate;
             var val = repo.AddRating(token, productId, rate);
-<<<<<<< Updated upstream
-           
-            if(val)
-                return RedirectToAction("Details");
-=======
 
             if (val)
                 return RedirectToAction("Index");
->>>>>>> Stashed changes
             else
                 return BadRequest("Not able to add rating");
         }
