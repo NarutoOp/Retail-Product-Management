@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace E_Commerce_Portal.ViewModel
 {
-    public class ProductWishList
+    public class ProductListView
     {
         public Vendor Vendor { get; set; }
         public Product Product { get; set; }

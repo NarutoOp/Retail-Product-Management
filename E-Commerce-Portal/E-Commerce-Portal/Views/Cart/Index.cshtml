@@ -1,5 +1,5 @@
 ﻿
-@model IEnumerable<E_Commerce_Portal.ViewModel.ProductCartView>
+@model IEnumerable<E_Commerce_Portal.ViewModel.ProductListView>
 
 @{
     ViewData["Title"] = "Index";
@@ -10,14 +10,24 @@
 <p>
     <a asp-controller="ECommerce" asp-action="Index">Add Item</a>
 </p>
+
+<p>
+    Grand Total = @ViewBag.GrandTotal
+    <a class="btn btn-outline-danger float-right" asp-controller="Cart" asp-action="Checkout">Checkout</a>
+</p>
+<br />
+
 <table class="table">
         <thead>
             <tr>
                 <th>
-                    
+
                 </th>
                 <th>
                     Product Name
+                </th>
+                <th>
+                    Vendor Name
                 </th>
                 <th>
                     Quantity
@@ -36,20 +46,23 @@
         {
         <tr>
             <td>
-                <img src="@("~/image/"+item.Products.Image_Name)" asp-append-version="true" alt="Card image" height="300" width="300">
+                <img src="@("~/image/"+item.Product.Image_Name)" asp-append-version="true" alt="Card image" height="300" width="300">
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Products.Name)
+                @Html.DisplayFor(modelItem => item.Product.Name)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Carts.Quantity)
+                @Html.DisplayFor(modelItem => item.Vendor.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
             </td>
 
             <td>
-                @Html.DisplayFor(modelItem => item.Carts.DeliveryDate)
+                @Html.DisplayFor(modelItem => item.AddedDate)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Products.Price)
+                @Html.DisplayFor(modelItem => item.TotalAmount)
             </td>
         </tr>
         }

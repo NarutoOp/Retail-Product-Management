@@ -11,7 +11,6 @@ namespace ProceedToBuy.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int VendorId { get; set; }
         public int Id { get; set; }
         public string Name { get; set; }
         public int DeliveryCharge { get; set; }

@@ -17,6 +17,6 @@ namespace ProceedToBuy.Models
         public int Zipcode { get; set; }
         public int Quantity { get; set; }
         public DateTime DeliveryDate { get; set; }
-        
+        public int VendorId { get; set; }
     }
 }

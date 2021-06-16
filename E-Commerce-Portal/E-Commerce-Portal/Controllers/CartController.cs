@@ -33,28 +33,34 @@ namespace E_Commerce_Portal.Controllers
         public ActionResult Index()
         {
             string token = HttpContext.Session.GetString("token");
-            int userid = (int)HttpContext.Session.GetInt32("userid");
+            
             if (token == null)
             {
                 _log4net.Info("User is not logged in");
                 ViewBag.Message = "Please Login First";
                 return RedirectToAction("Index", "Login");
             }
+            int userid = (int)HttpContext.Session.GetInt32("userid");
 
-            List<ProductCartView> mymodel = new List<ProductCartView>();
-            
+            List<ProductListView> mymodel = new List<ProductListView>();
+            int sum = 0;
             foreach(var item in repo.GetCarts(token,userid))
             {
+                Product product = repo.GetProducts(token).SingleOrDefault(z => z.Id == item.ProductId);
+                sum += product.Price * item.Quantity;
                 mymodel.Add(
-                    new ProductCartView()
+                    new ProductListView()
                     {
-                        
-                        Products = repo.GetProducts(token).SingleOrDefault(z => z.Id == item.ProductId),
-                        Carts = item
+                        Product = product,
+                        Vendor = repo.GetVendors(token).SingleOrDefault(z => z.Id == item.VendorId),
+                        Quantity = item.Quantity,
+                        AddedDate = item.DeliveryDate,
+                        TotalAmount = product.Price * item.Quantity
                     }
                );
             }
             _log4net.Info("User is viewing cart");
+            ViewBag.GrandTotal = sum;
 
             return View(mymodel);
         }
@@ -101,72 +107,24 @@ namespace E_Commerce_Portal.Controllers
 
 
         // GET: CartController/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Checkout()
         {
-            return View();
+            string token = HttpContext.Session.GetString("token");
+            if (token == null)
+            {
+                _log4net.Info("User is not logged in");
+                ViewBag.Message = "Please Login First";
+                return RedirectToAction("Index", "Login");
+            }
+            int id = (int)HttpContext.Session.GetInt32("userid");
+            repo.Checkout(token, id);
+
+            return View("Checkout");
         }
 
-        // GET: CartController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
 
-        // POST: CartController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
 
-        // GET: CartController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
 
-        // POST: CartController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
 
-        // GET: CartController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: CartController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
     }
 }

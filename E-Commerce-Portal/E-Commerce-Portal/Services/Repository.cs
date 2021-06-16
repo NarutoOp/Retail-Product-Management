@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using Newtonsoft.Json;
+using System.Text;
 
 namespace E_Commerce_Portal.Services
 {
@@ -61,12 +63,8 @@ namespace E_Commerce_Portal.Services
                         }
                         var ApiResponse = result.Content.ReadAsAsync<List<Product>>();
                         ApiResponse.Wait();
-                        /*List<Product> res = JsonConvert.DeserializeObject<List<Product> >(apiResponse);*/
                         
                         products = ApiResponse.Result;
-                        /*esponse.Content.*/
-                        
-
                     
                 }
                 catch (Exception)
@@ -231,7 +229,6 @@ namespace E_Commerce_Portal.Services
                     }
                     var ApiResponse = result.Content.ReadAsAsync<List<Cart>>();
                     ApiResponse.Wait();
-                    /*List<Product> res = JsonConvert.DeserializeObject<List<Product> >(apiResponse);*/
 
                     carts = ApiResponse.Result;
                 }
@@ -342,6 +339,28 @@ namespace E_Commerce_Portal.Services
 
             }
             return wishList;
+        }
+
+        public void Checkout(string token, int CustomerId)
+        {
+            string bearer = String.Format("Bearer {0}", token);
+            try
+            {
+                using (var client = new HttpClient())
+                {
+                    client.BaseAddress = new Uri(proceedToBuyUri);
+                    client.DefaultRequestHeaders.Accept.Clear();
+                    client.DefaultRequestHeaders.Add("Authorization", bearer);
+                    var responseTask = client.GetAsync("ProceedToBuy/DeleteAll/"+CustomerId);
+                    responseTask.Wait();
+                    var result = responseTask.Result;
+
+                }
+            }
+            catch (Exception)
+            {
+                _log4net.Error("Clear all cart and wishlist item !!");
+            }
         }
 
     }

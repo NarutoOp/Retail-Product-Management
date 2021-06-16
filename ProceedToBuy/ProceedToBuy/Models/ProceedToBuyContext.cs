@@ -12,12 +12,7 @@ namespace ProceedToBuy.Models
         {
 
         }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Cart>().HasData(
-                  new Cart() { CartId =1 , CustomerId=201, ProductId= 101, Zipcode = 641008 ,Quantity= 5,DeliveryDate=Convert.ToDateTime("2016 - 05 - 15 00:00:00.000") }
-              );
-        }
+
         public DbSet<Cart> Carts { get; set; }
         public DbSet<VendorWishlist> VendorWishlists { get; set; }
         

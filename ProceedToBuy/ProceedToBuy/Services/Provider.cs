@@ -38,9 +38,14 @@ namespace ProceedToBuy.Services
                     vendors = readData.Result;
                 }
             }
-            int max = vendors.Max(v => v.Rating);
-            Vendor vendor = vendors.FirstOrDefault(v => v.Rating == max);
-            return vendor;
+            if (vendors.Count > 0)
+            {
+                int max = vendors.Max(v => v.Rating);
+                Vendor vendor = vendors.FirstOrDefault(v => v.Rating == max);
+                return vendor;
+            }
+            return null;
+            
 
         }
     }

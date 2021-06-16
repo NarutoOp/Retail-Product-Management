@@ -48,7 +48,7 @@ namespace ProceedToBuy.Controllers
 
         // POST api/<ProceedToBuyController>
         [HttpPost]
-        public CartVendor Post([FromBody] Cart _cart)
+        public Boolean Post([FromBody] Cart _cart)
         {
             _log4net.Info("Posting Cart");
             return _repository.AddToCart(_cart);
@@ -68,9 +68,16 @@ namespace ProceedToBuy.Controllers
             _log4net.Info("Posting WishList");
             _repository.AddToWishList(customerId,productId);
             return Ok("Success");
+        }
 
-
-
+        [Route("DeleteAll/{id}")]
+        [HttpGet]
+        public IActionResult DeleteAll (int id)
+        {
+            _log4net.Info("Posting WishList");
+            if(_repository.DeleteCustomerCart(id))
+                return Ok("Success");
+            return Ok("Failed");
         }
 
     }

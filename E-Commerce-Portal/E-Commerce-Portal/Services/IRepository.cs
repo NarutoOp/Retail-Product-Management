@@ -24,5 +24,7 @@ namespace E_Commerce_Portal.Services
         public void AddCart(string token,Cart cart);
 
         public List<VendorWishlist> GetWishlists(string token, int id);
+
+        public void Checkout(string token, int CustomerId);
     }
 }

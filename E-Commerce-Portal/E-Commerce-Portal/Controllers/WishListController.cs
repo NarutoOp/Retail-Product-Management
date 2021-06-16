@@ -33,14 +33,14 @@ namespace E_Commerce_Portal.Controllers
             }
             _log4net.Info("User is seeing WishLists");
 
-            List<ProductWishList> mymodel = new List<ProductWishList>();
+            List<ProductListView> mymodel = new List<ProductListView>();
 
             foreach (var item in repo.GetWishlists(token, Convert.ToInt32(HttpContext.Session.GetInt32("userid"))))
             {
                 Product product = repo.GetProducts(token).SingleOrDefault(z => z.Id == item.ProductId);
                 int quantity = item.Quantity;
                 mymodel.Add(
-                    new ProductWishList()
+                    new ProductListView()
                     {
 
                         Product = product,

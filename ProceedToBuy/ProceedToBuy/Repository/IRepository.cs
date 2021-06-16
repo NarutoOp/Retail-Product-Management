@@ -8,11 +8,13 @@ namespace ProceedToBuy.Repository
 {
     public interface IRepository<T>
     {
-        public CartVendor AddToCart(Cart t);
+        public bool AddToCart(Cart t);
         public List<Cart> GetCart();
         public bool AddToWishList(int customerId,int productId);
 
         public List<VendorWishlist> GetWishlist(int id);
+
+        public bool DeleteCustomerCart(int customerId);
 
     }
 }
