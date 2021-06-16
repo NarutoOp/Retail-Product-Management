@@ -33,7 +33,7 @@ namespace E_Commerce_Portal.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Index(Login cred)
+        public ActionResult Index(Login cred)
         {
             _log4net.Info("User is logging in");
             
@@ -74,6 +74,39 @@ namespace E_Commerce_Portal.Controllers
             }
             
             return RedirectToAction("Index", "ECommerce");
+        }
+
+        public ActionResult Register()
+        {
+            _log4net.Info("User is registering in");
+            return View(new Login());
+        }
+
+        [HttpPost]
+        public ActionResult Register(Login reg)
+        {
+            _log4net.Info("User is registering in");
+
+            string tokenURI = configuration.GetValue<string>("MyLinkValue:tokenUri")+"/register";
+
+            using (var httpClient = new HttpClient())
+            {
+                /*httpClient.BaseAddress = new Uri(tokenURI);*/
+                StringContent content = new StringContent(JsonConvert.SerializeObject(reg), Encoding.UTF8, "application/json");
+
+                var response = httpClient.PostAsync(tokenURI,content);
+                response.Wait();
+                var result = response.Result;
+
+                if (!result.IsSuccessStatusCode)
+                {
+                    _log4net.Info("Registration failed");
+                    ViewBag.Message = "Username Already exists !!";
+                    return View("Register");
+                }
+                _log4net.Info("Registration Successful");
+            }
+            return RedirectToAction("Index", "Login");
         }
 
         public ActionResult Logout()

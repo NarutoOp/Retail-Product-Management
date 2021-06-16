@@ -8,8 +8,8 @@ namespace AuthorizationAPI.Provider
 {
     public interface IUserProvider
     {
-        public List<UserCredentials> GetList();
 
         public UserCredentials GetUser(UserCredentials cred);
+        public bool RegisterUser(UserCredentials cred);
     }
 }

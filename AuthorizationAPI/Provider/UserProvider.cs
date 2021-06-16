@@ -16,17 +16,27 @@ namespace AuthorizationAPI.Provider
              _context = dbContext;
         }
 
-        public List<UserCredentials> GetList()
-        {
-            return _context.Users.ToList();
-        }
-
         public UserCredentials GetUser(UserCredentials cred)
         {
-            List<UserCredentials> rList = GetList();
+            List<UserCredentials> rList = _context.Users.ToList();
             UserCredentials userCred = rList.FirstOrDefault(user => user.Username == cred.Username && user.Password == cred.Password);
 
             return userCred;
+        }
+
+        public bool RegisterUser(UserCredentials cred)
+        {
+            List<UserCredentials> rList = _context.Users.ToList();
+            UserCredentials userCred = rList.FirstOrDefault(user => user.Username == cred.Username);
+            if (userCred != null)
+            {
+                return false;
+            }
+            _context.Add(cred);
+            _context.SaveChanges();
+            
+
+            return true;
         }
     }
 }

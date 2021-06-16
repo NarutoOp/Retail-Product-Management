@@ -1,17 +1,18 @@
 ﻿@model E_Commerce_Portal.Models.Login
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Register";
 }
 
-<br />
+<h1>Register</h1>
 
-<h4>Login</h4>
+
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Index">
+        <form method="post" asp-action="Register">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
             <div class="form-group">
                 <label asp-for="Username" class="control-label"></label>
                 <input asp-for="Username" class="form-control" />
@@ -19,16 +20,21 @@
             </div>
             <div class="form-group">
                 <label asp-for="Password" class="control-label"></label>
-                <input asp-for="Password" type="password" class="form-control" />
+                <input asp-for="Password" class="form-control" />
                 <span asp-validation-for="Password" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Login" class="btn btn-primary" />
+                <input type="submit" value="Register" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
+
 @ViewBag.Message
+
+<div>
+    <a asp-action="Index">Back to Login</a>
+</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

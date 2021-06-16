@@ -9,5 +9,7 @@ namespace AuthorizationAPI.Repository
     public interface IUserRepo
     {
         public UserCredentials GetUserCred(UserCredentials cred);
+
+        public bool RegisterUserCred(UserCredentials cred);
     }
 }

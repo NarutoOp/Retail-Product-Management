@@ -60,9 +60,21 @@ namespace AuthorizationAPI.Controllers
             return new OkObjectResult(userToken);
         }
 
-        
-  
-        
-        
+        [Route("Register")]
+        [HttpPost]
+        public IActionResult Register([FromBody] UserCredentials reg)
+        {
+
+            _log4net.Info("Login initiated!");
+
+            if(repo.RegisterUserCred(reg))
+                return Ok();
+            return NotFound();
+        }
+
+
+
+
+
     }
 }

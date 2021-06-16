@@ -26,5 +26,13 @@ namespace AuthorizationAPI.Repository
 
             return user;
         }
+
+        public bool RegisterUserCred(UserCredentials cred)
+        {
+
+            var user = provider.RegisterUser(cred);
+
+            return user;
+        }
     }
 }

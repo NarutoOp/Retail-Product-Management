@@ -44,11 +44,8 @@ namespace AuthorizationAPI.Repository
 
         }
 
-        /// <summary>
         /// Finding User with matching credentials
-        /// </summary>
-        /// <param name="login"></param>
-        /// <returns></returns>
+
         
         public UserCredentials AuthenticateUser(UserCredentials login)
         {
