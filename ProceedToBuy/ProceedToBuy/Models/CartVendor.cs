@@ -8,6 +8,6 @@ namespace ProceedToBuy.Models
     public class CartVendor
     {
         public Cart Carts { get; set; }
-        public VendorStock Vendor { get; set; }
+        public Vendor Vendor { get; set; }
     }
 }

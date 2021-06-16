@@ -12,5 +12,7 @@ namespace ProceedToBuy.Repository
         public List<Cart> GetCart();
         public bool AddToWishList(int customerId,int productId);
 
+        public List<VendorWishlist> GetWishlist(int id);
+
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProceedToBuy.Models
 {
-    public class VendorStock
+    public class Vendor
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

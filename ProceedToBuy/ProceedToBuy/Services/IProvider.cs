@@ -8,6 +8,6 @@ namespace ProceedToBuy.Services
 {
     public interface IProvider
     {
-        public VendorStock GetVendors(int productId);
+        public Vendor GetVendors(int productId);
     }
 }

@@ -1,0 +1,60 @@
+﻿@model IEnumerable<E_Commerce_Portal.ViewModel.ProductWishList>
+
+@{
+    ViewData["Title"] = "WishList";
+}
+
+<h1>Wish List</h1>
+
+<p>
+    <a asp-controller="ECommerce">Add</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+
+            </th>
+            <th>
+                Product Name
+            </th>
+            <th>
+                Vendor Name
+            </th>
+            <th>
+                Quantity
+            </th>
+            <th>
+                Added Date
+            </th>
+            <th>
+                Total
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <img class="card-img-top" src="@("~/image/"+item.Product.Image_Name)" asp-append-version="true" alt="Card image">
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Vendor.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AddedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalAmount)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

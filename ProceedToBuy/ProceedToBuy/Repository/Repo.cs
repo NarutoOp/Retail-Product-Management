@@ -59,12 +59,17 @@ namespace ProceedToBuy.Repository
             vendorWishlist.ProductId = productId;
             vendorWishlist.Quantity = 1;
             vendorWishlist.DateAddedToWishlist = DateTime.Now;
-            VendorStock vendor = _provider.GetVendors(productId);
+            Vendor vendor = _provider.GetVendors(productId);
             vendorWishlist.VendorId = vendor.Id;
             _proceedToBuyContext.VendorWishlists.Add(vendorWishlist);
             _proceedToBuyContext.SaveChanges();
             return true;
         }
-        
+
+        public List<VendorWishlist> GetWishlist(int id)
+        {
+            return _proceedToBuyContext.VendorWishlists.Where(v => v.CustomerId == id).ToList();
+        }
+
     }
 }

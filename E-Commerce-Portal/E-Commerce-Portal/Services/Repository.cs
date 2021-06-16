@@ -302,5 +302,47 @@ namespace E_Commerce_Portal.Services
             }
         }
 
+
+        // Wishlist
+
+        public List<VendorWishlist> GetWishlists(string token, int id)
+        {
+            string bearer = String.Format("Bearer {0}", token);
+            List<VendorWishlist> wishList = null;
+            using (var httpClient = new HttpClient())
+            {
+                httpClient.BaseAddress = new Uri(proceedToBuyUri);
+                try
+                {
+                    httpClient.DefaultRequestHeaders.Accept.Clear();
+                    httpClient.DefaultRequestHeaders.Add("Authorization", bearer);
+
+                    var response = httpClient.GetAsync("ProceedToBuy/GetWishList/" + id);
+
+                    response.Wait();
+                    var result = response.Result;
+
+                    if (!result.IsSuccessStatusCode)
+                    {
+                        _log4net.Info("Proceed to buy microservice in wishlist failed");
+
+                        return null;
+                    }
+                    var ApiResponse = result.Content.ReadAsAsync<List<VendorWishlist>>();
+                    ApiResponse.Wait();
+
+
+                    wishList = ApiResponse.Result;
+
+                }
+                catch (Exception)
+                {
+                    _log4net.Error("Vendor Microservice is Down!!");
+                }
+
+            }
+            return wishList;
+        }
+
     }
 }

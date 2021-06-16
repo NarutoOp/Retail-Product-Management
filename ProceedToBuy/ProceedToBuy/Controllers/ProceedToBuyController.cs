@@ -52,10 +52,15 @@ namespace ProceedToBuy.Controllers
         {
             _log4net.Info("Posting Cart");
             return _repository.AddToCart(_cart);
-            
-
 
         }
+
+        [HttpGet("GetWishList/{id}")]
+        public IEnumerable<VendorWishlist> GetWishList(int id)
+        {
+            return _repository.GetWishlist(id);
+        }
+
         [Route("WishList")]
         [HttpPost]
         public IActionResult WishList(int customerId,int productId)

@@ -20,9 +20,9 @@ namespace ProceedToBuy.Services
 
         }
 
-        public VendorStock GetVendors(int productId)
+        public Vendor GetVendors(int productId)
         {
-            IList<VendorStock> vendors = null;
+            IList<Vendor> vendors = null;
             using (var client = new HttpClient())
             {
                 client.BaseAddress = new Uri(apiBaseUrl);
@@ -32,14 +32,14 @@ namespace ProceedToBuy.Services
                 var result = responseTask.Result;
                 if (result.IsSuccessStatusCode)
                 {
-                    var readData = result.Content.ReadAsAsync<IList<VendorStock>>();
+                    var readData = result.Content.ReadAsAsync<IList<Vendor>>();
                     readData.Wait();
 
                     vendors = readData.Result;
                 }
             }
             int max = vendors.Max(v => v.Rating);
-            VendorStock vendor = vendors.FirstOrDefault(v => v.Rating == max);
+            Vendor vendor = vendors.FirstOrDefault(v => v.Rating == max);
             return vendor;
 
         }
