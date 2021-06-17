@@ -38,5 +38,27 @@ namespace AuthorizationAPI.Provider
 
             return true;
         }
+
+        public int IncrementCounter(UserCredentials cred)
+        {
+            List<UserCredentials> rList = _context.Users.ToList();
+            UserCredentials userCred = rList.FirstOrDefault(user => user.Username == cred.Username);
+            if (userCred == null)
+            {
+                return 0;
+            }
+            userCred.Counter += 1;
+            var count = userCred.Counter;
+            if (userCred.Counter == 5)
+            {
+                userCred.BanTime = DateTime.Now.AddDays(1);
+                userCred.Counter = 0;
+            }
+
+            _context.SaveChanges();
+
+
+            return count;
+        }
     }
 }

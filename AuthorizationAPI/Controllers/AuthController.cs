@@ -40,16 +40,26 @@ namespace AuthorizationAPI.Controllers
             UserToken userToken = new UserToken();
             _log4net.Info("Login initiated!");
             IActionResult response = Unauthorized();
-            //login.FullName = "user1";
+
             var user = auth_repo.AuthenticateUser(login);
             if (user == null)
             {
-                return NotFound();
+                var count = repo.IncrementCount(login);
+ 
+                return NotFound("User is not found");
+                
             }
             else
             {
+                if (user.BanTime != null) {
+                    var diff = (user.BanTime - DateTime.Now).TotalHours;
+                    if (diff > 0)
+                    {
+                        return Unauthorized("User is Banned");
+                    }
+                }
                 var tokenString = auth_repo.GenerateJSONWebToken(user);
-                /*response = Ok(new { token = tokenString });*/
+
 
                 userToken.Id = user.Id;
                 userToken.Username = user.Username;

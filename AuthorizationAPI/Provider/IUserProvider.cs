@@ -11,5 +11,7 @@ namespace AuthorizationAPI.Provider
 
         public UserCredentials GetUser(UserCredentials cred);
         public bool RegisterUser(UserCredentials cred);
+
+        public int IncrementCounter(UserCredentials cred);
     }
 }

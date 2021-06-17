@@ -13,7 +13,21 @@
 
 <p>
     Grand Total = @ViewBag.GrandTotal
-    <a class="btn btn-outline-danger float-right" asp-controller="Cart" asp-action="Checkout">Checkout</a>
+    <a data-toggle="modal" data-target="#CheckoutModal" class="btn btn-danger float-right">Checkout</a>
+
+    <div class="modal fade" id="CheckoutModal" tabindex="-1" role="dialog" aria-labelledby="CheckoutModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content align-content-between align-items-center">
+
+                <div class="modal-body">
+                    <h4>Are you sure ?</h4>
+                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+
+                    <a asp-action="Checkout" class="btn btn-outline-danger ml-3">Checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </p>
 <br />
 
@@ -64,7 +78,27 @@
             <td>
                 @Html.DisplayFor(modelItem => item.TotalAmount)
             </td>
+            <td>
+                <a asp-action="AddToCart" asp-route-Id="@item.Product.Id">Edit</a>
+                |
+                <a data-toggle="modal" data-target="#deleteCartModal_@item.CartId" href="#">Delete</a>
+
+                <div class="modal fade" id="deleteCartModal_@item.CartId" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content align-content-between align-items-center">
+
+                            <div class="modal-body">
+                                <h4>Are you sure ?</h4>
+                                <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                                <a asp-action="DeleteCart" asp-route-Id="@item.CartId" class="btn btn-outline-danger ml-3">Delete</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
         </tr>
         }
     </tbody>
 </table>
+
+

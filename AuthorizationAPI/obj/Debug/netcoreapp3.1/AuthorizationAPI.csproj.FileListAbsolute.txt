@@ -58,7 +58,6 @@ C:\Users\zinga\Documents\GitHub\Retail-Product-Management\AuthorizationAPI\bin\D
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\AuthorizationAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\AuthorizationAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\AuthorizationAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\zinga\Documents\GitHub\Retail-Product-Management\AuthorizationAPI\obj\Debug\netcoreapp3.1\AuthorizationAPI.csprojAssemblyReference.cache
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\AuthorizationAPI\obj\Debug\netcoreapp3.1\AuthorizationAPI.AssemblyInfoInputs.cache
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\AuthorizationAPI\obj\Debug\netcoreapp3.1\AuthorizationAPI.AssemblyInfo.cs
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\AuthorizationAPI\obj\Debug\netcoreapp3.1\AuthorizationAPI.csproj.CoreCompileInputs.cache
@@ -72,3 +71,4 @@ C:\Users\zinga\Documents\GitHub\Retail-Product-Management\AuthorizationAPI\obj\D
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\AuthorizationAPI\obj\Debug\netcoreapp3.1\AuthorizationAPI.dll
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\AuthorizationAPI\obj\Debug\netcoreapp3.1\AuthorizationAPI.pdb
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\AuthorizationAPI\obj\Debug\netcoreapp3.1\AuthorizationAPI.genruntimeconfig.cache
+C:\Users\zinga\Documents\GitHub\Retail-Product-Management\AuthorizationAPI\obj\Debug\netcoreapp3.1\AuthorizationAPI.csprojAssemblyReference.cache

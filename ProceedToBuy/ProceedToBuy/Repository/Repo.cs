@@ -88,5 +88,14 @@ namespace ProceedToBuy.Repository
             return true;
         }
 
+        public bool DeleteCartById(int cartId)
+        {
+            Cart cart = GetCart().SingleOrDefault(x=>x.CartId == cartId);
+            _proceedToBuyContext.Carts.Remove(cart);
+            _proceedToBuyContext.SaveChanges();
+
+            return true;
+        }
+
     }
 }

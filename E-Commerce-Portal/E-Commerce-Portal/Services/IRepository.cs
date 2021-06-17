@@ -26,5 +26,7 @@ namespace E_Commerce_Portal.Services
         public List<VendorWishlist> GetWishlists(string token, int id);
 
         public void Checkout(string token, int CustomerId);
+
+        public void DeleteCart(string token, int CartId);
     }
 }

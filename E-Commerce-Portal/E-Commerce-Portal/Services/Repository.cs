@@ -363,5 +363,26 @@ namespace E_Commerce_Portal.Services
             }
         }
 
+        public void DeleteCart(string token, int CartId)
+        {
+            string bearer = String.Format("Bearer {0}", token);
+            try
+            {
+                using (var client = new HttpClient())
+                {
+                    client.BaseAddress = new Uri(proceedToBuyUri);
+                    client.DefaultRequestHeaders.Accept.Clear();
+                    client.DefaultRequestHeaders.Add("Authorization", bearer);
+                    var responseTask = client.DeleteAsync("ProceedToBuy/DeleteCart/" + CartId);
+                    responseTask.Wait();
+                    var result = responseTask.Result;
+                }
+            }
+            catch (Exception)
+            {
+                _log4net.Error("Delete Cart !!");
+            }
+        }
+
     }
 }

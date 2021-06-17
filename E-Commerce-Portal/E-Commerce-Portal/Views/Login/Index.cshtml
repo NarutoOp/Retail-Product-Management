@@ -28,7 +28,7 @@
         </form>
     </div>
 </div>
-@ViewBag.Message
+<p class="text-danger">@ViewBag.Message</p>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

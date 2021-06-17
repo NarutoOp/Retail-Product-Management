@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace AuthorizationAPI.Migrations
 {
@@ -12,8 +13,10 @@ namespace AuthorizationAPI.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Username = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Password = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Username = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    BanTime = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Counter = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -22,13 +25,13 @@ namespace AuthorizationAPI.Migrations
 
             migrationBuilder.InsertData(
                 table: "Users",
-                columns: new[] { "Id", "Password", "Username" },
-                values: new object[] { 1, "admin", "admin" });
+                columns: new[] { "Id", "BanTime", "Counter", "Password", "Username" },
+                values: new object[] { 1, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0, "admin", "admin" });
 
             migrationBuilder.InsertData(
                 table: "Users",
-                columns: new[] { "Id", "Password", "Username" },
-                values: new object[] { 2, "user", "user" });
+                columns: new[] { "Id", "BanTime", "Counter", "Password", "Username" },
+                values: new object[] { 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), 0, "user", "user" });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

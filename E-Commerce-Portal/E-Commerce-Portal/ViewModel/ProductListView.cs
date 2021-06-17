@@ -8,6 +8,7 @@ namespace E_Commerce_Portal.ViewModel
 {
     public class ProductListView
     {
+        public int? CartId { get; set; }
         public Vendor Vendor { get; set; }
         public Product Product { get; set; }
         public int Quantity { get; set; }

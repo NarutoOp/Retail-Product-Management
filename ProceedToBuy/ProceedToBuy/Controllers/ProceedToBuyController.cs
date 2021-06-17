@@ -80,5 +80,14 @@ namespace ProceedToBuy.Controllers
             return Ok("Failed");
         }
 
+        [Route("DeleteCart/{id}")]
+        [HttpDelete]
+        public IActionResult DeleteByCartId(int id)
+        {
+            _log4net.Info("Posting WishList");
+            if (_repository.DeleteCartById(id)) ;
+                return Ok("Success");
+            return Ok("Failed");
+        }
     }
 }

@@ -52,11 +52,23 @@ namespace E_Commerce_Portal.Controllers
                     if (!result.IsSuccessStatusCode)
                     {
                         _log4net.Info("Login failed");
-                        ViewBag.Message = "Please Enter valid credentials";
+
+                        if ((int)result.StatusCode == 401)
+                        {
+                            _log4net.Info("User is banned");
+
+                            ViewBag.Message = "User is banned. You had entered wrong credentials multiple time";
+                        }
+                        else
+                        {
+
+                            _log4net.Info("Entered wrong credentials");
+                            ViewBag.Message = "Please Enter valid credentials entering wrong credentials multiple time will ban you";
+                        }
+
                         return View("Index");
                     }
                     _log4net.Info("Login Successful and token generated");
-                    /*string strtoken = await response.Content.ReadAsStringAsync();*/
 
                     var ApiResponse = result.Content.ReadAsAsync<UserToken>();
                     ApiResponse.Wait();

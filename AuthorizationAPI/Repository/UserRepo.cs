@@ -34,5 +34,13 @@ namespace AuthorizationAPI.Repository
 
             return user;
         }
+
+        public int IncrementCount(UserCredentials cred)
+        {
+
+            var count = provider.IncrementCounter(cred);
+
+            return count;
+        }
     }
 }

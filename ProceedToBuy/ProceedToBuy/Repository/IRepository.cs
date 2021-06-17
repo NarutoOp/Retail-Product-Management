@@ -15,6 +15,7 @@ namespace ProceedToBuy.Repository
         public List<VendorWishlist> GetWishlist(int id);
 
         public bool DeleteCustomerCart(int customerId);
+        public bool DeleteCartById(int cartId);
 
     }
 }

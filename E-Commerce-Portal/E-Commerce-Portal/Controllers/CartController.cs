@@ -51,6 +51,7 @@ namespace E_Commerce_Portal.Controllers
                 mymodel.Add(
                     new ProductListView()
                     {
+                        CartId = item.CartId,
                         Product = product,
                         Vendor = repo.GetVendors(token).SingleOrDefault(z => z.Id == item.VendorId),
                         Quantity = item.Quantity,
@@ -120,6 +121,20 @@ namespace E_Commerce_Portal.Controllers
             repo.Checkout(token, id);
 
             return View("Checkout");
+        }
+
+        public ActionResult DeleteCart(int Id)
+        {
+            string token = HttpContext.Session.GetString("token");
+            if (token == null)
+            {
+                _log4net.Info("User is not logged in");
+                ViewBag.Message = "Please Login First";
+                return RedirectToAction("Index", "Login");
+            }
+            repo.DeleteCart(token, Id);
+
+            return RedirectToAction("Index");
         }
 
 

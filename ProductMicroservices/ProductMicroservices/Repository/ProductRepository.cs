@@ -48,7 +48,7 @@ namespace ProductMicroservices.Repository
 
         public IEnumerable<Product> SearchProductByName(string name)
         {
-            IEnumerable<Product> P = _dbContext.Products.Where(p => p.Name == name);
+            IEnumerable<Product> P = _dbContext.Products.Where(p => p.Name.Contains(name));
             return P;
         }
 
