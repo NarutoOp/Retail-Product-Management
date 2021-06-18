@@ -9,6 +9,10 @@ namespace VendorService.Data
 {
     public class VendorContext: DbContext
     {
+        public VendorContext()
+        {
+
+        }
         public VendorContext(DbContextOptions opts): base(opts)
         {
            
@@ -25,7 +29,7 @@ namespace VendorService.Data
                   new Vendor() { Id = 202, Name = "HydMotoShop", DeliveryCharge = 50, Rating = 4 }
               );
         }
-        public DbSet<Vendor> Vendor { get; set; }
-        public DbSet<VendorStock> VendorStock { get; set; }
+        public virtual DbSet<Vendor> Vendor { get; set; }
+        public virtual DbSet<VendorStock> VendorStock { get; set; }
     }
 }

@@ -38,7 +38,12 @@ namespace VendorService.Controllers
         public IActionResult Get(int id)
         {
             _log4net.Info("Getting Info");
-            return Ok(_vendor.GetVendor(id));
+            List<Vendor> vendors = _vendor.GetVendor(id).ToList();
+            if(vendors.Count() == 0)
+            {
+                return NotFound("No Vendors Found");
+            }
+            return Ok(vendors);
         }
 
         // POST api/<VendorController>
