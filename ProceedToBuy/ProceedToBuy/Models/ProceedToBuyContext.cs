@@ -8,13 +8,17 @@ namespace ProceedToBuy.Models
 {
     public class ProceedToBuyContext:DbContext
     {
+        public ProceedToBuyContext()
+        {
+
+        }
         public ProceedToBuyContext(DbContextOptions<ProceedToBuyContext> option):base(option)
         {
 
         }
 
-        public DbSet<Cart> Carts { get; set; }
-        public DbSet<VendorWishlist> VendorWishlists { get; set; }
+        public virtual DbSet<Cart> Carts { get; set; }
+        public virtual DbSet<VendorWishlist> VendorWishlists { get; set; }
         
     }
 }

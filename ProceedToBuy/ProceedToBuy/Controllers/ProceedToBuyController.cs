@@ -56,9 +56,9 @@ namespace ProceedToBuy.Controllers
         }
 
         [HttpGet("GetWishList/{id}")]
-        public IEnumerable<VendorWishlist> GetWishList(int id)
+        public List<VendorWishlist> GetWishList(int id)
         {
-            return _repository.GetWishlist(id);
+            return _repository.GetWishlist(id).ToList();
         }
 
         [Route("WishList")]
@@ -85,7 +85,7 @@ namespace ProceedToBuy.Controllers
         public IActionResult DeleteByCartId(int id)
         {
             _log4net.Info("Posting WishList");
-            if (_repository.DeleteCartById(id)) ;
+            if (_repository.DeleteCartById(id)) 
                 return Ok("Success");
             return Ok("Failed");
         }

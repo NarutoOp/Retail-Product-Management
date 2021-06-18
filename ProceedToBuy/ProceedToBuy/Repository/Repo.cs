@@ -65,37 +65,61 @@ namespace ProceedToBuy.Repository
 
         public List<VendorWishlist> GetWishlist(int id)
         {
-            return _proceedToBuyContext.VendorWishlists.Where(v => v.CustomerId == id).ToList();
+            IEnumerable<VendorWishlist> vendorWishlists;
+            try
+            {
+               vendorWishlists = _proceedToBuyContext.VendorWishlists.Where(v => v.CustomerId == id);
+            }
+            catch(Exception e)
+            {
+                return null;
+            }
+            return vendorWishlists.ToList();
         }
 
         public bool DeleteCustomerCart(int customerId)
         {
-            List<VendorWishlist> Wlist = GetWishlist(customerId);
-            foreach(VendorWishlist item in Wlist)
+            if (customerId > 0)
             {
-                _proceedToBuyContext.VendorWishlists.Remove(item);
+                List<VendorWishlist> Wlist = GetWishlist(customerId);
+                if (Wlist.Count() > 0)
+                {
+                    foreach (VendorWishlist item in Wlist)
+                    {
+                        _proceedToBuyContext.VendorWishlists.Remove(item);
+                    }
+
+                    List<Cart> cart = GetCart();
+                    foreach (Cart item in cart)
+                    {
+                        if (item.CustomerId == customerId)
+                            _proceedToBuyContext.Carts.Remove(item);
+                    }
+
+                    _proceedToBuyContext.SaveChanges();
+                }
+                else
+                {
+                    return false;
+                }
+                return true;
             }
-            
-            List<Cart> cart = GetCart();
-            foreach (Cart item in cart)
+            else
             {
-                if(item.CustomerId == customerId)
-                    _proceedToBuyContext.Carts.Remove(item);
+                return false;
             }
-
-            _proceedToBuyContext.SaveChanges();
-
-            return true;
         }
 
         public bool DeleteCartById(int cartId)
         {
             Cart cart = GetCart().SingleOrDefault(x=>x.CartId == cartId);
+            
             _proceedToBuyContext.Carts.Remove(cart);
             _proceedToBuyContext.SaveChanges();
 
             return true;
         }
+        
 
     }
 }
