@@ -24,6 +24,10 @@ namespace E_Commerce_Portal.Controllers
         // GET: WishListController
         public ActionResult Index()
         {
+            ViewBag.SuccessMsg = "";
+            if(TempData["SuccessMessage"] != null)
+                ViewBag.SuccessMsg = TempData["SuccessMessage"].ToString();
+
             string token = HttpContext.Session.GetString("token");
             if (token == null)
             {

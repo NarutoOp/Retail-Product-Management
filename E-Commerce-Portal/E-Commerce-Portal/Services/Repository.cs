@@ -277,7 +277,7 @@ namespace E_Commerce_Portal.Services
             return vendors;
         }
 
-        public void AddCart(string token,Cart cart)
+        public string AddCart(string token,Cart cart)
         {
             string bearer = String.Format("Bearer {0}", token);
             try
@@ -290,6 +290,10 @@ namespace E_Commerce_Portal.Services
                     var responseTask = client.PostAsJsonAsync<Cart>("ProceedToBuy", cart);
                     responseTask.Wait();
                     var result = responseTask.Result;
+                    var content = result.Content.ReadAsStringAsync();
+                    content.Wait();
+                    return content.Result;
+                    
                     
                 }
             }
@@ -297,6 +301,7 @@ namespace E_Commerce_Portal.Services
             {
                 _log4net.Error("Proceed To Buy cant post!!");
             }
+            return "1";
         }
 
 

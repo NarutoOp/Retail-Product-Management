@@ -9,6 +9,7 @@ namespace AuthorizationAPI.Repository
 {
     public class UserRepo : IUserRepo
     {
+
         private IUserProvider provider;
 
         public UserRepo(IUserProvider _provider)

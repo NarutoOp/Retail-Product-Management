@@ -10,7 +10,9 @@
 <p>
     <a asp-controller="ECommerce" asp-action="Index">Add Item</a>
 </p>
+@ViewBag.Msg
 
+@if (@ViewBag.GrandTotal>0) { 
 <p>
     Grand Total = @ViewBag.GrandTotal
     <a data-toggle="modal" data-target="#CheckoutModal" class="btn btn-danger float-right">Checkout</a>
@@ -29,6 +31,7 @@
         </div>
     </div>
 </p>
+    }
 <br />
 
 <table class="table">

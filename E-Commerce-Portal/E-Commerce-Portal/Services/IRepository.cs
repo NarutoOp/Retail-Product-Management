@@ -21,7 +21,7 @@ namespace E_Commerce_Portal.Services
 
         public List<Vendor> GetVendors(string token);
 
-        public void AddCart(string token,Cart cart);
+        public string AddCart(string token,Cart cart);
 
         public List<VendorWishlist> GetWishlists(string token, int id);
 

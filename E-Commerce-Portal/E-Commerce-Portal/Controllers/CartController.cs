@@ -44,6 +44,9 @@ namespace E_Commerce_Portal.Controllers
 
             List<ProductListView> mymodel = new List<ProductListView>();
             int sum = 0;
+
+            
+
             foreach(var item in repo.GetCarts(token,userid))
             {
                 Product product = repo.GetProducts(token).SingleOrDefault(z => z.Id == item.ProductId);
@@ -62,6 +65,7 @@ namespace E_Commerce_Portal.Controllers
             }
             _log4net.Info("User is viewing cart");
             ViewBag.GrandTotal = sum;
+
 
             return View(mymodel);
         }
@@ -96,10 +100,13 @@ namespace E_Commerce_Portal.Controllers
                 return RedirectToAction("Index", "Login");
             }
 
-            repo.AddCart(token, productCart);
+            var msg = repo.AddCart(token, productCart);
+            TempData["SuccessMessage"] = msg;
 
             _log4net.Info("User is adding to cart");
-            return RedirectToAction("Index");
+            if(msg=="true")
+                return RedirectToAction("Index");
+            return RedirectToAction("Index","WishList");
         }
         
 
