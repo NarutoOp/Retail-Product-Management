@@ -10,12 +10,12 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace ProceedToBuy.Controllers
 {   
 
     [Route("api/[controller]")]
+    [Authorize]
     [ApiController]
     public class ProceedToBuyController : ControllerBase
     {
@@ -77,7 +77,7 @@ namespace ProceedToBuy.Controllers
             _log4net.Info("Posting WishList");
             if(_repository.DeleteCustomerCart(id))
                 return Ok("Success");
-            return Ok("Failed");
+            return BadRequest("Failed");
         }
 
         [Route("DeleteCart/{id}")]
@@ -85,9 +85,9 @@ namespace ProceedToBuy.Controllers
         public IActionResult DeleteByCartId(int id)
         {
             _log4net.Info("Posting WishList");
-            if (_repository.DeleteCartById(id)) ;
+            if (_repository.DeleteCartById(id))
                 return Ok("Success");
-            return Ok("Failed");
+            return BadRequest("Failed");
         }
     }
 }

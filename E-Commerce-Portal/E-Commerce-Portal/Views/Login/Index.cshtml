@@ -30,6 +30,15 @@
 </div>
 <p class="text-danger">@ViewBag.Message</p>
 
+
+    <script type="text/javascript">
+            window.onbeforeunload = function () {
+                window.location.href = "@Url.Action("logout", "Login")";
+            };
+    </script>
+
+
+
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

@@ -34,6 +34,7 @@
           "Microsoft.OpenApi": "1.2.3",
           "Swashbuckle.AspNetCore": "6.1.4",
           "System.IdentityModel.Tokens.Jwt": "6.11.1",
+          "System.Web.Helpers.Crypto": "3.2.3",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -1451,6 +1452,17 @@
           "System.Collections": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Web.Helpers.Crypto/3.2.3": {
+        "runtime": {
+          "lib/net40/System.Web.Helpers.Crypto.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.2.3.0"
+          }
+        },
+        "compile": {
+          "lib/net40/System.Web.Helpers.Crypto.dll": {}
         }
       },
       "System.Windows.Extensions/4.7.0": {
@@ -3864,6 +3876,13 @@
       "sha512": "sha512-npvJkVKl5rKXrtl1Kkm6OhOUaYGEiF9wFbppFRWSMoApKzt2PiPHT2Bb8a5sAWxprvdOAtvaARS9QYMznEUtug==",
       "path": "system.threading.tasks.extensions/4.3.0",
       "hashPath": "system.threading.tasks.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.Web.Helpers.Crypto/3.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kpf+faYrakOcPGMkhyA+jG1D7cyOqIwS9B35cfh8Fc5jf2lVMhxRQpDWhwNGmgZw+PBAQ1TfZMGBRojD1Glp5Q==",
+      "path": "system.web.helpers.crypto/3.2.3",
+      "hashPath": "system.web.helpers.crypto.3.2.3.nupkg.sha512"
     },
     "System.Windows.Extensions/4.7.0": {
       "type": "package",

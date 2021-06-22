@@ -4,14 +4,16 @@ using AuthorizationAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AuthorizationAPI.Migrations
 {
     [DbContext(typeof(UserContext))]
-    partial class UserContextModelSnapshot : ModelSnapshot
+    [Migration("20210622100544_init2")]
+    partial class init2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -54,7 +56,7 @@ namespace AuthorizationAPI.Migrations
                             Address = "Mumbai",
                             BanTime = new DateTime(2000, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Counter = 0,
-                            Password = "AOKq/X0DX38jIlriyaSLnLYb+isV7CXIR2IQ1NTH7ODV95NlQ5rmkQfx44WXvOrxyg==",
+                            Password = "admin",
                             Username = "admin"
                         },
                         new
@@ -63,7 +65,7 @@ namespace AuthorizationAPI.Migrations
                             Address = "Delhi",
                             BanTime = new DateTime(2000, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Counter = 0,
-                            Password = "ABnh7gbDYL5uGXclKLXWrcfiUMTsoc5pwu+8cREn3iXOZ5kASBi/YQ1wh7VmAtKk8A==",
+                            Password = "user",
                             Username = "user"
                         });
                 });

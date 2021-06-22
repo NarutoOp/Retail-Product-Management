@@ -72,3 +72,4 @@ C:\Users\zinga\Documents\GitHub\Retail-Product-Management\AuthorizationAPI\obj\D
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\AuthorizationAPI\obj\Debug\netcoreapp3.1\AuthorizationAPI.pdb
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\AuthorizationAPI\obj\Debug\netcoreapp3.1\AuthorizationAPI.genruntimeconfig.cache
 C:\Users\zinga\Documents\GitHub\Retail-Product-Management\AuthorizationAPI\obj\Debug\netcoreapp3.1\AuthorizationAPI.csprojAssemblyReference.cache
+C:\Users\zinga\Documents\GitHub\Retail-Product-Management\AuthorizationAPI\bin\Debug\netcoreapp3.1\System.Web.Helpers.Crypto.dll

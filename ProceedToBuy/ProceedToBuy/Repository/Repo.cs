@@ -70,11 +70,11 @@ namespace ProceedToBuy.Repository
 
         public bool DeleteCustomerCart(int customerId)
         {
-            List<VendorWishlist> Wlist = GetWishlist(customerId);
+            /*List<VendorWishlist> Wlist = GetWishlist(customerId);
             foreach(VendorWishlist item in Wlist)
             {
                 _proceedToBuyContext.VendorWishlists.Remove(item);
-            }
+            }*/
             
             List<Cart> cart = GetCart();
             foreach (Cart item in cart)

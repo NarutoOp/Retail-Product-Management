@@ -56,3 +56,11 @@
         </div>
     }
 </div>
+
+
+    <script type="text/javascript">
+            window.onbeforeunload = function () {
+                window.location.href = "@Url.Action("logout", "Login")";
+            };
+    </script>
+

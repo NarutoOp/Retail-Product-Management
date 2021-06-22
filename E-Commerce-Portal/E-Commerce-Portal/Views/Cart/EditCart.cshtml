@@ -10,7 +10,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="AddToCart">
+        <form asp-action="EditCart">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
             <div class="form-group">
@@ -25,17 +25,17 @@
             </div>
             <div class="form-group">
                 <label asp-for="Zipcode" class="control-label"></label>
-                <input asp-for="Zipcode" type="text" class="form-control" />
+                <input asp-for="Zipcode" type="text" class="form-control" value="@ViewData["zipcode"]" />
                 <span asp-validation-for="Zipcode" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Quantity" class="control-label"></label>
+                <label class="control-label">Additional Quantity</label>
                 <input asp-for="Quantity" class="form-control" />
                 <span asp-validation-for="Quantity" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="DeliveryDate" class="control-label"></label>
-                @*<input asp-for="DeliveryDate" class="form-control" />*@
+
                 <select asp-for="DeliveryDate">
                     <option value="@ViewData["DeliveryDate1"]">2 Days</option>
                     <option value="@ViewData["DeliveryDate2"]">3 Days</option>
@@ -54,10 +54,15 @@
 </div>
 
 
-
+    <script type="text/javascript">
+            window.onbeforeunload = function () {
+                window.location.href = "@Url.Action("logout", "Login")";
+            };
+    </script>
 
 
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+

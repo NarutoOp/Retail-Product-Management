@@ -78,10 +78,12 @@ namespace E_Commerce_Portal.Controllers
                     string userName = res.Username;
                     int userId = res.Id;
                     string strtoken = res.Token;
+                    string Address = res.Address;
 
                     HttpContext.Session.SetString("token", strtoken);
                     HttpContext.Session.SetString("username", userName);
                     HttpContext.Session.SetInt32("userid", userId);
+                    HttpContext.Session.SetString("address", Address);
                 }
             }
             
@@ -103,7 +105,7 @@ namespace E_Commerce_Portal.Controllers
 
             using (var httpClient = new HttpClient())
             {
-                /*httpClient.BaseAddress = new Uri(tokenURI);*/
+                
                 StringContent content = new StringContent(JsonConvert.SerializeObject(reg), Encoding.UTF8, "application/json");
 
                 var response = httpClient.PostAsync(tokenURI,content);

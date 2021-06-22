@@ -17,7 +17,7 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <div class="navbar-collapse collapse">
                     <ul class="navbar-nav flex-grow-1">
                         @if (@Context.Session.GetString("token") == null)
                         {
@@ -42,7 +42,12 @@
                         }
 
                     </ul>
-
+                    @if (@Context.Session.GetString("token") != null)
+                    {
+                    <span class="navbar-text">
+                        <h4>Welcome @Context.Session.GetString("username") !!!</h4>
+                    </span>
+                    }
                 </div>
             </div>
         </nav>

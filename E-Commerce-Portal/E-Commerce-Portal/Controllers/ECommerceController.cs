@@ -27,6 +27,8 @@ namespace E_Commerce_Portal.Controllers
 
         public IActionResult Index()
         {
+            List<Product> products = new List<Product>();
+
             string token = HttpContext.Session.GetString("token");
             if (token == null)
             {
@@ -36,8 +38,16 @@ namespace E_Commerce_Portal.Controllers
             }
             _log4net.Info("User is seeing products");
 
+            try {
+                products = repo.GetProducts(token);
+            }
+            catch (Exception)
+            {
+                _log4net.Info("Service is down");
+            }
+            
 
-            return View(repo.GetProducts(token));
+            return View(products);
         }
 
         // Search for a product

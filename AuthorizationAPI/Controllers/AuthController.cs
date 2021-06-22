@@ -64,6 +64,7 @@ namespace AuthorizationAPI.Controllers
                 userToken.Id = user.Id;
                 userToken.Username = user.Username;
                 userToken.Token = tokenString;
+                userToken.Address = user.Address;
 
             }
 

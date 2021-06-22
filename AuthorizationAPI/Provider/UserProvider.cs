@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Web.Helpers;
 
 namespace AuthorizationAPI.Provider
 {
@@ -19,9 +20,14 @@ namespace AuthorizationAPI.Provider
         public UserCredentials GetUser(UserCredentials cred)
         {
             List<UserCredentials> rList = _context.Users.ToList();
-            UserCredentials userCred = rList.FirstOrDefault(user => user.Username == cred.Username && user.Password == cred.Password);
 
-            return userCred;
+            /*UserCredentials userCred = rList.FirstOrDefault(user => user.Username == cred.Username && user.Password == cred.Password);*/
+
+            UserCredentials userCred = rList.FirstOrDefault(user => user.Username == cred.Username);
+
+            if(Crypto.VerifyHashedPassword(userCred.Password,cred.Password))
+                return userCred;
+            return null;
         }
 
         public bool RegisterUser(UserCredentials cred)
@@ -32,6 +38,10 @@ namespace AuthorizationAPI.Provider
             {
                 return false;
             }
+
+            string hash = Crypto.HashPassword(cred.Password);
+
+            cred.Password = hash;
             _context.Add(cred);
             _context.SaveChanges();
             

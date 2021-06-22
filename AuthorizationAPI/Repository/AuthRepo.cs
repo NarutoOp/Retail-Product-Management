@@ -44,9 +44,10 @@ namespace AuthorizationAPI.Repository
 
         }
 
+
         /// Finding User with matching credentials
 
-        
+
         public UserCredentials AuthenticateUser(UserCredentials login)
         {
             _log4net.Info("Validating the User!");

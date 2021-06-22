@@ -79,6 +79,7 @@ namespace E_Commerce_Portal.Controllers
                 ViewBag.Message = "Please Login First";
                 return RedirectToAction("Index", "Login");
             }
+            
 
             ViewData["ProductId"] = Id;
             ViewData["CustomerId"] = HttpContext.Session.GetInt32("userid");
@@ -101,15 +102,63 @@ namespace E_Commerce_Portal.Controllers
             }
 
             var msg = repo.AddCart(token, productCart);
+            
+
+            _log4net.Info("User is adding to cart");
+            if (msg == "true") { 
+                
+                return RedirectToAction("Index");
+            }
+            TempData["SuccessMessage"] = msg;
+            return RedirectToAction("Index","WishList");
+        }
+
+
+
+        //edit cart
+        public ActionResult EditCart(int Id)
+        {
+            string token = HttpContext.Session.GetString("token");
+            if (HttpContext.Session.GetString("token") == null)
+            {
+                _log4net.Info("User is not logged in");
+                ViewBag.Message = "Please Login First";
+                return RedirectToAction("Index", "Login");
+            }
+            int userid = (int)HttpContext.Session.GetInt32("userid");
+
+            var carts = repo.GetCarts(token, userid);
+            var cart = carts.SingleOrDefault(c => c.CartId == Id);
+
+            ViewData["ProductId"] = cart.ProductId;
+            ViewData["CustomerId"] = userid;
+            ViewData["zipcode"] = cart.Zipcode;
+            ViewData["DeliveryDate1"] = DateTime.Today.AddDays(2);
+            ViewData["DeliveryDate2"] = DateTime.Today.AddDays(3);
+            _log4net.Info("User is in add to cart page");
+            return View();
+        }
+
+        // add cart form
+        [HttpPost]
+        public ActionResult EditCart(Cart productCart)
+        {
+            string token = HttpContext.Session.GetString("token");
+            if (token == null)
+            {
+                _log4net.Info("User is not logged in");
+                ViewBag.Message = "Please Login First";
+                return RedirectToAction("Index", "Login");
+            }
+
+            var msg = repo.AddCart(token, productCart);
             TempData["SuccessMessage"] = msg;
 
             _log4net.Info("User is adding to cart");
-            if(msg=="true")
+            if (msg == "true")
                 return RedirectToAction("Index");
-            return RedirectToAction("Index","WishList");
+            return RedirectToAction("Index", "WishList");
         }
-        
-
 
 
 

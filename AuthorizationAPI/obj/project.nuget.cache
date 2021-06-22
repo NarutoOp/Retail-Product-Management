@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "au9GuWY4Gjfnlng/lBORkUY7XrmH1pRIuxifZqHGL0wjTSPrjxlegYE5VMJSllAYyLJ2NntH6rA+h7GQJX1rMg==",
+  "dgSpecHash": "UMyCPyVYG4xcUlMAyudmSrA7TTshgymJUWKbzFLnADc+tWeBC0Xf6w1cDpUrBVAxsgdXpJkg53c7BpQ99NZXww==",
   "success": true,
   "projectFilePath": "C:\\Users\\zinga\\Documents\\GitHub\\Retail-Product-Management\\AuthorizationAPI\\AuthorizationAPI.csproj",
   "expectedPackageFiles": [
@@ -107,11 +107,23 @@
     "C:\\Users\\zinga\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\zinga\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\zinga\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\zinga\\.nuget\\packages\\system.web.helpers.crypto\\3.2.3\\system.web.helpers.crypto.3.2.3.nupkg.sha512",
     "C:\\Users\\zinga\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
     "C:\\Users\\zinga\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\zinga\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\zinga\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\zinga\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Web.Helpers.Crypto 3.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Web.Helpers.Crypto",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

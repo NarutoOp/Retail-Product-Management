@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Web.Helpers;
 
 namespace AuthorizationAPI.Models
 {
@@ -18,8 +19,8 @@ namespace AuthorizationAPI.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<UserCredentials>().HasData(
-                     new UserCredentials { Id = 1, Username = "admin", Password = "admin" },
-                     new UserCredentials { Id = 2, Username = "user", Password = "user" }
+                     new UserCredentials { Id = 1, Username = "admin", Password = Crypto.HashPassword("admin"), Address="Mumbai" },
+                     new UserCredentials { Id = 2, Username = "user", Password = Crypto.HashPassword("user"), Address = "Delhi" }
 
                 );
         }

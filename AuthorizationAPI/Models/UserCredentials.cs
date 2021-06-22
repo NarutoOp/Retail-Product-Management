@@ -17,5 +17,6 @@ namespace AuthorizationAPI.Models
         public DateTime BanTime { get; set; } = Convert.ToDateTime(" 2000 - 02 - 02");
         [Range(0, 5)]
         public int Counter { get; set; } = 0;
+        public string Address { get; set; }
     }
 }

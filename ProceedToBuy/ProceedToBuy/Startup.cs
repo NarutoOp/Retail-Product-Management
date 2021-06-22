@@ -103,6 +103,8 @@ namespace ProceedToBuy
             app.UseRouting();
             loggerFactory.AddLog4Net();
 
+            app.UseAuthentication();
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

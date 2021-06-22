@@ -18,6 +18,7 @@ using System.Threading.Tasks;
 namespace ProductMicroservices.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize]
     [ApiController]
     public class ProductController : ControllerBase
     {

@@ -19,6 +19,11 @@
                 <span asp-validation-for="Username" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label asp-for="Password" class="control-label"></label>
                 <input asp-for="Password" class="form-control" />
                 <span asp-validation-for="Password" class="text-danger"></span>
@@ -35,6 +40,15 @@
 <div>
     <a asp-action="Index">Back to Login</a>
 </div>
+
+
+    <script type="text/javascript">
+            window.onbeforeunload = function () {
+                window.location.href = "@Url.Action("logout", "Login")";
+            };
+    </script>
+
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

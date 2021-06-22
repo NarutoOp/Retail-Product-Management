@@ -21,6 +21,7 @@
     <PackageReference Include="Microsoft.OpenApi" Version="1.2.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.11.1" />
+    <PackageReference Include="System.Web.Helpers.Crypto" Version="3.2.3" />
   </ItemGroup>
 
 

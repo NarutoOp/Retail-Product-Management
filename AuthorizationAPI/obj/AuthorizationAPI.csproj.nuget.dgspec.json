@@ -81,6 +81,10 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.11.1, )"
+            },
+            "System.Web.Helpers.Crypto": {
+              "target": "Package",
+              "version": "[3.2.3, )"
             }
           },
           "imports": [

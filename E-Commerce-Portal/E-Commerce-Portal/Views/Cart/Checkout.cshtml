@@ -1,1 +1,17 @@
-﻿Thank You For Choosing Us !!
+﻿@using Microsoft.AspNetCore.Http;
+<div class="text-center align-content-center">
+    <h2>
+        @Context.Session.GetString("username") your order will be delivered to @Context.Session.GetString("address")
+    </h2>
+    <p>Thanks For Choosing Us !!</p>
+    <p><a asp-controller="ECommerce" asp-action="Index">Buy More</a></p>
+</div>
+
+
+
+<script type="text/javascript">
+            window.onbeforeunload = function () {
+                window.location.href = "@Url.Action("logout", "Login")";
+            };
+</script>
+

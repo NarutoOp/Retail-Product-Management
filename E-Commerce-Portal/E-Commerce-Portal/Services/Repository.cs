@@ -265,7 +265,7 @@ namespace E_Commerce_Portal.Services
                     }
                     var ApiResponse = result.Content.ReadAsAsync<List<Vendor>>();
                     ApiResponse.Wait();
-                    /*List<Product> res = JsonConvert.DeserializeObject<List<Product> >(apiResponse);*/
+
 
                     vendors = ApiResponse.Result;
                 }
@@ -287,11 +287,17 @@ namespace E_Commerce_Portal.Services
                     client.BaseAddress = new Uri(proceedToBuyUri);
                     client.DefaultRequestHeaders.Accept.Clear();
                     client.DefaultRequestHeaders.Add("Authorization", bearer);
+
                     var responseTask = client.PostAsJsonAsync<Cart>("ProceedToBuy", cart);
+
                     responseTask.Wait();
+
                     var result = responseTask.Result;
+
                     var content = result.Content.ReadAsStringAsync();
+
                     content.Wait();
+
                     return content.Result;
                     
                     
@@ -301,7 +307,7 @@ namespace E_Commerce_Portal.Services
             {
                 _log4net.Error("Proceed To Buy cant post!!");
             }
-            return "1";
+            return null;
         }
 
 

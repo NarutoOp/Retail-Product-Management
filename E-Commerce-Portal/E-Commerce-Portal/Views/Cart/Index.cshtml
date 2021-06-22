@@ -1,5 +1,4 @@
-﻿
-@model IEnumerable<E_Commerce_Portal.ViewModel.ProductListView>
+﻿@model IEnumerable<E_Commerce_Portal.ViewModel.ProductListView>
 
 @{
     ViewData["Title"] = "Index";
@@ -8,100 +7,107 @@
 <h1>Your Cart</h1>
 
 <p>
-    <a asp-controller="ECommerce" asp-action="Index">Add Item</a>
+    <a asp-controller="ECommerce" asp-action="Index" class="btn btn-warning">Buy More</a>
 </p>
 @ViewBag.Msg
 
-@if (@ViewBag.GrandTotal>0) { 
-<p>
-    Grand Total = @ViewBag.GrandTotal
-    <a data-toggle="modal" data-target="#CheckoutModal" class="btn btn-danger float-right">Checkout</a>
+@if (@ViewBag.GrandTotal > 0)
+{
+    <p>
+        Grand Total = @ViewBag.GrandTotal
+        <a data-toggle="modal" data-target="#CheckoutModal" class="btn btn-danger float-right">Checkout</a>
 
-    <div class="modal fade" id="CheckoutModal" tabindex="-1" role="dialog" aria-labelledby="CheckoutModal" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content align-content-between align-items-center">
+        <div class="modal fade" id="CheckoutModal" tabindex="-1" role="dialog" aria-labelledby="CheckoutModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content align-content-between align-items-center">
 
-                <div class="modal-body">
-                    <h4>Are you sure ?</h4>
-                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                    <div class="modal-body">
+                        <h4>Are you sure ?</h4>
+                        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
 
-                    <a asp-action="Checkout" class="btn btn-outline-danger ml-3">Checkout</a>
+                        <a asp-action="Checkout" class="btn btn-outline-danger ml-3">Checkout</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</p>
-    }
+    </p>
+}
 <br />
 
 <table class="table">
-        <thead>
-            <tr>
-                <th>
+    <thead>
+        <tr>
+            <th>
 
-                </th>
-                <th>
-                    Product Name
-                </th>
-                <th>
-                    Vendor Name
-                </th>
-                <th>
-                    Quantity
-                </th>
-                <th>
-                    Delivery Date
-                </th>
-                <th>
-                    Price
-                </th>
-                <th></th>
-            </tr>
-        </thead>
+            </th>
+            <th>
+                Product Name
+            </th>
+            <th>
+                Vendor Name
+            </th>
+            <th>
+                Quantity
+            </th>
+            <th>
+                Delivery Date
+            </th>
+            <th>
+                Price
+            </th>
+            <th></th>
+        </tr>
+    </thead>
     <tbody>
         @foreach (var item in Model)
         {
-        <tr>
-            <td>
-                <img src="@("~/image/"+item.Product.Image_Name)" asp-append-version="true" alt="Card image" height="300" width="300">
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Product.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Vendor.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Quantity)
-            </td>
+            <tr>
+                <td>
+                    <img src="@("~/image/"+item.Product.Image_Name)" asp-append-version="true" alt="Card image" height="300" width="300">
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Vendor.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AddedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalAmount)
+                </td>
+                <td>
+                    <a asp-action="EditCart" asp-route-Id="@item.CartId">Edit</a>
+                    |
+                    <a data-toggle="modal" data-target="#deleteCartModal_@item.CartId" href="#">Delete</a>
 
-            <td>
-                @Html.DisplayFor(modelItem => item.AddedDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TotalAmount)
-            </td>
-            <td>
-                <a asp-action="AddToCart" asp-route-Id="@item.Product.Id">Edit</a>
-                |
-                <a data-toggle="modal" data-target="#deleteCartModal_@item.CartId" href="#">Delete</a>
+                    <div class="modal fade" id="deleteCartModal_@item.CartId" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content align-content-between align-items-center">
 
-                <div class="modal fade" id="deleteCartModal_@item.CartId" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content align-content-between align-items-center">
-
-                            <div class="modal-body">
-                                <h4>Are you sure ?</h4>
-                                <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
-                                <a asp-action="DeleteCart" asp-route-Id="@item.CartId" class="btn btn-outline-danger ml-3">Delete</a>
+                                <div class="modal-body">
+                                    <h4>Are you sure ?</h4>
+                                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                                    <a asp-action="DeleteCart" asp-route-Id="@item.CartId" class="btn btn-outline-danger ml-3">Delete</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </td>
-        </tr>
+                </td>
+            </tr>
         }
     </tbody>
 </table>
+
+
+<script type="text/javascript">
+            window.onbeforeunload = function () {
+                window.location.href = "@Url.Action("logout", "Login")";
+            };
+</script>
 
 

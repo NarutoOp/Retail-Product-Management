@@ -10,5 +10,6 @@ namespace E_Commerce_Portal.Models
         public int Id { get; set; }
         public string Username { get; set; }
         public string Token { get; set; }
+        public string Address { get; set; }
     }
 }
