@@ -4,6 +4,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AuthorizationAPI.Constants;
 using AuthorizationAPI.Models;
 using AuthorizationAPI.Provider;
 using AuthorizationAPI.Repository;
@@ -21,6 +22,7 @@ namespace AuthorizationAPI.Controllers
         private IConfiguration _config;
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(AuthController));
         private readonly IUserRepo repo;
+
         
 
         public AuthController(IConfiguration config,IUserRepo _repo)
@@ -46,7 +48,7 @@ namespace AuthorizationAPI.Controllers
             {
                 var count = repo.IncrementCount(login);
  
-                return NotFound("User is not found");
+                return NotFound(Constant.UserNotFound);
                 
             }
             else
@@ -55,7 +57,7 @@ namespace AuthorizationAPI.Controllers
                     var diff = (user.BanTime - DateTime.Now).TotalHours;
                     if (diff > 0)
                     {
-                        return Unauthorized("User is Banned");
+                        return Unauthorized(Constant.UserBanned);
                     }
                 }
                 var tokenString = auth_repo.GenerateJSONWebToken(user);

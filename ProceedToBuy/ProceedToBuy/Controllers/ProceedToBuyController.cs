@@ -50,7 +50,7 @@ namespace ProceedToBuy.Controllers
         [HttpPost]
         public Boolean Post([FromBody] Cart _cart)
         {
-            _log4net.Info("Posting Cart");
+            _log4net.Info("Adding to Cart");
             return _repository.AddToCart(_cart);
 
         }
@@ -65,7 +65,7 @@ namespace ProceedToBuy.Controllers
         [HttpPost]
         public IActionResult WishList(int customerId,int productId)
         {
-            _log4net.Info("Posting WishList");
+            _log4net.Info("Addding to WishList");
             _repository.AddToWishList(customerId,productId);
             return Ok("Success");
         }
@@ -74,7 +74,7 @@ namespace ProceedToBuy.Controllers
         [HttpGet]
         public IActionResult DeleteAll (int id)
         {
-            _log4net.Info("Posting WishList");
+            _log4net.Info("Checking out");
             if(_repository.DeleteCustomerCart(id))
                 return Ok("Success");
             return BadRequest("Failed");

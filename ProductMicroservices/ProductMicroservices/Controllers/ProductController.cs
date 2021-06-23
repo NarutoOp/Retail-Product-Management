@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using ProductMicroservices.Contants;
 using ProductMicroservices.Model;
 using ProductMicroservices.Repository;
 using System;
@@ -39,8 +40,8 @@ namespace ProductMicroservices.Controllers
             var product = _productRepository.GetAllProduct();
             if (product == null)
             {
-                _log4net.Error("There are no product in the stock");
-                return NotFound("There are no product in the stock");
+                _log4net.Error(Constant.ProductNotFound);
+                return NotFound(Constant.ProductNotFound);
             }
 
             return new OkObjectResult(product);
@@ -56,8 +57,8 @@ namespace ProductMicroservices.Controllers
             var product = _productRepository.SearchProductByID(id);
             if (product == null)
             {
-                _log4net.Error("Product not found for the given productID");
-                return NotFound("Product not found for the given productID");
+                _log4net.Error(Constant.ProductNotFoundById);
+                return NotFound(Constant.ProductNotFoundById);
             }
             
             return new OkObjectResult(product);
@@ -70,8 +71,8 @@ namespace ProductMicroservices.Controllers
             var product = _productRepository.SearchProductByName(name);
             if (product == null)
             {
-                _log4net.Error("Product not found for the given productName");
-                return NotFound("Product not found for the given productName");
+                _log4net.Error(Constant.ProductNotFoundByName);
+                return NotFound(Constant.ProductNotFoundByName);
             }
             return new OkObjectResult(product);
         }
@@ -83,12 +84,12 @@ namespace ProductMicroservices.Controllers
             var product = _productRepository.SearchProductByID(data.id);
             if (product == null)
             {
-                _log4net.Error("Product not found for the given productID...no rating added");
-                return NotFound("Product not found for the given productID...no rating added");
+                _log4net.Error(Constant.ProductRatingNotAdded);
+                return NotFound(Constant.ProductRatingNotAdded);
             }
             else
             {
-                _log4net.Info("Added Rating to the Product");
+                _log4net.Info(Constant.ProductRating);
                 _productRepository.AddProductRating(data.id, data.rating);
             }
             return Ok("Success");

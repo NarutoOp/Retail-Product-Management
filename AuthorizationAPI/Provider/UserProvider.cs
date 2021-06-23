@@ -24,8 +24,10 @@ namespace AuthorizationAPI.Provider
             /*UserCredentials userCred = rList.FirstOrDefault(user => user.Username == cred.Username && user.Password == cred.Password);*/
 
             UserCredentials userCred = rList.FirstOrDefault(user => user.Username == cred.Username);
+            if(userCred == null)
+                return null;
 
-            if(Crypto.VerifyHashedPassword(userCred.Password,cred.Password))
+            if (Crypto.VerifyHashedPassword(userCred.Password,cred.Password))
                 return userCred;
             return null;
         }

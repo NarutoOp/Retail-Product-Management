@@ -47,7 +47,7 @@
         {
             <tr>
                 <td>
-                    <img class="card-img-top" src="@("~/image/"+item.Product.Image_Name)" asp-append-version="true" alt="Card image">
+                    <img src="@("~/image/"+item.Product.Image_Name)" asp-append-version="true" alt="Card image" height="300" width="300">
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Product.Name)

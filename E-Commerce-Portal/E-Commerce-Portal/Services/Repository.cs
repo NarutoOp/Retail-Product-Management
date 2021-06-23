@@ -24,7 +24,7 @@ namespace E_Commerce_Portal.Services
 
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger("log");
         
-
+        
         public Repository(IConfiguration _configuration)
         {
             configuration = _configuration;
