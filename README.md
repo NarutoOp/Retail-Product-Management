@@ -1,5 +1,7 @@
 ## Retail Product Management
 
+[![Visits Badge](https://badges.pufler.dev/visits/NarutoOp/Retail-Product-Management)](https://badges.pufler.dev/visits/NarutoOp/Retail-Product-Management)
+
 ### POD Members
 
 |Name|Work|Employee Id
