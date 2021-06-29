@@ -12,12 +12,28 @@
 |Praveen Kumar J|ProceedToBuy MicroService|901338
 
 ---
-First Change the connection string in appsettings.json according to your database.
-After delete migration folder in each services and in nuget console type command "add-migration init".
-after that type "update-database" do this for each service except ECommerce portal.
 
-Run each services by pressing ctrl+f5
 
-Now you can use ECommerce portal ui.
+## Features
+
+⚡️ Modern UI Design\
+⚡️ Styled with Bootstrap v4.3 + Custom CSS\
+⚡️ Fully Responsive\
+⚡️ Valid HTML5 & CSS3\
+⚡ Made with ASP.Net (C#)\
+⚡️ Well organized documentation
+
+
+---
+
+## How to use it ☝️
+
+- First Change the connection string in appsettings.json according to your database.
+- After delete migration folder in each services and in nuget console type command "add-migration init".
+- after that type "update-database" do this for each service except ECommerce portal.
+- Don't forget to add contents in database.
+- Run each services by pressing ctrl+f5 (Not testing one)
+- Now you can use ECommerce portal ui.
+
 
 ---
