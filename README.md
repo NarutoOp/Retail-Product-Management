@@ -2,6 +2,8 @@
 
 [![Visits Badge](https://badges.pufler.dev/visits/NarutoOp/Retail-Product-Management)](https://badges.pufler.dev/visits/NarutoOp/Retail-Product-Management)
 
+<!--
+
 ### POD Members
 
 |Name|Work|Employee Id
@@ -11,6 +13,7 @@
 |Ketki Padgilwar|Product MicroService|901340
 |Praveen Kumar J|ProceedToBuy MicroService|901338
 
+-->
 ---
 
 
